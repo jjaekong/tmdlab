@@ -27,10 +27,8 @@
 </template>
 
 <script>
-// import { Swiper, Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/dist/js/swiper.esm.js'
-// Swiper.use([Navigation, Pagination, Mousewheel, Keyboard])
-
-// import 'swiper/dist/css/swiper.min.css'
+import Swiper from 'swiper'
+import 'swiper/css/swiper.min.css'
 
 import Welcome from '@/views/en/m/home/Welcome.vue'
 import Introduce from '@/views/en/m/home/Introduce.vue'
@@ -53,18 +51,18 @@ export default {
         }
     },
     mounted: function() {
-        // this.swiperVerical = new Swiper ('.home.mobile .swiper-container-v', {
-        //     slidesPerView: 'auto',
-        //     direction: 'vertical',
-        //     spaceBetween: 0,
-        // })
-        // this.swiperHorizontal = new Swiper ('.home.mobile .swiper-container-h', {
-        //     // slidesPerView: 'auto',
-        //     //direction: 'vertical',
-        //     slidesPerView: 'auto',
-        //     centeredSlides: true,
-        //     spaceBetween: 15,
-        // })
+        this.swiperVerical = new Swiper ('.home.mobile .swiper-container-v', {
+            slidesPerView: 'auto',
+            direction: 'vertical',
+            spaceBetween: 0,
+        })
+        this.swiperHorizontal = new Swiper ('.home.mobile .swiper-container-h', {
+            // slidesPerView: 'auto',
+            //direction: 'vertical',
+            slidesPerView: 'auto',
+            centeredSlides: true,
+            spaceBetween: 15,
+        })
     }
 }
 </script>

@@ -1,9 +1,9 @@
 <template>
-    <div class="modal news-view show" tabindex="-1" role="dialog" style="display: flex;">
+    <div class="modal news-view show" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>Participated into the KTERMS (Korean Tissue Engineering and Regenerative Medicine Society) conference event 2019, selected to be awarded ‘superb’ in the poster division</h4>
+					<h4>Participated into the KTERMS (Korean Tissue Engineering and Regenerative Medicine<br>Society) conference event 2019, selected to be awarded ‘superb’ in the poster division</h4>
 					<span>6th of June, 2019</span>
 				</div>
 				<div class="modal-body">
@@ -24,7 +24,11 @@
 <script>
 export default {
 	mounted: function() {
-		document.body.classList.add('modal-open')
+		document.body.classList.add('modal-open');
+		var self = this;
+		window.setTimeout(function() {
+			self.$el.style.display = 'flex'
+		}, 500)
 	},
 	destroyed: function() {
 		document.body.classList.remove('modal-open')

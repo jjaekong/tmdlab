@@ -23,7 +23,7 @@
             <router-link class="news-item" to="./news/4">
               <img src="@/assets/img/promotion/thumb_news_4.jpg">
               <div class="news-title">
-                <h4>2019년 의료기기 CHAMP 교육과정 의료기기 입문 마스터 과정 수료 (2019.07.16 ~ 2019.07.18)</h4>
+                <h4>2019년 의료기기 CHAMP 교육과정 의료기기 입문 마스터 과정 수료<br>(2019.07.16 ~ 2019.07.18)</h4>
                 <span>2019년 7월 16일</span>
               </div>
             </router-link>
@@ -32,7 +32,7 @@
             <router-link class="news-item" to="./news/3">
               <img src="@/assets/img/promotion/thumb_news_3.jpg">
               <div class="news-title">
-                <h4>2019년 한국조직공학재생의학회 (KTERMS) 학술대회 참여, 포스터 부문 우수상 선정 (2019.06.06 ~ 2019.06.08)</h4>
+                <h4>2019년 한국조직공학재생의학회 (KTERMS) 학술대회 참여, 포스터 부문 우수상 선정<br>(2019.06.06 ~ 2019.06.08)</h4>
                 <span>2019년 6월 6일</span>
               </div>
             </router-link>
@@ -180,6 +180,7 @@ export default {
         margin: 0 0 pxtovw(5px) 0;
         font-size: pxtovw(20px);
         color: #373737;
+        font-weight: normal;
       }
       span {
         font-size: pxtovw(14px);

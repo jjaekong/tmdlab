@@ -190,6 +190,7 @@ body {
                         font-size: pxtovw(20px);
                         line-height: pxtovw(34px);
                         color: #373737;
+                        font-weight: normal;
                     }
                     span {
                         font-size: pxtovw(14px);

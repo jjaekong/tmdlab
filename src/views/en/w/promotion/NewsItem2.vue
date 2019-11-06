@@ -1,9 +1,9 @@
 <template>
-    <div class="modal news-view show" tabindex="-1" role="dialog" style="display: flex;">
+    <div class="modal news-view show" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>Obtained the non-exclusive license for shape memory polymer from the industrial-educational cooperation group of Yonsei University (21st of May, 2019)</h4>
+					<h4>Obtained the non-exclusive license for shape memory polymer from the industrial-<br>educational cooperation group of Yonsei University (21st of May, 2019)</h4>
 					<span>21st of May, 2019</span>
 				</div>
 				<div class="modal-body">
@@ -25,7 +25,11 @@
 <script>
 export default {
 	mounted: function() {
-		document.body.classList.add('modal-open')
+		document.body.classList.add('modal-open');
+		var self = this;
+		window.setTimeout(function() {
+			self.$el.style.display = 'flex'
+		}, 500)
 	},
 	destroyed: function() {
 		document.body.classList.remove('modal-open')

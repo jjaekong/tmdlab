@@ -311,6 +311,7 @@ export default {
                             color: #383838;
                             display: block;
                             text-decoration: none;
+                            font-weight: normal;
                             & ~ h5 {
                                 margin-top: pxtovw(10px);
                             }

@@ -64,30 +64,31 @@ export default {
     },
     mounted: function() {
         //console.log('home mounted')
-        this.swiperVerical = new Swiper ('.home.web .swiper-container-v', {
+        this.swiperVerical = new Swiper ('.ko .home.web .swiper-container-v', {
             slidesPerView: 'auto',
             direction: 'vertical',
             spaceBetween: 0,
             allowTouchMove: false,
-            mousewheel: true,
+            // mousewheel: true,
         })
         var self = this
-        $(window).on('mousewheel', function(e) {
+        $('.ko .home.web .swiper-container-v').on('mousewheel wheel', function(e) {
             //console.log(e.originalEvent.deltaY)
             if (self.swiperVerical.animating) return;
-            if (e.originalEvent.deltaY > 0) {
+            var delta = parseInt(e.originalEvent.wheelDelta || -e.originalEvent.deltaY);
+            if (delta < 0) {
                 // console.log('메인 아래로', self.swiperVerical.realIndex)
                 if (self.swiperVerical.realIndex >= self.swiperVerical.slides.length - 1) {
                     self.showFooter = true
-                    $('.home.web').stop().animate({ scrollTop: $('#footer').outerHeight() })
+                    $('.ko .home.web').stop().animate({ scrollTop: $('#footer').outerHeight() })
                 } else {
                     self.swiperVerical.slideNext()
                 }
             }
-            if (e.originalEvent.deltaY < 0) {
+            if (delta > 0) {
                 // console.log('메인 위로', self.swiperVerical.realIndex)
                 if (self.showFooter) {
-                    $('.home.web').stop().animate({ scrollTop: 0 }, function() {
+                    $('.ko .home.web').stop().animate({ scrollTop: 0 }, function() {
                         self.showFooter = false
                     })
                 } else {

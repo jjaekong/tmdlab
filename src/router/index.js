@@ -349,6 +349,10 @@ let router = new VueRouter({
       path: '/m/ko/qna',
       component: KO_M_QnA,
     },
+    {
+      path: '*',
+      redirect: '/',
+    }
     
     // {
     //   path: '/about',

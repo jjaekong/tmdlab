@@ -1,5 +1,5 @@
 <template>
-    <div class="modal news-view show" tabindex="-1" role="dialog" style="display: flex;">
+    <div class="modal news-view show" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -28,7 +28,11 @@
 <script>
 export default {
 	mounted: function() {
-		document.body.classList.add('modal-open')
+		document.body.classList.add('modal-open');
+		var self = this;
+		window.setTimeout(function() {
+			self.$el.style.display = 'flex'
+		}, 500)
 	},
 	destroyed: function() {
 		document.body.classList.remove('modal-open')

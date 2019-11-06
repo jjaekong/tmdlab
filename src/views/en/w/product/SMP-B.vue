@@ -42,7 +42,7 @@
           <div class="feature-row">
             <ul>
               <li><img src="@/assets/img/ico_check_circle.png"> Perforation caused by stent dislocation, high re-stenosis rate</li>
-              <li><img src="@/assets/img/ico_check_circle.png"> Plastic stent: Shorter lifespan to the metal stent, required to be replaced after 3 months of insertion (replacement rate is up to 45%.)</li>
+              <li><img src="@/assets/img/ico_check_circle.png"> Plastic stent: Shorter lifespan to the metal stent, required to be replaced after 3 months of<br>insertion (replacement rate is up to 45%.)</li>
               <li><img src="@/assets/img/ico_check_circle.png"> Metal stent: Unable to remove after stent closure</li>
             </ul>
           </div>
@@ -115,7 +115,7 @@ export default {
     margin-bottom: pxtovw(40px);
   }
   .feature-1 {
-    margin-bottom: pxtovw(200px);
+    margin-bottom: pxtovw(100px);
     .feature-row:nth-of-type(1) {
       justify-content: center;
       background: #b7d5ef;
@@ -147,7 +147,7 @@ export default {
       position: relative;
       .keyword {
         position: absolute;
-        top: pxtovw(-48px);
+        top: pxtovw(48px);
       }
     }
     .feature-container {

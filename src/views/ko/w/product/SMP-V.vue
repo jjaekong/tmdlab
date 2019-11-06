@@ -132,7 +132,7 @@ export default {
     }
   }
   .feature-1 {
-    margin-bottom: pxtovw(250px);
+    margin-bottom: pxtovw(100px);
     .feature-image {
       height: pxtovw(497px);
     }
@@ -191,7 +191,7 @@ export default {
       position: relative;
       .keyword {
         position: absolute;
-        top: pxtovw(-48px);
+        top: pxtovw(48px);
       }
     }
     .feature-row:nth-of-type(1) {

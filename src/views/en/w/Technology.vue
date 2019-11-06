@@ -191,10 +191,8 @@ export default {
     }
     .feature-2 {
       padding-top: pxtovw(95px);
-      display: flex;
-      align-items: center;
-      justify-content: center;
       img {
+        display: block;
         margin: 0 auto;
         width: pxtovw(1530px);
       }
@@ -205,9 +203,6 @@ export default {
         margin-bottom: pxtovw(35px) !important;
       }
       .movie-wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         .movie-container {
           position: relative;
           margin: 0 auto;

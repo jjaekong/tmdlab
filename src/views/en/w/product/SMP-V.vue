@@ -76,8 +76,8 @@
               <div class="feature-desc">
                 <h4>SMP-V<sup>&reg;</sup></h4>
                 <ul>
-                  <li><img src="@/assets/img/ico_check_circle.png"> Preventing stenosis by external wrapping the blood vessel</li>
-                  <li><img src="@/assets/img/ico_check_circle.png"> Preventing edema due to blood pressure difference between the artery and the vein</li>
+                  <li><img src="@/assets/img/ico_check_circle.png"> Preventing stenosis by external wrapping<br>the blood vessel</li>
+                  <li><img src="@/assets/img/ico_check_circle.png"> Preventing edema due to blood pressure<br>difference between the artery and the vein</li>
                   <li><img src="@/assets/img/ico_check_circle.png"> Lowering blood clot formation by<br>preventing the bloodstream difference</li>
                   <li><img src="@/assets/img/ico_check_circle.png"> Enhancing the treatment effect by<br>inducing vasa vasorum formation</li>
                 </ul>
@@ -137,7 +137,7 @@ export default {
     }
   }
   .feature-1 {
-    margin-bottom: pxtovw(250px);
+    margin-bottom: pxtovw(100px);
     .feature-image {
       height: pxtovw(497px);
     }
@@ -197,7 +197,7 @@ export default {
       position: relative;
       .keyword {
         position: absolute;
-        top: pxtovw(-48px);
+        top: pxtovw(48px);
       }
     }
     .feature-row:nth-of-type(1) {

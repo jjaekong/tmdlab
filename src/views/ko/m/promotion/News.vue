@@ -61,10 +61,8 @@
 import Header from '@/components/ko/m/Header.vue'
 import Footer from '@/components/ko/m/Footer.vue'
 
-// import { Swiper, Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/dist/js/swiper.esm.js'
-// Swiper.use([Navigation, Pagination, Mousewheel, Keyboard])
-
-// import 'swiper/dist/css/swiper.min.css'
+import Swiper from 'swiper'
+import 'swiper/css/swiper.min.css'
 
 export default {
     components: {
@@ -76,9 +74,9 @@ export default {
         }
     },
     mounted: function() {
-        // this.swiper = new Swiper ('.mobile.promotion.news .swiper-container', {
-        //     slidesPerView: 'auto',
-        // });
+        this.swiper = new Swiper ('.mobile.promotion.news .swiper-container', {
+            slidesPerView: 'auto',
+        });
     }
 }
 </script>

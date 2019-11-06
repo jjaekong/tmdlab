@@ -1,9 +1,9 @@
 <template>
-    <div class="modal news-view show" tabindex="-1" role="dialog" style="display: flex;">
+    <div class="modal news-view show" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>Graduated the entrance master course for medical devices, under the medical device CHAMP curriculum 2019 (16th of July, 2019 – 18th of July, 2019)</h4>
+					<h4>Graduated the entrance master course for medical devices, under the medical device<br>CHAMP curriculum 2019 (16th of July, 2019 – 18th of July, 2019)</h4>
 					<span>16th of July, 2019</span>
 				</div>
 				<div class="modal-body">
@@ -23,7 +23,11 @@
 <script>
 export default {
 	mounted: function() {
-		document.body.classList.add('modal-open')
+		document.body.classList.add('modal-open');
+		var self = this;
+		window.setTimeout(function() {
+			self.$el.style.display = 'flex'
+		}, 500)
 	},
 	destroyed: function() {
 		document.body.classList.remove('modal-open')

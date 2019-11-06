@@ -182,6 +182,10 @@ export default {
                     padding-top: pxtovw(10px);
                 }
             }
+            .card-img-top {
+                width: pxtovw(380px);
+                height: pxtovw(200px);
+            }
             .card-body {
                 padding: pxtovw(20px) pxtovw(30px) pxtovw(20px) pxtovw(30px);
                 color: #4e4e4e;

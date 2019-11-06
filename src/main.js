@@ -1,3 +1,10 @@
+if (window.location) {
+  if (window.location.protocol == 'http:') {
+    var url = 'https://'+ window.location.host + window.location.pathname + window.location.hash;
+    window.location.replace(url);
+  }
+}
+
 import 'babel-polyfill'
 import Vue from 'vue'
 import App from './App.vue'

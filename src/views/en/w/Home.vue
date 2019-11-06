@@ -42,11 +42,7 @@ import Qna from '@/views/en/w/home/Qna.vue'
 
 import $ from 'jquery'
 import Swiper from 'swiper'
-
-// import { Swiper, Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/dist/js/swiper.esm.js'
-// Swiper.use([Navigation, Pagination, Mousewheel, Keyboard])
-
-// import 'swiper/dist/css/swiper.min.css'
+import 'swiper/css/swiper.min.css'
 
 export default {
     components: {
@@ -68,29 +64,31 @@ export default {
     },
     mounted: function() {
         //console.log('home mounted')
-        this.swiperVerical = new Swiper ('.home.web .swiper-container-v', {
+        this.swiperVerical = new Swiper ('.en .home.web .swiper-container-v', {
             slidesPerView: 'auto',
             direction: 'vertical',
             spaceBetween: 0,
             allowTouchMove: false,
+            // mousewheel: true,
         })
         var self = this
-        $(window).on('mousewheel', function(e) {
+        $('.en .home.web .swiper-container-v').on('mousewheel wheel', function(e) {
             //console.log(e.originalEvent.deltaY)
             if (self.swiperVerical.animating) return;
-            if (e.originalEvent.deltaY > 0) {
+            var delta = parseInt(e.originalEvent.wheelDelta || -e.originalEvent.deltaY);
+            if (delta < 0) {
                 // console.log('메인 아래로', self.swiperVerical.realIndex)
                 if (self.swiperVerical.realIndex >= self.swiperVerical.slides.length - 1) {
                     self.showFooter = true
-                    $('.home.web').stop().animate({ scrollTop: $('#footer').outerHeight() })
+                    $('.en .home.web').stop().animate({ scrollTop: $('#footer').outerHeight() })
                 } else {
                     self.swiperVerical.slideNext()
                 }
             }
-            if (e.originalEvent.deltaY < 0) {
+            if (delta > 0) {
                 // console.log('메인 위로', self.swiperVerical.realIndex)
                 if (self.showFooter) {
-                    $('.home.web').stop().animate({ scrollTop: 0 }, function() {
+                    $('.en .home.web').stop().animate({ scrollTop: 0 }, function() {
                         self.showFooter = false
                     })
                 } else {

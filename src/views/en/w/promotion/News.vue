@@ -23,7 +23,7 @@
             <router-link class="news-item" to="./news/4">
               <img src="@/assets/img/promotion/thumb_news_4.jpg">
               <div class="news-title">
-                <h4>Graduated the entrance master course for medical devices, under the medical device CHAMP curriculum 2019 (16th of July, 2019 – 18th of July, 2019)</h4>
+                <h4>Graduated the entrance master course for medical devices, under the medical<br>device CHAMP curriculum 2019 (16th of July, 2019 – 18th of July, 2019)</h4>
                 <span>16th of July, 2019</span>
               </div>
             </router-link>
@@ -32,7 +32,7 @@
             <router-link class="news-item" to="./news/3">
               <img src="@/assets/img/promotion/thumb_news_3.jpg">
               <div class="news-title">
-                <h4>Participated into the KTERMS (Korean Tissue Engineering and Regenerative Medicine Society) conference event 2019, selected to be awarded ‘superb’ in ...</h4>
+                <h4>Participated into the KTERMS (Korean Tissue Engineering and Regenerative<br>Medicine Society) conference event 2019, selected to be awarded ‘superb’ in ...</h4>
                 <span>6th of June, 2019</span>
               </div>
             </router-link>
@@ -41,7 +41,7 @@
             <router-link class="news-item" to="./news/2">
               <img src="@/assets/img/promotion/thumb_news_2.jpg">
               <div class="news-title">
-                <h4>Obtained the non-exclusive license for shape memory polymer from the industrial-educational cooperation group of Yonsei University (21st of May, 2019)</h4>
+                <h4>Obtained the non-exclusive license for shape memory polymer from the<br>industrial-educational cooperation group of Yonsei University (21st of May, 2019)</h4>
                 <span>21st of May, 2019</span>
               </div>
             </router-link>
@@ -50,7 +50,7 @@
             <router-link class="news-item" to="./news/1">
               <img src="@/assets/img/promotion/thumb_news_1.jpg">
               <div class="news-title">
-                <h4>Applied for 2 patents related to stent using shape memory polymer (19th of December, 2018)</h4>
+                <h4>Applied for 2 patents related to stent using shape memory polymer (19th of<br>December, 2018)</h4>
                 <span>19th of December, 2018</span>
               </div>
             </router-link>
@@ -180,6 +180,7 @@ export default {
         margin: 0 0 pxtovw(5px) 0;
         font-size: pxtovw(20px);
         color: #373737;
+        font-weight: normal;
       }
       span {
         font-size: pxtovw(14px);
