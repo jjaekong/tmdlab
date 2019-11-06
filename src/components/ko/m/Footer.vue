@@ -23,6 +23,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 #footer {
     position: relative;
     padding: pxtovw2(80px) pxtovw2(40px) pxtovw2(100px);

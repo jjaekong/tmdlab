@@ -84,6 +84,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 .mobile.promotion {
     .overview {
         padding-left: pxtovw2(40px); 

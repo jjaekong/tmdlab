@@ -119,6 +119,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "./src/assets/css/functions.scss";
+
 .ko .web #header {
     position: fixed;
     top: 0;

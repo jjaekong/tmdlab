@@ -13,6 +13,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "./src/assets/css/functions.scss";
+
 .web.introduce #subheader {
     background-image: url(../../../assets/img/subheader_intro.jpg);
 }
@@ -31,6 +33,8 @@ export default {
 </style>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 #subheader {
     padding-top: pxtovw(86px);
     height: pxtovw(300px);

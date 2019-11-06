@@ -16,6 +16,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 .page-title {
   margin-top: pxtovw(120px);
   display: flex;

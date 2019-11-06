@@ -11,6 +11,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 #smp-is {
     z-index: 10;
     position: fixed;

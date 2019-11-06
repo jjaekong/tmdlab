@@ -207,6 +207,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 .web.introduce {
   section {
     color: #383838;

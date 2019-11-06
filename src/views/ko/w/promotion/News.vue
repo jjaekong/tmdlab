@@ -79,6 +79,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 .web.promotion {
   .page-title {
     margin-top: pxtovw(120px);

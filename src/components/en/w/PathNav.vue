@@ -18,6 +18,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 #path-nav {
     padding-left: pxtovw(60px); //3.125vw
     padding-right: pxtovw(60px);

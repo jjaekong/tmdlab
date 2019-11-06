@@ -58,6 +58,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 .form-wrap {
     .form-row {
         margin-left: pxtovw2(-10px);

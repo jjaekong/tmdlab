@@ -69,6 +69,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 #footer {
     padding-top: pxtovw(50px);
     padding-bottom: pxtovw(50px);

@@ -45,6 +45,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 .welcome {
     p.desc {
         margin-top: pxtovw(30px) !important;

@@ -110,6 +110,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 .web.technology {
   section {
     padding-top: pxtovw(120px);

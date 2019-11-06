@@ -70,6 +70,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "./src/assets/css/functions.scss";
+
 .ko {
     .mobile.home {
         .slide {
@@ -785,6 +787,8 @@ export default {
 </style>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 .mobile.home {
     overflow: hidden;
     position: relative;

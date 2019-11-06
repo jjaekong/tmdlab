@@ -130,6 +130,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 .mobile.introduce {
     > section {
         padding: pxtovw2(40px);

@@ -42,10 +42,6 @@ import Qna from '@/views/ko/w/home/Qna.vue'
 
 import $ from 'jquery'
 import Swiper from 'swiper'
-
-// import { Swiper, Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/dist/js/swiper.esm.js'
-// Swiper.use([Navigation, Pagination, Mousewheel, Keyboard])
-
 import 'swiper/css/swiper.min.css'
 
 export default {
@@ -73,6 +69,7 @@ export default {
             direction: 'vertical',
             spaceBetween: 0,
             allowTouchMove: false,
+            mousewheel: true,
         })
         var self = this
         $(window).on('mousewheel', function(e) {
@@ -107,6 +104,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "./src/assets/css/functions.scss";
+
 .home.web {
     .slide {
         width: 100%;
@@ -805,6 +804,8 @@ export default {
 </style>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 .home.web {
     overflow: hidden;
     position: relative;

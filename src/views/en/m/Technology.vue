@@ -100,6 +100,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 .mobile.technology {
     background-image: url(../../../assets/img/m/technology/bg.jpg);
     background-position: 50% 0;

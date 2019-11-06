@@ -72,6 +72,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 .mobile.product {
     .overview {
         padding-bottom: pxtovw2(60px) !important;

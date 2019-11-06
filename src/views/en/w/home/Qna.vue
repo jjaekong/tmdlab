@@ -87,6 +87,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./src/assets/css/functions.scss";
+
 .category {
     margin-right: pxtovw(40px) !important;
     margin-bottom: 0 !important;
