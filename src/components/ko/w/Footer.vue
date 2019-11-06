@@ -1,0 +1,187 @@
+<template>
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h2><img src="@/assets/img/logo_white.png" alt=""></h2>
+                </div>
+                <div class="col d-flex flex-column align-items-end">
+                    <div class="dropdown langs">
+                        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+                            {{langCode3}}
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item ko" :class="isLangActive('ko') ? 'active' : ''" href="#" @click.prevent="changeLang('ko')">KOR</a>
+                            <a class="dropdown-item en" :class="isLangActive('en') ? 'active' : ''" href="#" @click.prevent="changeLang('en')">ENG</a>
+                        </div>
+                    </div>
+                    <p>가능성을 넘어, 생명의 존중과 의학 기술의 발견으로</p>
+                    <address>
+                        서울특별시 서대문구 연세로 50-1 에비슨의생명연구센터 525호
+                        <small>50-1, 525, Medical Reasearch  Center, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</small>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </footer>
+</template>
+
+<script>
+import { mapState } from 'vuex'
+
+export default {
+    data: function() {
+        return {
+        }
+    },
+    computed: {
+        ...mapState({
+            lang: state => state.lang
+        }),
+        langCode3: function() {
+            var langCode3 = null
+            if (this.lang == 'ko') {
+                langCode3 = 'KOR'
+            } else if (this.lang == 'en') {
+                langCode3 = 'ENG'
+            }
+            return langCode3
+        }
+    },
+    methods: {
+        isLangActive: function(langCode) {
+            if (langCode == this.lang) {
+                return true;
+            }
+            return false;
+        },
+        changeLang: function(langCode) {
+            if (langCode == 'en') {
+                var pattern = /\/ko\//i;
+                this.$store.commit('changeLang', langCode)   
+                this.$router.push(
+                    this.$route.fullPath.replace(pattern, '/en/')
+                )
+            }
+        },
+    }
+}
+</script>
+
+<style lang="scss" scoped>
+#footer {
+    padding-top: pxtovw(50px);
+    padding-bottom: pxtovw(50px);
+    height: pxtovw(355px);
+    background: #222;
+    color: #fff;
+    .container-fluid {
+        height: 100%;
+        padding-left: pxtovw(60px);
+        padding-right: pxtovw(60px);
+        .row {
+            height: 100%;
+        }
+    }
+    .col:nth-of-type(1) {
+        h2 {
+            margin: 0;
+            img {
+                display: block;
+                width: pxtovw(228px);
+            }
+        }
+    }
+    .col:nth-of-type(2) {
+        // text-align: right;
+        .langs {
+            // float: right;
+            font-family: 'MontSerrat', sans-serif;
+            width: pxtovw(90px);
+            .btn {
+                padding: 0 0 0 pxtovw(10px);
+                border: 1px solid #222;
+                box-shadow: none;
+                width: pxtovw(90px);
+                height: pxtovw(33px);
+                font-size: pxtovw(20px) !important;
+                color: #7b7b7b;
+                border-radius: 0;
+                text-align: left;
+                letter-spacing: 0;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                &:after {
+                    z-index: 1001;
+                    position: absolute;
+                    top: pxtovw(12px);
+                    right: pxtovw(10px);
+                    content: ' ';
+                    border: 0;
+                    width: pxtovw(12px);
+                    height: pxtovw(8px);
+                    background-image: url(../../../assets/img/ico_arrow_up.png);
+                    background-repeat: no-repeat;
+                    background-position: 50% 50%;
+                    transform: rotate(180deg);
+                }
+            }
+            &.show {
+                .btn {
+                    &:after {
+                        transform: rotate(0deg);
+                    }
+                }
+            }
+            .dropdown-menu {
+                padding: 0;
+                margin: 1px 0 0 0;
+                width: pxtovw(90px);
+                height: pxtovw(66px);
+                min-width: auto;
+                border-radius: 0;
+                background: #11110f;
+                border: 1px solid #ffffff;
+                letter-spacing: 0;
+                &.show {
+                    top: pxtovw(-33px) !important;
+                }
+                .dropdown-item {
+                    display: flex;
+                    align-items: center;
+                    font-weight: bold;
+                    padding: 0 0 0 pxtovw(10px);
+                    border: 0;
+                    color: #7b7b7b;
+                    font-size: pxtovw(20px) !important;
+                    background: transparent;
+                    &:hover, &:focus {
+                        color: #fff;
+                    }
+                    &.active {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        p {
+            margin-top: pxtovw(80px);
+            margin-bottom: pxtovw(80px);
+            font-size: pxtovw(24px);
+            font-weight: bold;
+        }
+        address {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            font-size: pxtovw(14px);
+            text-align: right;
+            small {
+                color: #7b7b7b;
+                font-size: pxtovw(12px);
+            }
+        }
+    }
+}
+</style>
