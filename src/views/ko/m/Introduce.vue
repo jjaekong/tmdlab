@@ -79,7 +79,7 @@
                     </ul>
                 </li>
                 <li>
-                    <p><span>4</span> <b>현재 도약단계</b> <small>2019</small></p>
+                    <p><span>4</span> <b>현재 도약단계</b> <small>현재</small></p>
                     <ul>
                         <li>형상기억고분자 기반 인체 삽입형<br>의료기기의 인허가 준비</li>
                         <li>4세대 형상기억고분자 원천기술 개발 착수</li>

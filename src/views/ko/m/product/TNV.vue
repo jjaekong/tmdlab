@@ -5,7 +5,7 @@
             <h3>제품</h3>
             <header class="page-title">
                 <span>세포유래 나노소포체</span>
-                <h4>관절염 치료제 <sup>TNV<sup>&reg;</sup></sup></h4>
+                <h4>관절염 치료제 <sup>CNV-OA<sup>&reg;</sup></sup></h4>
             </header>
             <div class="feature-define">
                 <div class="keyword">현황</div>
@@ -46,7 +46,7 @@
         </section>
         <section class="effect feature">
             <div class="feature-define">
-                <div class="keyword">TNV</div>
+                <div class="keyword">CNV-OA<sup>&reg;</sup></div>
                 <div class="desc">약물이 담지된 세포막 유래 나노소포체 <br>-&gt; 재생효과 증대, 비수술법</div>
             </div>
             <div class="feature-figure feature-figure-1">

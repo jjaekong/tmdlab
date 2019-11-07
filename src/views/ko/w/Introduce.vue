@@ -48,7 +48,7 @@
               </ul>
             </li>
             <li>
-              <h5><b>4</b> <span>도약단계</span> <small>2019</small></h5>
+              <h5><b>4</b> <span>도약단계</span> <small>현재</small></h5>
               <ul>
                 <li>형상기억고분자 기반 인체 삽입형<br>의료기기의 인허가 준비</li>
                 <li>4세대 형상기억고분자 원천기술 개발 착수</li>
@@ -147,14 +147,14 @@
       <section class="contact">
         <div class="container-fluid">
           <div class="contact-wrapper">
-            <h4><span></span>주식회사 티엠디랩<small>(TMDLAB Co., Ltd.)</small></h4>
+            <h4><span></span>주식회사 티엠디랩<small>(TMD LAB Co., Ltd.)</small></h4>
             <dl>
               <dt>사업자등록번호</dt>
               <dd>372-87-01282</dd>
               <dt>대표</dt>
               <dd>강미란</dd>
               <dt>주소</dt>
-              <dd>서울 서대문구 연세로50-1 에비슨의생명연구센터 525호 (신촌동, 연세의료원)</dd>
+              <dd>서울특별시 서대문구 연세로 50-1 에비슨의생명연구센터 525호</dd>
               <dt>대표번호</dt>
               <dd>02-2228-0891</dd>
               <dt>이메일</dt>

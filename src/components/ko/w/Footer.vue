@@ -18,7 +18,7 @@
                     <p>가능성을 넘어, 생명의 존중과 의학 기술의 발견으로</p>
                     <address>
                         서울특별시 서대문구 연세로 50-1 에비슨의생명연구센터 525호
-                        <small>50-1, 525, Medical Reasearch  Center, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</small>
+                        <small>Avison Biomedical Research Center #525, 50-1 Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</small>
                     </address>
                 </div>
             </div>

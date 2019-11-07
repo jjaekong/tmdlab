@@ -40,7 +40,7 @@
                     <div style="flex: 1;">
                         <h4><router-link to="/m/en/product/tnv" data-dismiss="modal">Cell-derived nanovesicles</router-link></h4>
                         <ul>
-                            <li><router-link to="/m/en/product/tnv" data-dismiss="modal">Treatment to arthritis</router-link></li>
+                            <li><router-link to="/m/en/product/tnv" data-dismiss="modal">Treatment to osteoarthritis</router-link></li>
                         </ul>
                     </div>
                 </div>

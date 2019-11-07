@@ -21,7 +21,7 @@
                             </h3>
                         </header>
                         <p class="desc ml-1">
-                            TMDLAB takes the core corporate value in devoting ourselves to healthy lives of humankind.<br>
+                            TMD LAB takes the core corporate value in devoting ourselves to healthy lives of humankind.<br>
                             We constantly take effort in providing new opportunities to patients to overcome illness,<br>
                             and promise that we will reach to the global enterprise based on our unique cutting edge technology.
                         </p>

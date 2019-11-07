@@ -11,14 +11,14 @@
             TMD LAB is a corporate established to research and develop new material medical devices and cutting edge biomedicine,<br>
             with shape memory polymer and cell-derived nanovesicle base technology.<br>
             In regard to shape memory polymer base technology, we have obtained the non-exclusive license from the industrial-educational cooperation group<br>
-            of Yonsei University along with the right to develop and make sales on a product with SMD.<br>
-            We also have secured the property right for the CNV base technology through patent application from TMDLAB itself.
+            of Yonsei University along with the right to develop and make sales on a product with SMP.<br>
+            We also have secured the property right for the CNV base technology through patent application from TMD LAB itself.
           </p>
           <img src="@/assets/img/introduce/en/img_company_plan.jpg" alt="">
           <p>
-            TMDLAB is on its way of preparing R&amp;D and licensing on arthritis medicine based on CNV technology,<br>
+            TMD LAB is on its way of preparing R&amp;D and licensing on arthritis medicine based on CNV technology,<br>
             and the human insertion stent with a new concept based on SMP base technology.<br>
-            TMDLAB takes its core corporate value in contributing to healthy lives of humankind.<br>
+            TMD LAB takes its core corporate value in contributing to healthy lives of humankind.<br>
             We promise that we will reach to the global enterprise, based on our unique cutting edge technology.
           </p>
         </div>
@@ -31,7 +31,7 @@
             <li>
               <h5><b>1</b> <span>Base establishment<br><small>2010 - 2016</small></span></h5>
               <ul>
-                <li>Research team under professor Sung Hak Joon of Vanderbilt University in U.S. completed the base technology development for ‘1st generation’ and ‘2nd generation’ shape memory polymer.</li>
+                <li>Research team under professor Hak-Joon Sung of Vanderbilt University in U.S. completed the base technology development for ‘1st generation’ and ‘2nd generation’ shape memory polymer.</li>
                 <li>Invested KRW 10 billion for the research expense</li>
               </ul>
             </li>
@@ -43,14 +43,14 @@
               </ul>
             </li>
             <li>
-              <h5><b>3</b> <span>Establishment of<br>TMDLAB Co., Ltd.<br><small>2018</small></span></h5>
+              <h5><b>3</b> <span>Establishment of<br>TMD LAB Co., Ltd.<br><small>2018</small></span></h5>
               <ul>
                 <li>Corporate established, investment secured.</li>
                 <li>Secured multiple pipelines</li>
               </ul>
             </li>
             <li>
-              <h5><b>4</b> <span>Takeoff<br><small>2019</small></span></h5>
+              <h5><b>4</b> <span>Takeoff<br><small>current</small></span></h5>
               <ul>
                 <li>In preparation of licensing of the human insertion medical device based on shape memory polymer</li>
                 <li>Engaged in developing base technology for ‘4th generation’ shape memory polymer</li>
@@ -130,7 +130,7 @@
       <section class="contact">
         <div class="container-fluid">
           <div class="contact-wrapper">
-            <h4><span></span>TMDLAB Co., Ltd.</h4>
+            <h4><span></span>TMD LAB Co., Ltd.</h4>
             <p>Company Registration Number &nbsp;&nbsp;372-87-01282</p>
             <dl>
               <dt>CEO</dt>

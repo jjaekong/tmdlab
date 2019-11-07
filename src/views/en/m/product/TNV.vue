@@ -5,12 +5,12 @@
             <h3>Products</h3>
             <header class="page-title">
                 <!-- <span>세포유래 나노소포체</span> -->
-                <h4>Cell-derived nanovesicles Treatment to arthritis <sup>TNV<sup>&reg;</sup></sup></h4>
+                <h4>Cell-derived nanovesicles Treatment to osteoarthritis <sup>CNV-OA<sup>&reg;</sup></sup></h4>
             </header>
             <div class="feature-define">
                 <div class="keyword">Current condition</div>
                 <div class="desc">
-                    There is an increasing demand on knee arthritis while the treatment market is being expanded, accompanied by the growing number of elderly per total population.
+                    There is an increasing demand on knee osteoarthritis while the treatment market is being expanded, accompanied by the growing number of elderly per total population.
                 </div>
             </div>
             <div class="feature-figure">
@@ -21,7 +21,7 @@
         </section>
         <section class="previous feature">
             <div class="feature-define">
-                <div class="keyword">기존</div>
+                <div class="keyword">AS-IS</div>
                 <div class="desc">An existing treatment is with high sales growth, however, is expensive while requiring a surgery.</div>
             </div>
             <div class="feature-figure">
@@ -44,7 +44,7 @@
         </section>
         <section class="effect feature">
             <div class="feature-define">
-                <div class="keyword">TNV</div>
+                <div class="keyword">CNV-OA<sup>&reg;</sup></div>
                 <div class="desc">CNV injected with medicine<br>-> Enhancing the regenerative effect, and non-operative</div>
             </div>
             <div class="feature-figure feature-figure-1">

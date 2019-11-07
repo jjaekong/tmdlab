@@ -55,7 +55,7 @@
                                 </ul>
                                 <h5>Cell-derived nanovesicles</h5>
                                 <ul>
-                                    <li><router-link to="/w/en/product/tnv">Treatment to arthritis</router-link></li>
+                                    <li><router-link to="/w/en/product/tnv">Treatment to osteoarthritis</router-link></li>
                                 </ul>
                             </li>
                             <li>

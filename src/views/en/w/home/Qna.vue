@@ -17,7 +17,7 @@
                                 </h3>
                             </header>
                             <p class="desc ml-1">
-                                To learn more about TMDLAB products and industry news,<br>
+                                To learn more about TMD LAB products and industry news,<br>
                                 sign up below:
                             </p>
                             <div class="contact">

@@ -11,7 +11,7 @@
         <div>
           <dl>
             <dt><img src="@/assets/img/ico_map.png" alt="주소"></dt>
-            <dd><address>서울시 서대문구 연세로 50-1 에비슨의생명연구센터 518호</address></dd>
+            <dd><address>서울특별시 서대문구 연세로 50-1 에비슨의생명연구센터 525호</address></dd>
           </dl>
         </div>
         <div>

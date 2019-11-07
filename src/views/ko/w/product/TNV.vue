@@ -7,7 +7,7 @@
       <div class="product-title">
         <div class="category">세포유래 나노소포체</div>
         <h3 class="title">관절염 치료제</h3>
-        <span class="brand">TNV<sup>&reg;</sup></span>
+        <span class="brand">CNV-OA<sup>&reg;</sup></span>
       </div>
       <div class="feature feature-1">
         <div class="feature-define">
@@ -47,7 +47,7 @@
       </div>
       <div class="feature feature-3">
         <div class="feature-define">
-          <div class="keyword">TNV</div> 약물이 담지된 세포막 유래 나노소포체 -> 재생효과 증대, 비수술법
+          <div class="keyword">CNV-OA<sup>&reg;</sup></div> 약물이 담지된 세포막 유래 나노소포체 -> 재생효과 증대, 비수술법
         </div>
         <div class="feature-container">
           <div class="feature-row">

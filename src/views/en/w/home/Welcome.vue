@@ -12,7 +12,7 @@
                             </h2>
                         </header>
                         <p class="desc ml-1">
-                            TMDLAB will dedicate ourselves and take effort,<br>
+                            TMD LAB will dedicate ourselves and take effort,<br>
                             so that humankind can stand with hopes of lives,<br>
                             and with sustainable happiness.
                         </p>

@@ -2,16 +2,16 @@
   <div class="web product tnv">
     <Header />
     <SubHeader :title="'Products'" />
-    <PathNav :path="['Products', 'Cell-derived nanovesicles', 'Treatment to arthritis']"/>
+    <PathNav :path="['Products', 'Cell-derived nanovesicles', 'Treatment to osteoarthritis']"/>
     <main id="main">
       <div class="product-title">
         <div class="category">Cell-derived nanovesicles</div>
-        <h3 class="title">Treatment to arthritis</h3>
-        <span class="brand">TNV<sup>&reg;</sup></span>
+        <h3 class="title">Treatment to osteoarthritis</h3>
+        <span class="brand">CNV-OA<sup>&reg;</sup></span>
       </div>
       <div class="feature feature-1">
         <div class="feature-define">
-          <div class="keyword">Current<br>condition</div> There is an increasing demand on knee arthritis while the treatment market is being expanded, accompanied by the growing number of elderly per total population.
+          <div class="keyword">Current<br>condition</div> There is an increasing demand on knee osteoarthritis while the treatment market is being expanded, accompanied by the growing number of elderly per total population.
         </div>
         <div class="feature-container">
           <div class="feature-row">

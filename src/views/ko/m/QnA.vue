@@ -5,7 +5,7 @@
             <h3>문의</h3>
             <h4>티엠티랩에 궁금하신<br>사항이 있으신가요?</h4>
             <ul>
-                <li><img src="@/assets/img/ico_map.png"><address>서울시 서대문구 연세로 50-1 에비슨의생명연구센터 518호</address></li>
+                <li><img src="@/assets/img/ico_map.png"><address>서울특별시 서대문구 연세로 50-1 에비슨의생명연구센터 525호</address></li>
                 <li><img src="@/assets/img/ico_phone.png"><a href="tel:+82-2-2228-0891" target="_blank">02-2228-0891</a></li>
                 <li><img src="@/assets/img/ico_mail.png"><a href="mailto:Ask@tmdlab.co.kr" target="_blank">Ask@tmdlab.co.kr</a></li>
             </ul>

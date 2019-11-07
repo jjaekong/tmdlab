@@ -12,7 +12,7 @@
                 </h3>
             </header>
             <p class="desc">
-                To learn more about TMDLAB products and industry news, sign up below:
+                To learn more about TMD LAB products and industry news, sign up below:
             </p>
             <form class="form-wrap" @submit.prevent="sendMail()">
                 <div class="form-row">
