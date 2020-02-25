@@ -47,6 +47,10 @@
             </div>
             <div class="listgroup">
                 <h3><router-link to="/m/en/promotion/news" data-dismiss="modal">Promotion/activity</router-link></h3>
+                <ul>
+                    <li><router-link to="/m/en/promotion/news" data-dismiss="modal">News</router-link></li>
+                    <li><router-link to="/m/en/promotion/journal" data-dismiss="modal">Journal</router-link></li>
+                </ul>
             </div>
             <div class="listgroup">
                 <h3><router-link to="/m/en/qna" data-dismiss="modal">Contact</router-link></h3>
@@ -187,7 +191,7 @@ export default {
         margin: 0;
         a {
             font-size: pxtovw2(44px);
-            line-height: pxtovw2(100px);
+            line-height: pxtovw2(90px);
             color: #333;
             font-weight: 900;
             text-decoration: none;
@@ -230,10 +234,9 @@ export default {
         }
     }
     .listgroup {
+        margin-top: pxtovw2(20px);
         padding-left: pxtovw2(15px);
         &.product {
-            margin-top: pxtovw2(25px);
-            margin-bottom: pxtovw2(35px);
             .d-flex {
                 div:nth-of-type(1) {
                     // width: pxtovw2(300px);

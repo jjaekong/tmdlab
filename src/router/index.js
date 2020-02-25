@@ -105,6 +105,10 @@ import EN_M_PromNewsItem4 from '../views/en/m/promotion/NewsItem4.vue'
 import EN_M_PromNewsItem3 from '../views/en/m/promotion/NewsItem3.vue'
 import EN_M_PromNewsItem2 from '../views/en/m/promotion/NewsItem2.vue'
 import EN_M_PromNewsItem1 from '../views/en/m/promotion/NewsItem1.vue'
+import EN_M_PromJournal from '../views/en/m/promotion/Journal.vue'
+import EN_M_PromJournalItem3 from '../views/en/m/promotion/JournalItem3.vue'
+import EN_M_PromJournalItem2 from '../views/en/m/promotion/JournalItem2.vue'
+import EN_M_PromJournalItem1 from '../views/en/m/promotion/JournalItem1.vue'
 import EN_M_QnA from '../views/en/m/QnA.vue'
 
 // import { isMobile } from 'mobile-device-detect'
@@ -263,6 +267,24 @@ let router = new VueRouter({
         }
       ]
     },
+    {
+        path: '/m/en/promotion/journal',
+        component: EN_M_PromJournal,
+        children: [
+          {
+            path: '/m/en/promotion/journal/3',
+            component: EN_M_PromJournalItem3,
+          },
+          {
+            path: '/m/en/promotion/journal/2',
+            component: EN_M_PromJournalItem2,
+          },
+          {
+            path: '/m/en/promotion/journal/1',
+            component: EN_M_PromJournalItem1,
+          }
+        ]
+      },
     {
       path: '/m/en/qna',
       component: EN_M_QnA,
