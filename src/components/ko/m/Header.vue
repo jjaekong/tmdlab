@@ -47,6 +47,10 @@
             </div>
             <div class="listgroup">
                 <h3><router-link to="/m/ko/promotion/news" data-dismiss="modal">홍보/활동</router-link></h3>
+                <ul>
+                    <li><router-link to="/m/ko/promotion/news" data-dismiss="modal">뉴스</router-link></li>
+                    <li><router-link to="/m/ko/promotion/journal" data-dismiss="modal">논문</router-link></li>
+                </ul>
             </div>
             <div class="listgroup">
                 <h3><router-link to="/m/ko/qna" data-dismiss="modal">문의</router-link></h3>
@@ -187,7 +191,7 @@ export default {
         margin: 0;
         a {
             font-size: pxtovw2(44px);
-            line-height: pxtovw2(120px);
+            line-height: pxtovw2(90px);
             color: #333;
             font-weight: 900;
             text-decoration: none;
@@ -228,10 +232,9 @@ export default {
         }
     }
     .listgroup {
+        margin-top: pxtovw2(30px);
         padding-left: pxtovw2(15px);
         &.product {
-            margin-top: pxtovw2(37px);
-            margin-bottom: pxtovw2(50px);
             .d-flex {
                 div:nth-of-type(1) {
                     width: pxtovw2(300px);

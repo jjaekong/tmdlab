@@ -61,7 +61,7 @@
                             <li>
                                 <ul>
                                     <li><router-link to="/w/en/promotion/news">News</router-link></li>
-                                    <!-- <li><a href="#">학회활동</a></li> -->
+                                    <li><router-link to="/w/en/promotion/journal">Journal</router-link></li>
                                 </ul>
                             </li>
                             <li>

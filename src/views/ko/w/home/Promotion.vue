@@ -6,95 +6,89 @@
                 <div class="col">
                     <section>
                         <header>
-                            <h6 class="category ml-1"><span>홍보/활동</span> <b>4</b></h6>
+                            <h6 class="category ml-1"><span>홍보/활동</span> <b>10</b></h6>
                             <!-- <a href="#" class="more">더보기<span class="box"><span></span></span></a> -->
                             <router-link class="more" to="/w/ko/promotion/news">더보기<span class="box"><span></span></span></router-link>
                         </header>
                         <ul class="news">
                             <li>
-                                <router-link class="card" to="/w/ko/promotion/news/4">
+                                <router-link class="card" to="/w/ko/promotion/news/10">
                                     <div class="card-header">
                                         <h4 class="card-title">
-                                            2019년 의료기기 CHAMP 교육과정<br>
-                                            의료기기 입문 마스터 과정 수료
+                                            혈관 신생 유도 3차원 마이크로 채널 네트워크 논문, 국제 학술지 게재
                                         </h4>
                                         <p class="date">
-                                            <time>2019년 7월 16일</time>
+                                            <time>2020년 1월 30일</time>
                                         </p>
                                     </div>
-                                    <img src="@/assets/img/promotion/thumb_news_4.jpg" class="card-img-top">
+                                    <!-- <img src="@/assets/img/promotion/thumb_news_4.jpg" class="card-img-top"> -->
                                     <div class="card-body">
                                         <p>
-                                            2019년 7월 16일부터 18일까지 3일에 걸쳐<br>
-                                            한국의료기기산업협회 (KMDIA)에서 주관하는<br>
-                                            국가인적자원개발컨소시엄 사업 (Consortium<br>
-                                            for HRD Ability Magnified Program, CHAMP) ...
+                                            ㈜티엠디랩은 손상된 조직으로의 혈관 신생 유도를 돕는 하이드로겔 기반 마이크로 채널 네트워크를 개발하였고 그 효과를 Nature 자매지인 ‘Nature Communication’에 게재하였다 (논문 제목: Microchannel Network Hydrogel Induced Ischemic Anastomotic Blood Perfusion).<br><br>
+                                    손상된 부위로의 혈관 신생 유도는 오랫동안 해결되지 않은 문제였다. Pro-angiogenic molecule을 이용한 국소 치료가 가장 일반적인 접근법이나 염증성 커플링, 종양성 혈관 활성화 및 표적 외 순환을 포함하는 중요한 부작용이 있다고 알려져 있다.
                                         </p>
                                     </div>
                                 </router-link>
                             </li>
                             <li>
-                                <router-link class="card" to="/w/ko/promotion/news/3">
+                                <router-link class="card" to="/w/ko/promotion/news/9">
                                     <div class="card-header">
                                         <h4 class="card-title">
-                                            2019년 한국조직공학재생의학회<br>
-                                            (KTERMS) 학술대회 참여, 포스터 ...
+                                            [바이오스펙테이터] 티엠디랩,
+                                            '형상기억 고분자'로 新스텐트 개발 도전
                                         </h4>
                                         <p class="date">
-                                            <time>2019년 6월 6일</time>
+                                            <time>2019년 12월 17일</time>
                                         </p>
                                     </div>
-                                    <img src="@/assets/img/promotion/thumb_news_3.jpg" class="card-img-top">
+                                    <img src="@/assets/img/promotion/thumb_news_9.jpg" class="card-img-top">
                                     <div class="card-body">
                                         <p>
-                                            한국조직공학 재생의학회가 주관하는<br>
-                                            국제학술대회인 ‘Korea Tissue Engineering and<br>
-                                            Regenerative Medicine Society (KTERMS)<br>
-                                            2019’가 2019년 6월 6일부터 8일까지 3일에 걸쳐...
+                                            성학준 연세의대 교수 2018년 국내 귀국해 창업<br>
+                                            형상기억 기술로 최소침습 및 안전성 확보<br>
+                                            누관스텐트부터 파이프라인 확대
                                         </p>
                                     </div>
                                 </router-link>
                             </li>
                             <li>
-                                <router-link class="card" to="/w/ko/promotion/news/2">
+                                <router-link class="card" to="/w/ko/promotion/news/8">
                                     <div class="card-header">
                                         <h4 class="card-title">
-                                            연세대학교 산학협력단으로부터<br>
-                                            형상기억고분자 통상실시권 획득
+                                            중소벤처기업부에서 주관하는 창업성장기술개발사업 ‘혁신형 창업과제’ 선정
                                         </h4>
                                         <p class="date">
-                                            <time>2019년 5월 21일</time>
+                                            <time>2019년 11월 25일</time>
                                         </p>
                                     </div>
-                                    <img src="@/assets/img/promotion/thumb_news_2.jpg" class="card-img-top">
+                                    <img src="@/assets/img/promotion/thumb_news_8.jpg" class="card-img-top">
                                     <div class="card-body">
                                         <p>
-                                            형상기억고분자를 이용한 인체삽입형 스텐트의<br> 
-                                            개발 및 상용화를 위해 연세대학교 산학협력단이<br>
-                                            보유하고 있는 “광가교가 가능한 형상기억고분자 및<br>
-                                            이의 제조방법 (대한민국 특허등록번호10-190647...
+                                            ㈜티엠디랩은 중소벤처기업부가 지원하는
+                                            창업성장기술개발사업 ‘혁신형 창업과제’로 최종 선정되었다.
+                                            이번 사업 개발 기간은 총 24개월이며
+                                            총 4억원의 연구비를 지원받게 되었다.
                                         </p>
                                     </div>
                                 </router-link>
                             </li>
                             <li>
-                                <router-link class="card" to="/w/ko/promotion/news/1">
+                                <router-link class="card" to="/w/ko/promotion/news/7">
                                     <div class="card-header">
                                         <h4 class="card-title">
-                                            형상기억고분자를 이용한 스텐트<br>
-                                            관련 특허 2건 출원
+                                            [한국경제] 체온으로 몸 막힌 곳 뚫는 스텐트 신소재 나온다
                                         </h4>
                                         <p class="date">
-                                            <time>2018년 12월 19일</time>
+                                            <time>2019년 11월 20일</time>
                                         </p>
                                     </div>
-                                    <img src="@/assets/img/promotion/thumb_news_1.jpg" class="card-img-top">
+                                    <img src="@/assets/img/promotion/thumb_news_7.jpg" class="card-img-top">
                                     <div class="card-body">
                                         <p>
-                                            형상기억고분자를 스텐트 개발과 관계된 특허 2건을<br>
-                                            출원하였다. 첫번째 특허명은 “형상 기억 스텐트의<br>
-                                            폐색부위 펼침시 저분자 헤파린 방출구조체<br>
-                                            (출원번호 10-2018-0164737)＂로 폐색된 혈관에...
+                                            티엠디랩, 형상기억 소재 개발중<br>
+                                            실리콘보다 수명 길고 감염 적어<br><br>
+                                            “실리콘으로 제조한 기존 스텐트의
+                                            단점을 보완한 형상기억 고분자 스텐트를 개발하고 있습니다.”
                                         </p>
                                     </div>
                                 </router-link>
@@ -199,8 +193,8 @@ export default {
                 }
             }
             .card-img-top {
-                width: pxtovw(380px);
-                height: pxtovw(200px);
+                // width: pxtovw(380px);
+                // height: pxtovw(200px);
             }
             .card-body {
                 padding: pxtovw(20px) pxtovw(30px) pxtovw(20px) pxtovw(30px);

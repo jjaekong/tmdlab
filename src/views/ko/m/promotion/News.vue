@@ -10,14 +10,67 @@
             <p>가장 빠르게 뉴스 및 공지사항을 알려드립니다.</p>
         </section>
         <section class="news-list">
-            <h4>NEW <span class="bar"></span> <b>4</b></h4>
+            <h4>NEW <span class="bar"></span> <b>10</b></h4>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/ko/promotion/news/10">
+                            <div class="news-body">
+                                <h5>혈관 신생 유도 3차원 마이크로 채널 네트워크 논문, 국제 학술지 (Nature Communication, IF 12.8) 게재</h5>
+                                <time>2020년 1월 30일</time>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/ko/promotion/news/9">
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_9.jpg">
+                            <div class="news-body">
+                                <h5>[바이오스펙테이터] 티엠디랩, '형상기억 고분자'로 新스텐트 개발 도전 (19.12.17)</h5>
+                                <time>2019년 12월 17일</time>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/ko/promotion/news/8">
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_8.jpg">
+                            <div class="news-body">
+                                <h5>중소벤처기업부에서 주관하는 창업성장기술개발사업 ‘혁신형 창업과제’ 선정</h5>
+                                <time>2019년 11월 25일</time>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/ko/promotion/news/7">
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_7.jpg">
+                            <div class="news-body">
+                                <h5>[한국경제] 체온으로 몸 막힌 곳 뚫는 스텐트 신소재 나온다 (19.11.20)</h5>
+                                <time>2019년 11월 20일</time>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/ko/promotion/news/6">
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_6.jpg">
+                            <div class="news-body">
+                                <h5>형상 기억 고분자 기반 누관 스텐트 논문 국제 학술지 (Acta Biomaterilia, IF 6.638) 게재</h5>
+                                <time>2019년 11월 7일</time>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/ko/promotion/news/5">
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_5.jpg">
+                            <div class="news-body">
+                                <h5>형상 기억 고분자 기반 혈관 문합기 논문 국제 학술지 (Advanced Materials, IF 25.809) 게재</h5>
+                                <time>2019년 8월 27일</time>
+                            </div>
+                        </router-link>
+                    </div>
                     <div class="swiper-slide">
                         <router-link class="news-item" to="/m/ko/promotion/news/4">
                             <img class="news-image" src="@/assets/img/m/promotion/thumb_news_4.jpg">
                             <div class="news-body">
-                                <h5>년 의료기기 CHAMP 교육과정 의료기기 입문 마스터 과정 수료<br>(2019.07.16 ~ 2019.07.18)</h5>
+                                <h5>2019년 의료기기 CHAMP 교육과정 의료기기 입문 마스터 과정 수료<br>(2019.07.16 ~ 2019.07.18)</h5>
                                 <time>2019년 7월 16일</time>
                             </div>
                         </router-link>

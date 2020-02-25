@@ -61,6 +61,7 @@
                             <li>
                                 <ul>
                                     <li><router-link to="/w/ko/promotion/news">뉴스</router-link></li>
+                                    <li><router-link to="/w/ko/promotion/journal">논문</router-link></li>
                                     <!-- <li><a href="#">학회활동</a></li> -->
                                 </ul>
                             </li>

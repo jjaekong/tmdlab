@@ -200,8 +200,10 @@ body {
                 }
                 .modal-body {
                 // padding: pxtovw(30px) pxtovw(40px);
+                    overflow: auto;
                     padding: 0;
                     background: #fff;
+                    max-height: pxtovw(600px);
                     .news-image {
                         display: block;
                         width: 100%;
@@ -243,6 +245,97 @@ body {
                     }
                     p {
                         margin-bottom: 0;
+                    }
+                }
+            }
+            .journal-view {
+                .modal-dialog {
+                    margin: 0;
+                    max-width: none;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: rgba(#000, .6);
+                }
+                .modal-content {
+                    width: pxtovw(720px);
+                    border: 0;
+                    border-radius: 0;
+                }
+                .modal-header {
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    padding-top: pxtovw(70px);
+                    padding-left: pxtovw(105px);
+                    padding-right: pxtovw(105px);
+                    padding-bottom: 0;
+                    border-bottom: 0;
+                    background: #fff;
+                    h4 {
+                        margin-bottom: pxtovw(30px);
+                        font-size: pxtovw(24px);
+                        line-height: pxtovw(48px);
+                        color: #373737;
+                        font-weight: bold;
+                    }
+                    span {
+                        width: pxtovw(18px);
+                        height: 1px;
+                        background: #000;
+                    }
+                }
+                .modal-body {
+                    overflow: auto;
+                    padding: 0;
+                    background: #fff;
+                    max-height: pxtovw(600px);
+                }
+                .modal-footer {
+                    border: 0;
+                    padding: 0;
+                    border-radius: 0;
+                    justify-content: center;
+                    .btn {
+                        flex: 1;
+                        margin: 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0;
+                        border: 0;
+                        border-radius: 0;
+                        background: #e5e5e5;
+                        box-shadow: none;
+                        height: pxtovw(50px);
+                        font-size: pxtovw(16px);
+                        color: #999999;
+                        & + .btn {
+                            border-left: 1px solid #999;
+                        }
+                    }
+                    .btn-details {
+                        img {
+                            margin-top: pxtovw(5px);
+                            margin-right: pxtovw(15px);
+                            width: pxtovw(24px);
+                        }
+                    }
+                }
+                .journal-body {
+                    padding: pxtovw(40px) pxtovw(105px);
+                    color: #4e4e4e;
+                    font-size: pxtovw(16px);
+                    line-height: pxtovw(26px);
+                    dl {
+                        dt {
+                            color: #2457ca;
+                            font-weight: bold;
+                        }
+                        dd {
+                            margin-bottom: pxtovw(30px);
+                        }
                     }
                 }
             }
@@ -491,6 +584,110 @@ body {
                         font-size: pxtovw2(22px);
                         box-shadow: none;
                         border-radius: 0;
+                    }
+                }
+            }
+            .journal-view {
+                .modal-dialog {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    max-width: none;
+                    margin: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(#000, .6);
+                }
+                .modal-content {
+                    padding-bottom: pxtovw2(90px);
+                    width: pxtovw2(640px);
+                    height: auto;
+                    max-height: pxtovw2(1000px);
+                    border: 0;
+                    border-radius: 0;
+                }
+                .modal-header {
+                    padding: pxtovw2(30px) pxtovw2(40px) 0;
+                    // height: pxtovw2(245px);
+                    border: 0;
+                    display: flex;
+                    flex-direction: column;
+                    .btn-close {
+                        border: 0;
+                        padding: 0;
+                        width: pxtovw2(37px);
+                        height: pxtovw2(37px);
+                        display: flex;
+                        align-items: center;
+                        img {
+                            display: block;
+                            width: 100%;    
+                        }
+                    }
+                    .modal-title {
+                        color: #373737;
+                        font-size: pxtovw2(38px);
+                        line-height: pxtovw2(48px);
+                        //margin-top: pxtovw2(20px);
+                        //margin-top: pxtovw2(20px);
+                        margin-bottom: pxtovw2(50px);
+                        letter-spacing: pxtovw2(-1px);
+                    }
+                    span {
+                        width: pxtovw2(88px);
+                        height: 1px;
+                        background: #000;
+                    }
+                }
+                .modal-body {
+                    overflow: auto;
+                    border: 0;
+                    //height: pxtovw2(665px);
+                    padding: pxtovw2(70px) pxtovw2(40px) pxtovw2(40px);
+                    dl {
+                        font-size: pxtovw2(22px);
+                        line-height: pxtovw2(36px);
+                        dt {
+                            color: #2457ca;
+                        }
+                        dd {
+                            margin-bottom: pxtovw2(30px);
+                        }
+                    }
+                }
+                .modal-footer {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    display: flex;
+                    border: 0;
+                    padding: 0;
+                    height: pxtovw2(90px);
+                    .btn {
+                        flex: 1;
+                        height: 100%;
+                        margin: 0;
+                        padding: 0;
+                        border: 0;
+                        background: #e5e5e5;
+                        color: #999999;
+                        font-size: pxtovw2(22px);
+                        box-shadow: none;
+                        border-radius: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        & + .btn {
+                            border-left: 1px solid #999;
+                        }
+                    }
+                    .btn-details {
+                        img {
+                            margin-top: pxtovw2(5px);
+                            margin-right: pxtovw2(10px);
+                            width: pxtovw2(30px);
+                        }
                     }
                 }
             }

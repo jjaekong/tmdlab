@@ -2,7 +2,7 @@
   <div class="web promotion">
     <Header />
     <SubHeader :title="'홍보/활동'" />
-    <PathNav :path="['홍보/활동']"/>
+    <PathNav :path="['홍보/활동', '뉴스']"/>
     <main id="main">
       <div class="page-title">
         <h3 class="title">티엠디랩의 폭넓고 다양한 뉴스를 확인하세요</h3>
@@ -14,11 +14,64 @@
         <div>
           NEW
           <span></span>
-          <b>4</b>
+          <b>10</b>
         </div>
       </div>
       <div class="news-list">
         <ol>
+          <li>
+            <router-link class="news-item" to="./news/10">
+              <div class="news-title">
+                <h4>혈관 신생 유도 3차원 마이크로 채널 네트워크 논문, 국제 학술지 (Nature Communication, IF 12.8) 게재</h4>
+                <span>2020년 1월 30일</span>
+              </div>
+            </router-link>
+          </li>
+          <li>
+            <router-link class="news-item" to="./news/9">
+              <img src="@/assets/img/promotion/thumb_news_9.jpg">
+              <div class="news-title">
+                <h4>[바이오스펙테이터] 티엠디랩, '형상기억 고분자'로 新스텐트 개발 도전 (19.12.17)</h4>
+                <span>2019년 12월 17일</span>
+              </div>
+            </router-link>
+          </li>
+          <li>
+            <router-link class="news-item" to="./news/8">
+              <img src="@/assets/img/promotion/thumb_news_8.jpg">
+              <div class="news-title">
+                <h4>중소벤처기업부에서 주관하는 창업성장기술개발사업 ‘혁신형 창업과제’ 선정</h4>
+                <span>2019년 11월 25일</span>
+              </div>
+            </router-link>
+          </li>
+          <li>
+            <router-link class="news-item" to="./news/7">
+              <img src="@/assets/img/promotion/thumb_news_7.jpg">
+              <div class="news-title">
+                <h4>[한국경제] 체온으로 몸 막힌 곳 뚫는 스텐트 신소재 나온다 (19.11.20)</h4>
+                <span>2019년 11월 20일</span>
+              </div>
+            </router-link>
+          </li>
+          <li>
+            <router-link class="news-item" to="./news/6">
+              <img src="@/assets/img/promotion/thumb_news_6.jpg">
+              <div class="news-title">
+                <h4>형상 기억 고분자 기반 누관 스텐트 논문 국제 학술지 (Acta Biomaterilia, IF 6.638) 게재</h4>
+                <span>2019년 11월 7일</span>
+              </div>
+            </router-link>
+          </li>
+          <li>
+            <router-link class="news-item" to="./news/5">
+              <img src="@/assets/img/promotion/thumb_news_5.jpg">
+              <div class="news-title">
+                <h4>형상 기억 고분자 기반 혈관 문합기 논문 국제 학술지 (Advanced Materials, IF 25.809) 게재</h4>
+                <span>2019년 8월 27일</span>
+              </div>
+            </router-link>
+          </li>
           <li>
             <router-link class="news-item" to="./news/4">
               <img src="@/assets/img/promotion/thumb_news_4.jpg">

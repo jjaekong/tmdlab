@@ -39,6 +39,16 @@ import KO_W_PromNewsItem1 from '../views/ko/w/promotion/NewsItem1.vue'
 import KO_W_PromNewsItem2 from '../views/ko/w/promotion/NewsItem2.vue'
 import KO_W_PromNewsItem3 from '../views/ko/w/promotion/NewsItem3.vue'
 import KO_W_PromNewsItem4 from '../views/ko/w/promotion/NewsItem4.vue'
+import KO_W_PromNewsItem5 from '../views/ko/w/promotion/NewsItem5.vue'
+import KO_W_PromNewsItem6 from '../views/ko/w/promotion/NewsItem6.vue'
+import KO_W_PromNewsItem7 from '../views/ko/w/promotion/NewsItem7.vue'
+import KO_W_PromNewsItem8 from '../views/ko/w/promotion/NewsItem8.vue'
+import KO_W_PromNewsItem9 from '../views/ko/w/promotion/NewsItem9.vue'
+import KO_W_PromNewsItem10 from '../views/ko/w/promotion/NewsItem10.vue'
+import KO_W_PromJournal from '../views/ko/w/promotion/Journal.vue'
+import KO_W_PromJournalItem1 from '../views/ko/w/promotion/JournalItem1.vue'
+import KO_W_PromJournalItem2 from '../views/ko/w/promotion/JournalItem2.vue'
+import KO_W_PromJournalItem3 from '../views/ko/w/promotion/JournalItem3.vue'
 import KO_W_QnA from '../views/ko/w/QnA.vue'
 
 import KO_M_Home from '../views/ko/m/Home.vue'
@@ -49,10 +59,20 @@ import KO_M_ProdSMPB from '../views/ko/m/product/SMP-B.vue'
 import KO_M_ProdSMPV from '../views/ko/m/product/SMP-V.vue'
 import KO_M_ProdTNV from '../views/ko/m/product/TNV.vue'
 import KO_M_PromNews from '../views/ko/m/promotion/News.vue'
-import KO_M_PromNewsItem4 from '../views/ko/m/promotion/NewsItem4.vue'
-import KO_M_PromNewsItem3 from '../views/ko/m/promotion/NewsItem3.vue'
-import KO_M_PromNewsItem2 from '../views/ko/m/promotion/NewsItem2.vue'
 import KO_M_PromNewsItem1 from '../views/ko/m/promotion/NewsItem1.vue'
+import KO_M_PromNewsItem2 from '../views/ko/m/promotion/NewsItem2.vue'
+import KO_M_PromNewsItem3 from '../views/ko/m/promotion/NewsItem3.vue'
+import KO_M_PromNewsItem4 from '../views/ko/m/promotion/NewsItem4.vue'
+import KO_M_PromNewsItem5 from '../views/ko/m/promotion/NewsItem5.vue'
+import KO_M_PromNewsItem6 from '../views/ko/m/promotion/NewsItem6.vue'
+import KO_M_PromNewsItem7 from '../views/ko/m/promotion/NewsItem7.vue'
+import KO_M_PromNewsItem8 from '../views/ko/m/promotion/NewsItem8.vue'
+import KO_M_PromNewsItem9 from '../views/ko/m/promotion/NewsItem9.vue'
+import KO_M_PromNewsItem10 from '../views/ko/m/promotion/NewsItem10.vue'
+import KO_M_PromJournal from '../views/ko/m/promotion/Journal.vue'
+import KO_M_PromJournalItem1 from '../views/ko/m/promotion/JournalItem1.vue'
+import KO_M_PromJournalItem2 from '../views/ko/m/promotion/JournalItem2.vue'
+import KO_M_PromJournalItem3 from '../views/ko/m/promotion/JournalItem3.vue'
 import KO_M_QnA from '../views/ko/m/QnA.vue'
 
 import EN_W_Home from '../views/en/w/Home.vue'
@@ -67,6 +87,10 @@ import EN_W_PromNewsItem1 from '../views/en/w/promotion/NewsItem1.vue'
 import EN_W_PromNewsItem2 from '../views/en/w/promotion/NewsItem2.vue'
 import EN_W_PromNewsItem3 from '../views/en/w/promotion/NewsItem3.vue'
 import EN_W_PromNewsItem4 from '../views/en/w/promotion/NewsItem4.vue'
+import EN_W_PromJournal from '../views/en/w/promotion/Journal.vue'
+import EN_W_PromJournalItem1 from '../views/en/w/promotion/JournalItem1.vue'
+import EN_W_PromJournalItem2 from '../views/en/w/promotion/JournalItem2.vue'
+import EN_W_PromJournalItem3 from '../views/en/w/promotion/JournalItem3.vue'
 import EN_W_QnA from '../views/en/w/QnA.vue'
 
 import EN_M_Home from '../views/en/m/Home.vue'
@@ -157,6 +181,24 @@ let router = new VueRouter({
         }
       ]
     },
+    {
+        path: '/w/en/promotion/journal',
+        component: EN_W_PromJournal,
+        children: [
+          {
+            path: '/w/en/promotion/journal/3',
+            component: EN_W_PromJournalItem3,
+          },
+          {
+            path: '/w/en/promotion/journal/2',
+            component: EN_W_PromJournalItem2,
+          },
+          {
+            path: '/w/en/promotion/journal/1',
+            component: EN_W_PromJournalItem1,
+          }
+        ]
+      },
     {
       path: '/w/en/qna',
       component: EN_W_QnA,
@@ -264,6 +306,30 @@ let router = new VueRouter({
       component: KO_W_PromNews,
       children: [
         {
+            path: '/w/ko/promotion/news/10',
+            component: KO_W_PromNewsItem10,
+        },
+        {
+            path: '/w/ko/promotion/news/9',
+            component: KO_W_PromNewsItem9,
+        },
+        {
+          path: '/w/ko/promotion/news/8',
+          component: KO_W_PromNewsItem8,
+        },
+        {
+          path: '/w/ko/promotion/news/7',
+          component: KO_W_PromNewsItem7,
+        },
+        {
+          path: '/w/ko/promotion/news/6',
+          component: KO_W_PromNewsItem6,
+        },
+        {
+            path: '/w/ko/promotion/news/5',
+            component: KO_W_PromNewsItem5,
+        },
+        {
           path: '/w/ko/promotion/news/4',
           component: KO_W_PromNewsItem4,
         },
@@ -281,6 +347,24 @@ let router = new VueRouter({
         }
       ]
     },
+    {
+        path: '/w/ko/promotion/journal',
+        component: KO_W_PromJournal,
+        children: [
+          {
+            path: '/w/ko/promotion/journal/3',
+            component: KO_W_PromJournalItem3,
+          },
+          {
+            path: '/w/ko/promotion/journal/2',
+            component: KO_W_PromJournalItem2,
+          },
+          {
+            path: '/w/ko/promotion/journal/1',
+            component: KO_W_PromJournalItem1,
+          }
+        ]
+      },
     {
       path: '/w/ko/qna',
       component: KO_W_QnA,
@@ -328,6 +412,30 @@ let router = new VueRouter({
       component: KO_M_PromNews,
       children: [
         {
+            path: '/m/ko/promotion/news/10',
+            component: KO_M_PromNewsItem10,
+          },
+          {
+            path: '/m/ko/promotion/news/9',
+            component: KO_M_PromNewsItem9,
+          },
+        {
+            path: '/m/ko/promotion/news/8',
+            component: KO_M_PromNewsItem8,
+          },
+          {
+            path: '/m/ko/promotion/news/7',
+            component: KO_M_PromNewsItem7,
+          },
+          {
+            path: '/m/ko/promotion/news/6',
+            component: KO_M_PromNewsItem6,
+          },
+          {
+            path: '/m/ko/promotion/news/5',
+            component: KO_M_PromNewsItem5,
+          },
+        {
           path: '/m/ko/promotion/news/4',
           component: KO_M_PromNewsItem4,
         },
@@ -345,6 +453,24 @@ let router = new VueRouter({
         }
       ]
     },
+    {
+        path: '/m/ko/promotion/journal',
+        component: KO_M_PromJournal,
+        children: [
+          {
+            path: '/m/ko/promotion/journal/3',
+            component: KO_M_PromJournalItem3,
+          },
+          {
+            path: '/m/ko/promotion/journal/2',
+            component: KO_M_PromJournalItem2,
+          },
+          {
+            path: '/m/ko/promotion/journal/1',
+            component: KO_M_PromJournalItem1,
+          }
+        ]
+      },
     {
       path: '/m/ko/qna',
       component: KO_M_QnA,
