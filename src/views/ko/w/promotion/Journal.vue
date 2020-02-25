@@ -30,16 +30,16 @@
           <li>
             <router-link class="news-item" to="./journal/2">
               <div class="news-title">
-                <h4>Development of a Shape-Memory Tube to Prevent Vascular Stenosis.</h4>
-                <span>게재 정보: Advanced Materials (2019.08.27, IF 25.809)</span>
+                <h4>Nasolacrimal stent with shape memory as an advanced alternative to silicone products</h4>
+                <span>게재 정보: Acta Biomaterilia (2019.11.07, IF 6.638)</span>
               </div>
             </router-link>
           </li>
           <li>
             <router-link class="news-item" to="./journal/1">
               <div class="news-title">
-                <h4>Nasolacrimal stent with shape memory as an advanced alternative to silicone products.</h4>
-                <span>게재 정보: Nature Communication (2020.01.30, IF 11.88)</span>
+                <h4>Development of a Shape-Memory Tube to Prevent Vascular Stenosis</h4>
+                <span>게재 정보: Advanced Materials (2019.08.27, IF 25.809)</span>
               </div>
             </router-link>
           </li>

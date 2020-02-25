@@ -20,7 +20,8 @@
                                 <dl>
                                     <dt>게제정보:</dt>
                                     <dd>
-                                        Nature Communication<br>(2020.01.30, IF 11.88)
+                                        Nature Communication<br>
+                                        (2020.01.30, IF 11.88)
                                     </dd>
                                 </dl>
                             </div>
@@ -29,11 +30,12 @@
                     <div class="swiper-slide">
                         <router-link class="journal-item" to="/m/ko/promotion/journal/2">
                             <div class="journal-body">
-                                <h5>Development of a Shape-Memory Tube to Prevent Vascular Stenosis.</h5>
+                                <h5>Nasolacrimal stent with shape memory as an advanced alternative to silicone products</h5>
                                 <dl>
                                     <dt>게제정보:</dt>
                                     <dd>
-                                        Advanced Materials<br>(2019.08.27, IF 25.809)
+                                        Acta Biomaterilia<br>
+                                        (2019.11.07, IF 6.638)
                                     </dd>
                                 </dl>
                             </div>
@@ -42,11 +44,11 @@
                     <div class="swiper-slide">
                         <router-link class="journal-item" to="/m/ko/promotion/journal/1">
                             <div class="journal-body">
-                                <h5>Nasolacrimal stent with shape memory as an advanced alternative to silicone products.</h5>
+                                <h5>Development of a Shape-Memory Tube to Prevent Vascular Stenosis</h5>
                                 <dl>
                                     <dt>게제정보:</dt>
                                     <dd>
-                                        Acta Biomaterilia<br>(2019.11.07, IF 6.638)
+                                        Advanced Materials<br>(2019.08.27, IF 25.809)
                                     </dd>
                                 </dl>
                             </div>
@@ -160,7 +162,7 @@ export default {
         }
         .journal-item {
             width: pxtovw2(450px);
-            height: pxtovw2(620px);
+            height: pxtovw2(550px);
             background: #fff;
             display: flex;
             flex-direction: column;
