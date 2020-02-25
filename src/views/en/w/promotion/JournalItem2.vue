@@ -1,21 +1,27 @@
 <template>
-    <div class="modal news-view show" tabindex="-1" role="dialog">
+    <div class="modal journal-view show" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>Obtained the non-exclusive license for shape memory polymer from the industrial-<br>educational cooperation group of Yonsei University (21st of May, 2019)</h4>
-					<span>21st of May, 2019</span>
+					<h4>Nasolacrimal stent with shape memory as an advanced alternative to silicone products.</h4>
+                    <span></span>
 				</div>
 				<div class="modal-body">
-					<img class="news-image" src="@/assets/img/promotion/img_news_2.jpg">
-					<div class="news-body">
-						In order to develop and commercialize the human insertion stent using shape memory polymer, we have obtained the non-exclusive license on the patent: ‘a photo-crosslinkable shape memory polymer and manufacturing method thereof (patent registration number: 10-1906472) (PCT/KR2018/001190)’ retained by the industrial-educational cooperation group of Yonsei University.<br>
-						Its enforcement period is from the date of contract conclusion to the expiry date of the patent, and it is applied nationwide as well as all the other nations with the coming patent application after the contract conclusion.<br>
-						We have authorized with all the rights through this license involving product/method manufacture, facilitation, delegation and import. This has a significant meaning in earning the right to develop and commercialize the related products using shape memory polymer in the future.
+					<div class="journal-body">
+                        <dl>
+                            <dt>Published at:</dt>
+                            <dd>Acta Biomaterilia (7th of November 2019 IF 6.638)</dd>
+                            <dt>Summary:</dt>
+                            <dd>A polymer-based graft is formed which is inserted to the occluded tear duct of a rabbit and which can secure the tear duct by expanding itself via body temperature. Shape memory polymer properties compared with silicon, in vitro cytotoxicity and biofilm formation inhibition, and in vivo effectiveness are confirmed.</dd>
+                        </dl>
 					</div>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn"  @click="close()">Close</button>
+					<button type="button" class="btn" @click="close()">Close</button>
+                    <a class="btn btn-details" href="https://www.sciencedirect.com/science/article/pii/S1742706119307366?via%3Dihub" target="_blank">
+                        <img src="@/assets/img/ico_details.png" />
+                        Detailed view
+                    </a>
 				</div>
 			</div>
 		</div>

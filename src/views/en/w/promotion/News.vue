@@ -2,7 +2,7 @@
   <div class="web promotion">
     <Header />
     <SubHeader :title="'Promotion/activity'" />
-    <PathNav :path="['Promotion/activity']"/>
+    <PathNav :path="['Promotion/activity', 'News']"/>
     <main id="main">
       <div class="page-title">
         <h3 class="title">Feel free to check on the news of TMD LAB.</h3>

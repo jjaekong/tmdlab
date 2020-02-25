@@ -1,20 +1,27 @@
 <template>
-    <div class="modal news-view show" tabindex="-1" role="dialog">
+    <div class="modal journal-view show" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>Applied for 2 patents related to stent using shape memory polymer (19th of December,<br>2018)</h4>
-					<span>19th of December, 2018</span>
+					<h4>Development of a Shape-Memory Tube to Prevent Vascular Stenosis.</h4>
+                    <span></span>
 				</div>
 				<div class="modal-body">
-					<img class="news-image" src="@/assets/img/promotion/img_news_1.jpg">
-					<div class="news-body">
-						2 patents have been applied related to stent development using shape memory polymer. First is ‘low molecular heparin-releasing structure in spreading shape memory polymer stent at the point of occlusion (application number: 10-2018-0164737)’. It holds the contents on the biocompatible vascular transplantation SMP stent. When inserted into the occlusive blood vessel, heparin is emitted from the stent and unfolds itself.<br>
-						Second patent is: ‘development of non-degradable stent coating material (application number: 10-2018-0164737)’, holding the contents of non-degradable SMP stent. It has its significance that we have secured all the related rights on both degradable and non-degradable SMP vascular stents, through these two patents.
+					<div class="journal-body">
+                        <dl>
+                            <dt>Published at:</dt>
+                            <dd>Advanced Materials (27th of August 2019, IF 25.809)</dd>
+                            <dt>Summary:</dt>
+                            <dd>A new concept shape memory automatic anastomosis type vessel graft is developed which applies shape memory polymer based technology of recovering its originally programmed form under the human body temperature condition, and which is easily applicable to vessels with different sizes and does not require additional anastomosis procedures.</dd>
+                        </dl>
 					</div>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn" @click="close()">Close</button>
+                    <a class="btn btn-details" href="https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201904476" target="_blank">
+                        <img src="@/assets/img/ico_details.png" />
+                        Detailed view
+                    </a>
 				</div>
 			</div>
 		</div>

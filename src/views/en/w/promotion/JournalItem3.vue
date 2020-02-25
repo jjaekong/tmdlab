@@ -1,20 +1,27 @@
 <template>
-    <div class="modal news-view show" tabindex="-1" role="dialog">
+    <div class="modal journal-view show" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>Participated into the KTERMS (Korean Tissue Engineering and Regenerative Medicine<br>Society) conference event 2019, selected to be awarded ‘superb’ in the poster division</h4>
-					<span>6th of June, 2019</span>
+					<h4>Microchannel Network Hydrogel Induced Ischemic Anastomotic Blood Perfusion.</h4>
+                    <span></span>
 				</div>
 				<div class="modal-body">
-					<img class="news-image" src="@/assets/img/promotion/img_news_3.jpg">
-					<div class="news-body">
-						KTERMS (Korea Tissue Engineering and Regenerative Medicine Society) has held its own international academic conference for 3 days from 6th to 8th of June in 2019, at International Convention Center Jeju. KTERMS is an integrated academic conference which shares and presents the research results on regenerative medicine in medical, natural science and engineering fields. It also involved a variety of symposiums, as well as keynote addresses from prominent researchers worldwide.<br>
-						TMD LAB Corporation in this conference has made poster presentations on the research result, which have been awarded with the ‘superb poster presentation reward’, of: Nasolacrimal stent with shape memory as an alternative to silicone products, and External wrapping device to prevent vascular stenosis.
+					<div class="journal-body">
+                        <dl>
+                            <dt>Published at:</dt>
+                            <dd>Nature Communication (2020, to be published, IF 11.88)</dd>
+                            <dt>Summary:</dt>
+                            <dd>Micro-channel network is developed based on gelatin hydrogel in order to overcome the diffusion limit of nutrients and oxygen in a 3-dimensional way. Developed hydrogel is implanted to the ischemic mouse and pig models. It is confirmed that the severely deteriorated tissue due to anastomosis with adjacent tissues and micro-channel perfusion is successfully generated.</dd>
+                        </dl>
 					</div>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn"  @click="close()">Close</button>
+					<button type="button" class="btn" @click="close()">Close</button>
+                    <a class="btn btn-details" href="https://www.nature.com/articles/s41467-020-14480-0" target="_blank">
+                        <img src="@/assets/img/ico_details.png" />
+                        Detailed view
+                    </a>
 				</div>
 			</div>
 		</div>

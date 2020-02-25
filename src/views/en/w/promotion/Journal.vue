@@ -2,7 +2,7 @@
   <div class="web promotion">
     <Header />
     <SubHeader :title="'Promotion/activity'" />
-    <PathNav :path="['Promotion/activity']"/>
+    <PathNav :path="['Promotion/activity', 'Journal']"/>
     <main id="main">
       <div class="page-title">
         <h3 class="title">Feel free to check on the journal of TMD LAB.</h3>
@@ -14,35 +14,32 @@
         <div>
           NEW
           <span></span>
-          <b>4</b>
+          <b>3</b>
         </div>
       </div>
       <div class="news-list">
         <ol>
           <li>
             <router-link class="news-item" to="./journal/3">
-              <img src="@/assets/img/promotion/thumb_news_3.jpg">
               <div class="news-title">
-                <h4>Participated into the KTERMS (Korean Tissue Engineering and Regenerative<br>Medicine Society) conference event 2019, selected to be awarded ‘superb’ in ...</h4>
-                <span>6th of June, 2019</span>
+                <h4>Microchannel Network Hydrogel Induced Ischemic Anastomotic Blood Perfusion</h4>
+                <span>Published at: Nature Communication (2020, to be published, IF 11.88)</span>
               </div>
             </router-link>
           </li>
           <li>
             <router-link class="news-item" to="./journal/2">
-              <img src="@/assets/img/promotion/thumb_news_2.jpg">
               <div class="news-title">
-                <h4>Obtained the non-exclusive license for shape memory polymer from the<br>industrial-educational cooperation group of Yonsei University (21st of May, 2019)</h4>
-                <span>21st of May, 2019</span>
+                <h4>Nasolacrimal stent with shape memory as an advanced alternative to silicone products</h4>
+                <span>Published at: Acta Biomaterilia (7th of November 2019 IF 6.638)</span>
               </div>
             </router-link>
           </li>
           <li>
             <router-link class="news-item" to="./journal/1">
-              <img src="@/assets/img/promotion/thumb_news_1.jpg">
               <div class="news-title">
-                <h4>Applied for 2 patents related to stent using shape memory polymer (19th of<br>December, 2018)</h4>
-                <span>19th of December, 2018</span>
+                <h4>Development of a Shape-Memory Tube to Prevent Vascular Stenosis</h4>
+                <span>Published at: Advanced Materials (27th of August 2019, IF 25.809)</span>
               </div>
             </router-link>
           </li>
