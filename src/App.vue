@@ -172,7 +172,7 @@ body {
                     padding-top: pxtovw(20px);
                     padding-left: pxtovw(40px);
                     padding-right: pxtovw(40px);
-                    height: pxtovw(110px);
+                    // height: pxtovw(110px);
                     border-bottom: 0;
                     background: #fff;
                     .btn-back {

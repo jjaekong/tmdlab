@@ -4,10 +4,96 @@
         <section class="p-0">
             <header>
                 <h6 class="category">Promotion/activity</h6>
-                <p>4</p>
+                <p>10</p>
             </header>
             <div class="swiper-container swiper-container-h">
                 <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/10">
+                            <header>
+                                <h4>Thesis on the 3-dimensional micro-channel network inducing vessel generation published at the international academic journal (Nature Communication, IF 12.8)</h4>
+                                <time>30th January 2020</time>
+                            </header>
+                            <!-- <img class="news-image" src="@/assets/img/m/promotion/thumb_news_4.jpg"> -->
+                            <div class="news-body">
+                                <p>
+                                    TMD LAB Corporation developed the hydrogel-based micro-channel network which can induce vessel generation from the deteriorated tissue. Its effect is published at ‘Nature Communication’ a sister journal of Nature (title: Microchannel Network Hydrogel Induced Ischemic Anastomotic Blood Perfusion).<br><br>
+                                    Vessel generation induction from the deteriorated part has remained unsolved ...
+                                </p>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/9">
+                            <header>
+                                <h4>[Biospectator] TMD LAB challenges in developing the new concept stent using ‘shape memory polymer’ (17th of December 2019)</h4>
+                                <time>17th of December 2019</time>
+                            </header>
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_9.jpg">
+                            <div class="news-body">
+                                <p>
+                                    Company created by Sung Hak-Joon, professor Yonsei University College of Medicine, after returning to Korea in 2018 Securing safety ...
+                                </p>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/8">
+                            <header>
+                                <h4>‘Innovative assignment for company creation’ selected out of the company creation, growth and technology development project held by Ministry of SMEs and Startups</h4>
+                                <time>25th of November 2019</time>
+                            </header>
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_8.jpg">
+                            <div class="news-body">
+                                <p>
+                                    TMD LAB Corporation is finally selected as the ‘innovative assignment for company creation’ ...
+                                </p>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/7">
+                            <header>
+                                <h4>[The Korea Economic Daily] New stent material reopening occlusion via body temperature (20th of November 2019)</h4>
+                                <time>20th of November 2019</time>
+                            </header>
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_7.jpg">
+                            <div class="news-body">
+                                <p>
+                                    “We are developing shape memory polymer stent which could supplement the shortage of the existing stent (a thin tube for making opening at the point of occlusion) ...
+                                </p>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/6">
+                            <header>
+                                <h4>Thesis on the shape memory polymer-based lacrimal duct stent published at the international academic journal (Acta Biomaterialia, IF 6.638)</h4>
+                                <time>7th of November 2019</time>
+                            </header>
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_6.jpg">
+                            <div class="news-body">
+                                <p>
+                                    TMD LAB Corporation published a thesis which describes an effect of the shape memory polymer-based lacrimal duct stent ...
+                                </p>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/5">
+                            <header>
+                                <h4>Thesis on the shape memory polymer-based anastomotic device published at the international academic journal (Advanced Materials, IF 25.809)</h4>
+                                <time>27th of August 2019</time>
+                            </header>
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_5.jpg">
+                            <div class="news-body">
+                                <p>
+                                    TMD LAB Corporation developed an anastomotic device based on shape memory polymer which reacts to temperature, ...
+                                </p>
+                            </div>
+                        </router-link>
+                    </div>
+
                     <div class="swiper-slide">
                         <router-link class="news-item" to="/m/en/promotion/news/4">
                             <header>
@@ -103,7 +189,7 @@ header {
     text-decoration: none;
     header {
         position: relative;
-        height: pxtovw2(130px);
+        // height: pxtovw2(130px);
         padding: pxtovw2(25px) pxtovw2(25px);
         letter-spacing: pxtovw2(-1px);
         h4 {
@@ -122,12 +208,12 @@ header {
     }
     .news-image {
         width: pxtovw2(518px);
-        height: pxtovw2(273px);
+        // height: pxtovw2(273px);
         background: #e0e0e0;
         border: 0;
     }
     .news-body {
-        height: pxtovw2(256px);
+        // height: pxtovw2(256px);
         padding: pxtovw2(40px) pxtovw2(25px);
         font-size: pxtovw2(22px);
         line-height: pxtovw2(34px);

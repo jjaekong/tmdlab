@@ -6,79 +6,79 @@
                 <div class="col">
                     <section>
                         <header>
-                            <h6 class="category ml-1"><span>Promotion/activity</span> <b>4</b></h6>
+                            <h6 class="category ml-1"><span>Promotion/activity</span> <b>10</b></h6>
                             <!-- <a href="#" class="more">Here for details<span class="box"><span></span></span></a> -->
                             <router-link class="more" to="/w/en/promotion/news">Here for details<span class="box"><span></span></span></router-link>
                         </header>
                         <ul class="news">
                             <li>
-                                <router-link class="card" to="/w/en/promotion/news/4">
+                                <router-link class="card" to="/w/en/promotion/news/10">
                                     <div class="card-header">
                                         <h4 class="card-title">
-                                            Graduated the entrance master course for medical devices, under the medical ...
+                                            Thesis on the 3-dimensional micro-channel network inducing vessel generation published at the international academic journal (Nature Communication, IF 12.8)
                                         </h4>
                                         <p class="date">
-                                            <time>16th of July, 2019</time>
+                                            <time>30th January 2020</time>
                                         </p>
                                     </div>
-                                    <img src="@/assets/img/promotion/thumb_news_4.jpg" class="card-img-top">
+                                    <!-- <img src="@/assets/img/promotion/thumb_news_4.jpg" class="card-img-top"> -->
                                     <div class="card-body">
                                         <p>
-                                            All employees in TMD LAB Corporation have completed 3-day CHAMP training course (Consortium for HRD Ability Magnified Program) from 16th to 18th in 2019, held by KMDIA (Korea Medical Devices Industry ...
+                                            TMD LAB Corporation developed the hydrogel-based micro-channel network which can induce vessel generation from the deteriorated tissue. Its effect is published at ‘Nature Communication’ a sister journal of Nature (title: Microchannel Network Hydrogel Induced Ischemic Anastomotic Blood Perfusion).
                                         </p>
                                     </div>
                                 </router-link>
                             </li>
                             <li>
-                                <router-link class="card" to="/w/en/promotion/news/3">
+                                <router-link class="card" to="/w/en/promotion/news/9">
                                     <div class="card-header">
                                         <h4 class="card-title">
-                                            Participated into the KTERMS (Korean Tissue Engineering and Regenerative ...
+                                            [Biospectator] TMD LAB challenges in developing the new concept stent using ‘shape memory polymer’ (17th of December 2019)
                                         </h4>
                                         <p class="date">
-                                            <time>6th of June, 2019</time>
+                                            <time>17th of December 2019</time>
                                         </p>
                                     </div>
-                                    <img src="@/assets/img/promotion/thumb_news_3.jpg" class="card-img-top">
+                                    <img src="@/assets/img/promotion/thumb_news_9.jpg" class="card-img-top">
                                     <div class="card-body">
                                         <p>
-                                            KTERMS (Korea Tissue Engineering and Regenerative Medicine Society) has held its own international academic conference for 3 days from 6th to 8th of June in 2019, at International Convention Center Jeju.
+                                            Company created by Sung Hak-Joon, professor Yonsei University College of Medicine, after returning to Korea in 2018 ...
                                         </p>
                                     </div>
                                 </router-link>
                             </li>
                             <li>
-                                <router-link class="card" to="/w/en/promotion/news/2">
+                                <router-link class="card" to="/w/en/promotion/news/8">
                                     <div class="card-header">
                                         <h4 class="card-title">
-                                            Obtained the non-exclusive license for shape memory polymer from the ...
+                                            ‘Innovative assignment for company creation’ selected out of the company creation, growth and technology development project held by Ministry of SMEs and Startups
                                         </h4>
                                         <p class="date">
-                                            <time>21st of May, 2019</time>
+                                            <time>25th of November 2019</time>
                                         </p>
                                     </div>
-                                    <img src="@/assets/img/promotion/thumb_news_2.jpg" class="card-img-top">
+                                    <img src="@/assets/img/promotion/thumb_news_8.jpg" class="card-img-top">
                                     <div class="card-body">
                                         <p>
-                                            In order to develop and commercialize the human insertion stent using shape memory polymer, we have obtained the non-exclusive license on the patent: ‘a photo-crosslinkable shape memory polymer and ...
+                                            TMD LAB Corporation is finally selected as the ‘innovative assignment for company creation’ out of the company creation, growth and ...
                                         </p>
                                     </div>
                                 </router-link>
                             </li>
                             <li>
-                                <router-link class="card" to="/w/en/promotion/news/1">
+                                <router-link class="card" to="/w/en/promotion/news/7">
                                     <div class="card-header">
                                         <h4 class="card-title">
-                                            Applied for 2 patents related to stent using shape memory polymer ...
+                                            [The Korea Economic Daily] New stent material reopening occlusion via body temperature (20th of November 2019)
                                         </h4>
                                         <p class="date">
-                                            <time>19th of December, 2018</time>
+                                            <time>20th of November 2019</time>
                                         </p>
                                     </div>
-                                    <img src="@/assets/img/promotion/thumb_news_1.jpg" class="card-img-top">
+                                    <img src="@/assets/img/promotion/thumb_news_7.jpg" class="card-img-top">
                                     <div class="card-body">
                                         <p>
-                                            2 patents have been applied related to stent development using shape memory polymer. First is ‘low molecular heparin-releasing structure in spreading shape memory polymer stent at the point of occlusion ...
+                                            “We are developing shape memory polymer stent which could supplement the shortage of the existing stent (a thin tube for making opening at the point of occlusion) ...
                                         </p>
                                     </div>
                                 </router-link>
@@ -161,7 +161,7 @@ export default {
                 padding-bottom: pxtovw(20px);
                 background: #fff;
                 border-bottom: 0;
-                height: pxtovw(130px);
+                // height: pxtovw(130px);
                 .card-title {
                     margin-bottom: pxtovw(10px);
                     font-size: pxtovw(18px);
@@ -184,7 +184,7 @@ export default {
             }
             .card-img-top {
                 width: pxtovw(380px);
-                height: pxtovw(200px);
+                // height: pxtovw(200px);
             }
             .card-body {
                 padding: pxtovw(20px) pxtovw(30px) pxtovw(20px) pxtovw(30px);

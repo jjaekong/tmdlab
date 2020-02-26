@@ -14,11 +14,66 @@
         <div>
           NEW
           <span></span>
-          <b>4</b>
+          <b>10</b>
         </div>
       </div>
       <div class="news-list">
         <ol>
+            <li>
+            <router-link class="news-item" to="./news/10">
+              <!-- <img src="@/assets/img/promotion/thumb_news_10.jpg"> -->
+              <div class="news-title">
+                <h4>Thesis on the 3-dimensional micro-channel network inducing vessel generation published at the international academic journal (Nature Communication, IF 12.8)</h4>
+                <span>30th January 2020</span>
+              </div>
+            </router-link>
+          </li>
+            <li>
+            <router-link class="news-item" to="./news/9">
+              <img src="@/assets/img/promotion/thumb_news_9.jpg">
+              <div class="news-title">
+                <h4>[Biospectator] TMD LAB challenges in developing the new concept stent using ‘shape memory polymer’ (17th of December 2019)</h4>
+                <span>17th of December 2019</span>
+              </div>
+            </router-link>
+          </li>
+          <li>
+            <router-link class="news-item" to="./news/8">
+              <img src="@/assets/img/promotion/thumb_news_8.jpg">
+              <div class="news-title">
+                <h4>‘Innovative assignment for company creation’ selected out of the company creation, growth and technology development project held by Ministry of SMEs and Startups</h4>
+                <span>25th of November 2019</span>
+              </div>
+            </router-link>
+          </li>
+          <li>
+            <router-link class="news-item" to="./news/7">
+              <img src="@/assets/img/promotion/thumb_news_7.jpg">
+              <div class="news-title">
+                <h4>[The Korea Economic Daily] New stent material reopening occlusion via body temperature (20th of November 2019)</h4>
+                <span>20th of November 2019</span>
+              </div>
+            </router-link>
+          </li>
+          <li>
+            <router-link class="news-item" to="./news/6">
+              <img src="@/assets/img/promotion/thumb_news_6.jpg">
+              <div class="news-title">
+                <h4>Thesis on the shape memory polymer-based lacrimal duct stent published at the international academic journal (Acta Biomaterialia, IF 6.638)</h4>
+                <span>7th of November 2019</span>
+              </div>
+            </router-link>
+          </li>
+          <li>
+            <router-link class="news-item" to="./news/5">
+              <img src="@/assets/img/promotion/thumb_news_5.jpg">
+              <div class="news-title">
+                <h4>Thesis on the shape memory polymer-based anastomotic device published at the international academic journal (Advanced Materials, IF 25.809)</h4>
+                <span>27th of August 2019</span>
+              </div>
+            </router-link>
+          </li>
+
           <li>
             <router-link class="news-item" to="./news/4">
               <img src="@/assets/img/promotion/thumb_news_4.jpg">

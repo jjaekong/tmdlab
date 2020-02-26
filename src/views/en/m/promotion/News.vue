@@ -9,9 +9,64 @@
             <p>News and updates will be firstly noticed.</p>
         </section>
         <section class="news-list">
-            <h4>NEW <span class="bar"></span> <b>4</b></h4>
+            <h4>NEW <span class="bar"></span> <b>10</b></h4>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/10">
+                            <div class="news-body">
+                                <h5>Thesis on the 3-dimensional micro-channel network inducing vessel generation published at the international academic journal (Nature Communication, IF 12.8)</h5>
+                                <time>30th January 2020</time>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/9">
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_9.jpg">
+                            <div class="news-body">
+                                <h5>[Biospectator] TMD LAB challenges in developing the new concept stent using ‘shape memory polymer’ (17th of December 2019)</h5>
+                                <time>17th of December 2019</time>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/8">
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_8.jpg">
+                            <div class="news-body">
+                                <h5>‘Innovative assignment for company creation’ selected out of the company creation, growth and technology development project held by Ministry of SMEs and Startups</h5>
+                                <time>25th of November 2019</time>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/7">
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_7.jpg">
+                            <div class="news-body">
+                                <h5>[The Korea Economic Daily] New stent material reopening occlusion via body temperature (20th of November 2019)</h5>
+                                <time>20th of November 2019</time>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/6">
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_6.jpg">
+                            <div class="news-body">
+                                <h5>Thesis on the shape memory polymer-based lacrimal duct stent published at the international academic journal (Acta Biomaterialia, IF 6.638)</h5>
+                                <time>7th of November 2019</time>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/5">
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_5.jpg">
+                            <div class="news-body">
+                                <h5>Thesis on the shape memory polymer-based anastomotic device published at the international academic journal (Advanced Materials, IF 25.809)</h5>
+                                <time>27th of August 2019</time>
+                            </div>
+                        </router-link>
+                    </div>
+
                     <div class="swiper-slide">
                         <router-link class="news-item" to="/m/en/promotion/news/4">
                             <img class="news-image" src="@/assets/img/m/promotion/thumb_news_4.jpg">

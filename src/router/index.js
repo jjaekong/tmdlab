@@ -87,6 +87,12 @@ import EN_W_PromNewsItem1 from '../views/en/w/promotion/NewsItem1.vue'
 import EN_W_PromNewsItem2 from '../views/en/w/promotion/NewsItem2.vue'
 import EN_W_PromNewsItem3 from '../views/en/w/promotion/NewsItem3.vue'
 import EN_W_PromNewsItem4 from '../views/en/w/promotion/NewsItem4.vue'
+import EN_W_PromNewsItem5 from '../views/en/w/promotion/NewsItem5.vue'
+import EN_W_PromNewsItem6 from '../views/en/w/promotion/NewsItem6.vue'
+import EN_W_PromNewsItem7 from '../views/en/w/promotion/NewsItem7.vue'
+import EN_W_PromNewsItem8 from '../views/en/w/promotion/NewsItem8.vue'
+import EN_W_PromNewsItem9 from '../views/en/w/promotion/NewsItem9.vue'
+import EN_W_PromNewsItem10 from '../views/en/w/promotion/NewsItem10.vue'
 import EN_W_PromJournal from '../views/en/w/promotion/Journal.vue'
 import EN_W_PromJournalItem1 from '../views/en/w/promotion/JournalItem1.vue'
 import EN_W_PromJournalItem2 from '../views/en/w/promotion/JournalItem2.vue'
@@ -101,10 +107,16 @@ import EN_M_ProdSMPB from '../views/en/m/product/SMP-B.vue'
 import EN_M_ProdSMPV from '../views/en/m/product/SMP-V.vue'
 import EN_M_ProdTNV from '../views/en/m/product/TNV.vue'
 import EN_M_PromNews from '../views/en/m/promotion/News.vue'
-import EN_M_PromNewsItem4 from '../views/en/m/promotion/NewsItem4.vue'
-import EN_M_PromNewsItem3 from '../views/en/m/promotion/NewsItem3.vue'
-import EN_M_PromNewsItem2 from '../views/en/m/promotion/NewsItem2.vue'
 import EN_M_PromNewsItem1 from '../views/en/m/promotion/NewsItem1.vue'
+import EN_M_PromNewsItem2 from '../views/en/m/promotion/NewsItem2.vue'
+import EN_M_PromNewsItem3 from '../views/en/m/promotion/NewsItem3.vue'
+import EN_M_PromNewsItem4 from '../views/en/m/promotion/NewsItem4.vue'
+import EN_M_PromNewsItem5 from '../views/en/m/promotion/NewsItem5.vue'
+import EN_M_PromNewsItem6 from '../views/en/m/promotion/NewsItem6.vue'
+import EN_M_PromNewsItem7 from '../views/en/m/promotion/NewsItem7.vue'
+import EN_M_PromNewsItem8 from '../views/en/m/promotion/NewsItem8.vue'
+import EN_M_PromNewsItem9 from '../views/en/m/promotion/NewsItem9.vue'
+import EN_M_PromNewsItem10 from '../views/en/m/promotion/NewsItem10.vue'
 import EN_M_PromJournal from '../views/en/m/promotion/Journal.vue'
 import EN_M_PromJournalItem3 from '../views/en/m/promotion/JournalItem3.vue'
 import EN_M_PromJournalItem2 from '../views/en/m/promotion/JournalItem2.vue'
@@ -167,6 +179,30 @@ let router = new VueRouter({
       path: '/w/en/promotion/news',
       component: EN_W_PromNews,
       children: [
+        {
+            path: '/w/en/promotion/news/10',
+            component: EN_W_PromNewsItem10,
+          },
+        {
+            path: '/w/en/promotion/news/9',
+            component: EN_W_PromNewsItem9,
+          },
+          {
+            path: '/w/en/promotion/news/8',
+            component: EN_W_PromNewsItem8,
+          },
+          {
+            path: '/w/en/promotion/news/7',
+            component: EN_W_PromNewsItem7,
+          },
+          {
+            path: '/w/en/promotion/news/6',
+            component: EN_W_PromNewsItem6,
+          },
+          {
+            path: '/w/en/promotion/news/5',
+            component: EN_W_PromNewsItem5,
+          },
         {
           path: '/w/en/promotion/news/4',
           component: EN_W_PromNewsItem4,
@@ -249,6 +285,30 @@ let router = new VueRouter({
       path: '/m/en/promotion/news',
       component: EN_M_PromNews,
       children: [
+        {
+            path: '/m/en/promotion/news/10',
+            component: EN_M_PromNewsItem10,
+          },
+        {
+            path: '/m/en/promotion/news/9',
+            component: EN_M_PromNewsItem9,
+          },
+          {
+            path: '/m/en/promotion/news/8',
+            component: EN_M_PromNewsItem8,
+          },
+          {
+            path: '/m/en/promotion/news/7',
+            component: EN_M_PromNewsItem7,
+          },
+          {
+            path: '/m/en/promotion/news/6',
+            component: EN_M_PromNewsItem6,
+          },
+          {
+            path: '/m/en/promotion/news/5',
+            component: EN_M_PromNewsItem5,
+          },
         {
           path: '/m/en/promotion/news/4',
           component: EN_M_PromNewsItem4,

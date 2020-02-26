@@ -26,10 +26,10 @@
                             <router-link to="/w/en/promotion/news" class="more">Here for details<span class="box"><span></span></span></router-link>
                         </header>
                         <ul>
-                            <li><router-link to="/w/en/promotion/news/4"><span>Graduated the entrance master course for medical devices, ...</span><time>16th of July, 2019</time></router-link></li>
-                            <li><router-link to="/w/en/promotion/news/3"><span>Participated into the KTERMS (Korean Tissue Engineering and ...</span><time>6th of June, 2019</time></router-link></li>
-                            <li><router-link to="/w/en/promotion/news/2"><span>Obtained the non-exclusive license for shape memory ...</span><time>21st of May, 2019</time></router-link></li>
-                            <li><router-link to="/w/en/promotion/news/1"><span>Applied for 2 patents related to stent using shape memory ...</span><time>19th of December, 2018</time></router-link></li>
+                            <li><router-link to="/w/en/promotion/news/10"><span>Thesis on the 3-dimensional micro-channel network ...</span><time>30th January 2020</time></router-link></li>
+                            <li><router-link to="/w/en/promotion/news/9"><span>[Biospectator] TMD LAB challenges in developing ...</span><time>17th of December 2019</time></router-link></li>
+                            <li><router-link to="/w/en/promotion/news/8"><span>‘Innovative assignment for company creation’ ...</span><time>25th of November 2019</time></router-link></li>
+                            <li><router-link to="/w/en/promotion/news/7"><span>[The Korea Economic Daily] New stent material reopening ...</span><time>20th of November 2019</time></router-link></li>
                         </ul>
                     </section>
                 </div>
