@@ -5,10 +5,10 @@
     <PathNav :path="['홍보/활동', '논문']"/>
     <main id="main">
       <div class="page-title">
-        <h3 class="title">티엠디랩의 폭넓고 다양한 뉴스를 확인하세요</h3>
+        <h3 class="title">티엠디랩의 폭넓고 다양한 논문을 확인하세요</h3>
       </div>
       <div class="page-subtitle">
-        가장 빠르게 뉴스 및 공지사항을 알려드립니다.
+        가장 빠르게 논문 및 공지사항을 알려드립니다.
       </div>
       <div class="news-count">
         <div>
