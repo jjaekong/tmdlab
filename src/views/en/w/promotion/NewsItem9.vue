@@ -3,7 +3,7 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>[Biospectator] TMD LAB challenges in developing the new concept stent using ‘shape memory polymer’ (17th of December 2019)</h4>
+					<h4>[Biospectator] TMD LAB challenges in developing the new concept stent using ‘shape <br>memory polymer’ (17th of December 2019)</h4>
 					<span>17th of December 2019</span>
 				</div>
 				<div class="modal-body">

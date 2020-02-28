@@ -3,7 +3,7 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>‘Innovative assignment for company creation’ selected out of the company creation, growth and technology development project held by Ministry of SMEs and Startups</h4>
+					<h4>‘Innovative assignment for company creation’ selected out of the company creation, <br>growth and technology development project held by Ministry of SMEs and Startups</h4>
 					<span>25th of November 2019</span>
 				</div>
 				<div class="modal-body">

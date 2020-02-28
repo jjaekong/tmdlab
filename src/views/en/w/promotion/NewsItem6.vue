@@ -3,7 +3,7 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>Thesis on the shape memory polymer-based lacrimal duct stent published at the international academic journal (Acta Biomaterialia, IF 6.638)</h4>
+					<h4>Thesis on the shape memory polymer-based lacrimal duct stent published at the <br>international academic journal (Acta Biomaterialia, IF 6.638)</h4>
 					<span>7th of November 2019</span>
 				</div>
 				<div class="modal-body">

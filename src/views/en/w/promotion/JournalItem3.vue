@@ -3,7 +3,7 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>Microchannel Network Hydrogel Induced Ischemic Anastomotic Blood Perfusion.</h4>
+					<h4>Microchannel Network Hydrogel Induced <br>Ischemic Anastomotic Blood Perfusion.</h4>
                     <span></span>
 				</div>
 				<div class="modal-body">

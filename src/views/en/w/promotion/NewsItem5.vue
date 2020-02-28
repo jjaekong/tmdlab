@@ -3,7 +3,7 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>Thesis on the shape memory polymer-based anastomotic device published at the international academic journal (Advanced Materials, IF 25.809)</h4>
+					<h4>Thesis on the shape memory polymer-based anastomotic device published at the <br>international academic journal (Advanced Materials, IF 25.809)</h4>
 					<span>27th of August 2019</span>
 				</div>
 				<div class="modal-body">
