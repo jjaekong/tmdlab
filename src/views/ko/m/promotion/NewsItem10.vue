@@ -7,7 +7,7 @@
                     <time>2020년 1월 30일</time>
                 </div>
                 <div class="modal-body">
-                    <!-- <img class="news-image" src="@/assets/img/m/promotion/img_news_4.jpg"> -->
+                    <img class="news-image" src="@/assets/img/m/promotion/img_news_10.jpg">
                     <p>
                         ㈜티엠디랩은 손상된 조직으로의 혈관 신생 유도를 돕는 하이드로겔 기반 마이크로 채널 네트워크를 개발하였고 그 효과를 Nature 자매지인 ‘Nature Communication’에 게재하였다 (논문 제목: Microchannel Network Hydrogel Induced Ischemic Anastomotic Blood Perfusion).<br><br>
                         손상된 부위로의 혈관 신생 유도는 오랫동안 해결되지 않은 문제였다. Pro-angiogenic molecule을 이용한 국소 치료가 가장 일반적인 접근법이나 염증성 커플링, 종양성 혈관 활성화 및 표적 외 순환을 포함하는 중요한 부작용이 있다고 알려져 있다.<br><br>

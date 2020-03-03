@@ -7,7 +7,7 @@
 					<span>30th January 2020</span>
 				</div>
 				<div class="modal-body">
-					<!-- <img class="news-image" src="@/assets/img/promotion/img_news_4.jpg"> -->
+					<img class="news-image" src="@/assets/img/promotion/img_news_10.jpg">
 					<div class="news-body">
 						TMD LAB Corporation developed the hydrogel-based micro-channel network which can induce vessel generation from the deteriorated tissue. Its effect is published at ‘Nature Communication’ a sister journal of Nature (title: Microchannel Network Hydrogel Induced Ischemic Anastomotic Blood Perfusion).<br><br>
                         Vessel generation induction from the deteriorated part has remained unsolved for a long time. The most common approach is a local treatment using pro-angiogenic molecules. This however is known to have critical negative effects including inflammatory coupling, neoplastic vessel activation, and untargeted circulation.<br><br>

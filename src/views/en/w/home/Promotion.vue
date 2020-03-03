@@ -6,25 +6,43 @@
                 <div class="col">
                     <section>
                         <header>
-                            <h6 class="category ml-1"><span>Promotion/activity</span> <b>10</b></h6>
+                            <h6 class="category ml-1"><span>Promotion/activity</span> <b>11</b></h6>
                             <!-- <a href="#" class="more">Here for details<span class="box"><span></span></span></a> -->
                             <router-link class="more" to="/w/en/promotion/news">Here for details<span class="box"><span></span></span></router-link>
                         </header>
                         <ul class="news">
                             <li>
+                                <router-link class="card" to="/w/en/promotion/news/11">
+                                    <div class="card-header">
+                                        <h4 class="card-title">
+                                            Thesis on vessel stabilization and vessel generation induction of the stem cell embedded to the enzyme-crosslinkable gelatin gel published at the international academic journal (Science Advances, IF 12.8)
+                                        </h4>
+                                        <p class="date">
+                                            <time>26th February 2020</time>
+                                        </p>
+                                    </div>
+                                    <img src="@/assets/img/promotion/thumb_news_11.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                        <p>
+                                            “We are developing shape memory polymer...
+                                        </p>
+                                    </div>
+                                </router-link>
+                            </li>
+                            <li>
                                 <router-link class="card" to="/w/en/promotion/news/10">
                                     <div class="card-header">
                                         <h4 class="card-title">
-                                            Thesis on the 3-dimensional micro-channel network inducing vessel generation published at the international academic journal (Nature Communication, IF 12.8)
+                                            Thesis on the 3-dimensional micro-channel network inducing vessel generation published at the international academic journal (Nature Communication, IF 11.88)
                                         </h4>
                                         <p class="date">
                                             <time>30th January 2020</time>
                                         </p>
                                     </div>
-                                    <!-- <img src="@/assets/img/promotion/thumb_news_4.jpg" class="card-img-top"> -->
+                                    <img src="@/assets/img/promotion/thumb_news_10.jpg" class="card-img-top">
                                     <div class="card-body">
                                         <p>
-                                            TMD LAB Corporation developed the hydrogel-based micro-channel network which can induce vessel generation from the deteriorated tissue. Its effect is published at ‘Nature Communication’ a sister journal of Nature (title: Microchannel Network Hydrogel Induced Ischemic Anastomotic Blood Perfusion).
+                                            TMD LAB Corporation developed the hydrogel-based micro-channel network ...
                                         </p>
                                     </div>
                                 </router-link>
@@ -61,24 +79,6 @@
                                     <div class="card-body">
                                         <p>
                                             TMD LAB Corporation is finally selected as the ‘innovative assignment for company creation’ out of the company creation, growth and ...
-                                        </p>
-                                    </div>
-                                </router-link>
-                            </li>
-                            <li>
-                                <router-link class="card" to="/w/en/promotion/news/7">
-                                    <div class="card-header">
-                                        <h4 class="card-title">
-                                            [The Korea Economic Daily] New stent material reopening occlusion via body temperature (20th of November 2019)
-                                        </h4>
-                                        <p class="date">
-                                            <time>20th of November 2019</time>
-                                        </p>
-                                    </div>
-                                    <img src="@/assets/img/promotion/thumb_news_7.jpg" class="card-img-top">
-                                    <div class="card-body">
-                                        <p>
-                                            “We are developing shape memory polymer stent which could supplement the shortage of the existing stent (a thin tube for making opening at the point of occlusion) ...
                                         </p>
                                     </div>
                                 </router-link>

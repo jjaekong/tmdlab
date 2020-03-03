@@ -6,11 +6,29 @@
                 <div class="col">
                     <section>
                         <header>
-                            <h6 class="category ml-1"><span>홍보/활동</span> <b>10</b></h6>
+                            <h6 class="category ml-1"><span>홍보/활동</span> <b>11</b></h6>
                             <!-- <a href="#" class="more">더보기<span class="box"><span></span></span></a> -->
                             <router-link class="more" to="/w/ko/promotion/news">더보기<span class="box"><span></span></span></router-link>
                         </header>
                         <ul class="news">
+                            <li>
+                                <router-link class="card" to="/w/ko/promotion/news/11">
+                                    <div class="card-header">
+                                        <h4 class="card-title">
+                                            Enzyme-crosslinkable gelatin gel에 embedding한 줄기세포의 혈관 ...
+                                        </h4>
+                                        <p class="date">
+                                            <time>2020년 2월 26일</time>
+                                        </p>
+                                    </div>
+                                    <img src="@/assets/img/promotion/thumb_news_11.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                        <p>
+                                            ㈜티엠디랩은 microbial transglutaminase-crosslinkable gelatin gel (NO gel)을 이용한 줄기세포의 혈관 안정화 및 혈관 신생 효과를 확인한 연구결과를 ...
+                                        </p>
+                                    </div>
+                                </router-link>
+                            </li>
                             <li>
                                 <router-link class="card" to="/w/ko/promotion/news/10">
                                     <div class="card-header">
@@ -21,11 +39,10 @@
                                             <time>2020년 1월 30일</time>
                                         </p>
                                     </div>
-                                    <!-- <img src="@/assets/img/promotion/thumb_news_4.jpg" class="card-img-top"> -->
+                                    <img src="@/assets/img/promotion/thumb_news_10.jpg" class="card-img-top">
                                     <div class="card-body">
                                         <p>
-                                            ㈜티엠디랩은 손상된 조직으로의 혈관 신생 유도를 돕는 하이드로겔 기반 마이크로 채널 네트워크를 개발하였고 그 효과를 Nature 자매지인 ‘Nature Communication’에 게재하였다 (논문 제목: Microchannel Network Hydrogel Induced Ischemic Anastomotic Blood Perfusion).<br><br>
-                                    손상된 부위로의 혈관 신생 유도는 오랫동안 해결되지 않은 문제였다. Pro-angiogenic molecule을 이용한 국소 치료가 가장 일반적인 접근법이나 염증성 커플링, 종양성 혈관 활성화 및 표적 외 순환을 포함하는 중요한 부작용이 있다고 알려져 있다.
+                                            ㈜티엠디랩은 손상된 조직으로의 혈관 신생 유도를 돕는 하이드로겔 기반 마이크로 채널 네트워크를 개발하였고 그 효과를 Nature 자매지인 ‘Nature Communication’에 게재하였다.
                                         </p>
                                     </div>
                                 </router-link>
@@ -68,27 +85,6 @@
                                             창업성장기술개발사업 ‘혁신형 창업과제’로 최종 선정되었다.
                                             이번 사업 개발 기간은 총 24개월이며
                                             총 4억원의 연구비를 지원받게 되었다.
-                                        </p>
-                                    </div>
-                                </router-link>
-                            </li>
-                            <li>
-                                <router-link class="card" to="/w/ko/promotion/news/7">
-                                    <div class="card-header">
-                                        <h4 class="card-title">
-                                            [한국경제] 체온으로 몸 막힌 곳 뚫는 스텐트 신소재 나온다
-                                        </h4>
-                                        <p class="date">
-                                            <time>2019년 11월 20일</time>
-                                        </p>
-                                    </div>
-                                    <img src="@/assets/img/promotion/thumb_news_7.jpg" class="card-img-top">
-                                    <div class="card-body">
-                                        <p>
-                                            티엠디랩, 형상기억 소재 개발중<br>
-                                            실리콘보다 수명 길고 감염 적어<br>
-                                            “실리콘으로 제조한 기존 스텐트의
-                                            단점을 보완한 형상기억 고분자 스텐트를 개발하고 있습니다.”
                                         </p>
                                     </div>
                                 </router-link>

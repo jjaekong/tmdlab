@@ -21,16 +21,18 @@
         <ol>
            <li>
             <router-link class="news-item" to="./news/11">
+                <img src="@/assets/img/promotion/thumb_news_11.jpg">
               <div class="news-title">
-                <h4>Enzyme-crosslinkable gelatin gel에 embedding한 줄기세포의 혈관 안정화 및 혈관 신생 유도 논문, 국제 학술지 (Science Advances, IF 12.8) 게재</h4>
+                <h4>Enzyme-crosslinkable gelatin gel에 embedding한 줄기세포의 혈관 안정화 및<br> 혈관 신생 유도 논문, 국제 학술지 (Science Advances, IF 12.8) 게재</h4>
                 <span>2020년 2월 26일</span>
               </div>
             </router-link>
           </li>
           <li>
             <router-link class="news-item" to="./news/10">
+                <img src="@/assets/img/promotion/thumb_news_10.jpg">
               <div class="news-title">
-                <h4>혈관 신생 유도 3차원 마이크로 채널 네트워크 논문, 국제 학술지 (Nature Communication, IF 11.88) 게재</h4>
+                <h4>혈관 신생 유도 3차원 마이크로 채널 네트워크 논문, 국제 학술지 (Nature Communication,<br> IF 11.88) 게재</h4>
                 <span>2020년 1월 30일</span>
               </div>
             </router-link>

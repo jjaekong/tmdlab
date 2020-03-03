@@ -4,17 +4,31 @@
         <section class="p-0">
             <header>
                 <h6 class="category">Promotion/activity</h6>
-                <p>10</p>
+                <p>11</p>
             </header>
             <div class="swiper-container swiper-container-h">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/11">
+                            <header>
+                                <h4>Thesis on vessel stabilization and vessel generation induction of the stem cell embedded to the enzyme-crosslinkable gelatin gel published at the international academic journal (Science Advances, IF 12.8)</h4>
+                                <time>26th February 2020</time>
+                            </header>
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_11.jpg">
+                            <div class="news-body">
+                                <p>
+                                    TMD LAB published the research result ...
+                                </p>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
                         <router-link class="news-item" to="/m/en/promotion/news/10">
                             <header>
-                                <h4>Thesis on the 3-dimensional micro-channel network inducing vessel generation published at the international academic journal (Nature Communication, IF 12.8)</h4>
+                                <h4>Thesis on the 3-dimensional micro-channel network inducing vessel generation published at the international academic journal (Nature Communication, IF 11.88)</h4>
                                 <time>30th January 2020</time>
                             </header>
-                            <!-- <img class="news-image" src="@/assets/img/m/promotion/thumb_news_4.jpg"> -->
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_10.jpg">
                             <div class="news-body">
                                 <p>
                                     TMD LAB Corporation developed the hydrogel-based micro-channel network which can induce vessel generation from the deteriorated tissue. Its effect is published at ‘Nature Communication’ a sister journal of Nature (title: Microchannel Network Hydrogel Induced Ischemic Anastomotic Blood Perfusion).<br><br>
@@ -47,105 +61,6 @@
                             <div class="news-body">
                                 <p>
                                     TMD LAB Corporation is finally selected as the ‘innovative assignment for company creation’ ...
-                                </p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="swiper-slide">
-                        <router-link class="news-item" to="/m/en/promotion/news/7">
-                            <header>
-                                <h4>[The Korea Economic Daily] New stent material reopening occlusion via body temperature (20th of November 2019)</h4>
-                                <time>20th of November 2019</time>
-                            </header>
-                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_7.jpg">
-                            <div class="news-body">
-                                <p>
-                                    “We are developing shape memory polymer stent which could supplement the shortage of the existing stent (a thin tube for making opening at the point of occlusion) ...
-                                </p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="swiper-slide">
-                        <router-link class="news-item" to="/m/en/promotion/news/6">
-                            <header>
-                                <h4>Thesis on the shape memory polymer-based lacrimal duct stent published at the international academic journal (Acta Biomaterialia, IF 6.638)</h4>
-                                <time>7th of November 2019</time>
-                            </header>
-                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_6.jpg">
-                            <div class="news-body">
-                                <p>
-                                    TMD LAB Corporation published a thesis which describes an effect of the shape memory polymer-based lacrimal duct stent ...
-                                </p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="swiper-slide">
-                        <router-link class="news-item" to="/m/en/promotion/news/5">
-                            <header>
-                                <h4>Thesis on the shape memory polymer-based anastomotic device published at the international academic journal (Advanced Materials, IF 25.809)</h4>
-                                <time>27th of August 2019</time>
-                            </header>
-                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_5.jpg">
-                            <div class="news-body">
-                                <p>
-                                    TMD LAB Corporation developed an anastomotic device based on shape memory polymer which reacts to temperature, ...
-                                </p>
-                            </div>
-                        </router-link>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <router-link class="news-item" to="/m/en/promotion/news/4">
-                            <header>
-                                <h4>Graduated the entrance master course for medical devices, under the medical ...</h4>
-                                <time>16th of July, 2019</time>
-                            </header>
-                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_4.jpg">
-                            <div class="news-body">
-                                <p>
-                                    All employees in TMD LAB Corporation have completed 3-day CHAMP training course (Consortium for HRD Ability Magnified Program) from 16th to 18th in 2019, held by KMDIA (Korea Medical Devices Industry Association). Through the course, ...
-                                </p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="swiper-slide">
-                        <router-link class="news-item" to="/m/en/promotion/news/3">
-                            <header>
-                                <h4>Participated into the KTERMS (Korean Tissue Engineering and Regenerative ...</h4>
-                                <time>6th of June, 2019</time>
-                            </header>
-                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_3.jpg">
-                            <div class="news-body">
-                                <p>
-                                    KTERMS (Korea Tissue Engineering and Regenerative Medicine Society) has held its own international academic conference for 3 days from 6th to 8th of June in 2019, at International Convention Center Jeju. KTERMS is an integrated academic conference which ...
-                                </p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="swiper-slide">
-                        <router-link class="news-item" to="/m/en/promotion/news/2">
-                            <header>
-                                <h4>Obtained the non-exclusive license for shape memory polymer from the ...</h4>
-                                <time>21st of May, 2019</time>
-                            </header>
-                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_2.jpg">
-                            <div class="news-body">
-                                <p>
-                                    In order to develop and commercialize the human insertion stent using shape memory polymer, we have obtained the non-exclusive license on the patent: ‘a photo-crosslinkable shape memory polymer and manufacturing method thereof (patent registration ...
-                                </p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="swiper-slide">
-                        <router-link class="news-item" to="/m/en/promotion/news/1">
-                            <header>
-                                <h4>Applied for 2 patents related to stent using shape memory polymer (19th of ...</h4>
-                                <time>19th of December, 2018</time>
-                            </header>
-                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_1.jpg">
-                            <div class="news-body">
-                                <p>
-                                    2 patents have been applied related to stent development using shape memory polymer. First is ‘low molecular heparin-releasing structure in spreading shape memory polymer stent at the point of occlusion (application number: 10-2018-0164737)’. It holds the ...
                                 </p>
                             </div>
                         </router-link>

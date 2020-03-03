@@ -26,10 +26,10 @@
                             <router-link to="/w/ko/promotion/news" class="more">더보기<span class="box"><span></span></span></router-link>
                         </header>
                         <ul>
+                            <li><router-link to="/w/ko/promotion/news/11"><span>Enzyme-crosslinkable gelatin gel에 embedding한 줄기세포의 혈관 안정화</span><time>2020년 2월 26일</time></router-link></li>
                             <li><router-link to="/w/ko/promotion/news/10"><span>혈관 신생 유도 3차원 마이크로 채널 네트워크 논문, 국제 학술지 게재</span><time>2020년 1월 30일</time></router-link></li>
                             <li><router-link to="/w/ko/promotion/news/9"><span>[바이오스펙테이터] 티엠디랩, '형상기억 고분자'로 新스텐트 개발 도전</span><time>2019년 12월 17일</time></router-link></li>
                             <li><router-link to="/w/ko/promotion/news/8"><span>중소벤처기업부에서 주관하는 창업성장기술개발사업 ‘혁신형 창업과제’ 선정</span><time>2019년 11월 25일</time></router-link></li>
-                            <li><router-link to="/w/ko/promotion/news/7"><span>[한국경제] 체온으로 몸 막힌 곳 뚫는 스텐트 신소재 나온다</span><time>2019년 11월 20일</time></router-link></li>
                         </ul>
                     </section>
                 </div>

@@ -15,7 +15,7 @@
                     
                     <div class="swiper-slide">
                         <router-link class="news-item" to="/m/en/promotion/news/11">
-                            <!-- <img class="news-image" src="@/assets/img/m/promotion/thumb_news_11.jpg"> -->
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_11.jpg">
                             <div class="news-body">
                                 <h5>Thesis on vessel stabilization and vessel generation induction of the stem cell embedded to the enzyme-crosslinkable gelatin gel published at the international academic journal (Science Advances, IF 12.8)</h5>
                                 <time>26th February 2020</time>
@@ -24,7 +24,7 @@
                     </div>
                     <div class="swiper-slide">
                         <router-link class="news-item" to="/m/en/promotion/news/10">
-                            <!-- <img class="news-image" src="@/assets/img/m/promotion/thumb_news_10.jpg"> -->
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_10.jpg">
                             <div class="news-body">
                                 <h5>Thesis on the 3-dimensional micro-channel network inducing vessel generation published at the international academic journal (Nature Communication, IF 11.88)</h5>
                                 <time>30th January 2020</time>

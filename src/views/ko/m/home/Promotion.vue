@@ -4,21 +4,34 @@
         <section class="p-0">
             <header>
                 <h6 class="category">홍보/활동</h6>
-                <p>4</p>
+                <p>11</p>
             </header>
             <div class="swiper-container swiper-container-h">
                 <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/ko/promotion/news/11">
+                            <header>
+                                <h4>Enzyme-crosslinkable gelatin gel에 embedding한 줄기세포의 혈관 안정화 ...</h4>
+                                <time>2020년 2월 26일</time>
+                            </header>
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_11.jpg">
+                            <div class="news-body">
+                                <p>
+                                    ㈜티엠디랩은 microbial transglutaminase-crosslinkable gelatin gel (NO gel)을 이용한 줄기세포의 혈관 안정화 및 혈관 신생 효과를 확인한 연구결과를 Science 자매지인 ‘Science Advances’에 게재하였다.
+                                </p>
+                            </div>
+                        </router-link>
+                    </div>
                     <div class="swiper-slide">
                         <router-link class="news-item" to="/m/ko/promotion/news/10">
                             <header>
                                 <h4>혈관 신생 유도 3차원 마이크로 채널 네트워크 논문, 국제 학술지 게재</h4>
                                 <time>2020년 1월 30일</time>
                             </header>
-                            <!-- <img class="news-image" src="@/assets/img/m/promotion/thumb_news_4.jpg"> -->
+                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_10.jpg">
                             <div class="news-body">
                                 <p>
-                                    ㈜티엠디랩은 손상된 조직으로의 혈관 신생 유도를 돕는 하이드로겔 기반 마이크로 채널 네트워크를 개발하였고 그 효과를 Nature 자매지인 ‘Nature Communication’에 게재하였다 (논문 제목: Microchannel Network Hydrogel Induced Ischemic Anastomotic Blood Perfusion).<br><br>
-                                    손상된 부위로의 혈관 신생 유도는 오랫동안 해결되지 않은 문제였다. Pro-angiogenic molecule을 이용한 국소 치료가 가장 일반적인 접근법이나 염증성 커플링, 종양성 혈관 활성화 및 표적 외 순환을 포함하는 중요한 부작용이 있다고 알려져 있다.
+                                    ㈜티엠디랩은 손상된 조직으로의 혈관 신생 유도를 돕는 하이드로겔 기반 마이크로 채널 네트워크를 개발하였고 그 효과를 Nature 자매지인 ‘Nature Communication’에 게재하였다.
                                 </p>
                             </div>
                         </router-link>
@@ -53,22 +66,7 @@
                             </div>
                         </router-link>
                     </div>
-                    <div class="swiper-slide">
-                        <router-link class="news-item" to="/m/ko/promotion/news/7">
-                            <header>
-                                <h4>[한국경제] 체온으로 몸 막힌 곳 뚫는 스텐트 신소재 나온다</h4>
-                                <time>2019년 11월 20일</time>
-                            </header>
-                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_7.jpg">
-                            <div class="news-body">
-                                <p>
-                                    티엠디랩, 형상기억 소재 개발중<br>
-                                    실리콘보다 수명 길고 감염 적어<br><br>
-                                    “실리콘으로 제조한 기존 스텐트의 단점을 보완한 형상기억 고분자 스텐트를 개발하고 있습니다.”
-                                </p>
-                            </div>
-                        </router-link>
-                    </div>
+                    
                 </div>
             </div>
             <img class="scrolldown" src="@/assets/img/m/ico_arrow_down.png">
