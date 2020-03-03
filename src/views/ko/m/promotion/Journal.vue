@@ -7,12 +7,26 @@
                 티엠디랩의 폭넓고 다양한<br>
                 논문을 확인하세요.
             </h4>
-            <p>가장 빠르게 논문 및 공지사항을 알려드립니다.</p>
+            <p>연구 개발 (논문 현황)</p>
         </section>
         <section class="journal-list">
-            <h4>NEW <span class="bar"></span> <b>3</b></h4>
+            <h4>NEW <span class="bar"></span> <b>4</b></h4>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <router-link class="journal-item" to="/m/ko/promotion/journal/4">
+                            <div class="journal-body">
+                                <h5>Hydrogel Crosslinking-Programmed Release of Nitric Oxide Regulates Source-Dependent ...</h5>
+                                <dl>
+                                    <dt>게제정보:</dt>
+                                    <dd>
+                                        Science Advances<br>
+                                        (2020.02.26, IF 12.8)
+                                    </dd>
+                                </dl>
+                            </div>
+                        </router-link>
+                    </div>
                     <div class="swiper-slide">
                         <router-link class="journal-item" to="/m/ko/promotion/journal/3">
                             <div class="journal-body">

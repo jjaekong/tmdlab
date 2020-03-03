@@ -6,19 +6,30 @@
             <h4>
                 Feel free to check on the journal of TMD LAB.
             </h4>
-            <p>Journal and updates will be firstly noticed.</p>
+            <p>Research &amp; Development (Publications)</p>
         </section>
         <section class="journal-list">
-            <h4>NEW <span class="bar"></span> <b>3</b></h4>
+            <h4>NEW <span class="bar"></span> <b>4</b></h4>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <router-link class="journal-item" to="/m/en/promotion/journal/4">
+                            <div class="journal-body">
+                                <h5>Hydrogel Crosslinking-Programmed Release of Nitric Oxide Regulates Source-Dependent ...</h5>
+                                <dl>
+                                    <dt>Published at:</dt>
+                                    <dd>Science Advances<br>(2020.02.26, IF 12.8)</dd>
+                                </dl>
+                            </div>
+                        </router-link>
+                    </div>
                     <div class="swiper-slide">
                         <router-link class="journal-item" to="/m/en/promotion/journal/3">
                             <div class="journal-body">
                                 <h5>Microchannel Network Hydrogel Induced Ischemic Anastomotic Blood Perfusion.</h5>
                                 <dl>
                                     <dt>Published at:</dt>
-                                    <dd>Nature Communication (2020, to be published, IF 11.88)</dd>
+                                    <dd>Nature Communication<br>(2020.01.30, IF 11.88)</dd>
                                 </dl>
                             </div>
                         </router-link>
@@ -29,7 +40,7 @@
                                 <h5>Nasolacrimal stent with shape memory as an advanced alternative to silicone products</h5>
                                 <dl>
                                     <dt>Published at:</dt>
-                                    <dd>Acta Biomaterilia (7th of November 2019 IF 6.638)</dd>
+                                    <dd>Acta Biomaterilia<br>(2019.11.07, IF 6.638)</dd>
                                 </dl>
                             </div>
                         </router-link>
@@ -40,7 +51,7 @@
                                 <h5>Development of a Shape-Memory Tube to Prevent Vascular Stenosis</h5>
                                 <dl>
                                     <dt>Published at:</dt>
-                                    <dd>Advanced Materials (27th of August 2019, IF 25.809)</dd>
+                                    <dd>Advanced Materials<br>(2019.08.27, IF 25.809)</dd>
                                 </dl>
                             </div>
                         </router-link>

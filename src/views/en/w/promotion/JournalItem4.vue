@@ -3,22 +3,22 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>Microchannel Network Hydrogel Induced <br>Ischemic Anastomotic Blood Perfusion.</h4>
+					<h4>Hydrogel Crosslinking-Programmed Release of Nitric Oxide Regulates Source-Dependent Angiogenic Behaviors of Human Mesenchymal stem Cell.</h4>
                     <span></span>
 				</div>
 				<div class="modal-body">
 					<div class="journal-body">
                         <dl>
                             <dt>Published at:</dt>
-                            <dd>Nature Communication (2020.01.30, IF 11.88)</dd>
+                            <dd>Science Advances (2020.02.26, IF 12.8)</dd>
                             <dt>Summary:</dt>
-                            <dd>Micro-channel network is developed based on gelatin hydrogel in order to overcome the diffusion limit of nutrients and oxygen in a 3-dimensional way. Developed hydrogel is implanted to the ischemic mouse and pig models. It is confirmed that the severely deteriorated tissue due to anastomosis with adjacent tissues and micro-channel perfusion is successfully generated.</dd>
+                            <dd>Vessel stabilization and vessel generation effects of bone marrow-derived mesenchymal stem cells (BMSCs) and adipose tissue-derived mesenchymal stem cells (ADSCs) are confirmed on the 3-dimensional nitric oxide (NO) gel based on microbial transglutaminase-crosslinkable gelatin gel (mTG gel).</dd>
                         </dl>
 					</div>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn" @click="close()">Close</button>
-                    <a class="btn btn-details" href="https://www.nature.com/articles/s41467-020-14480-0" target="_blank">
+                    <a class="btn btn-details" href="https://advances.sciencemag.org/content/6/9/eaay5413" target="_blank">
                         <img src="@/assets/img/ico_details.png" />
                         Detailed view
                     </a>

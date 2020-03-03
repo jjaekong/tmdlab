@@ -3,7 +3,7 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>Thesis on the 3-dimensional micro-channel network inducing vessel generation <br>published at the international academic journal (Nature Communication, IF 12.8)</h4>
+					<h4>Thesis on the 3-dimensional micro-channel network inducing vessel generation <br>published at the international academic journal (Nature Communication, IF 11.88)</h4>
 					<span>30th January 2020</span>
 				</div>
 				<div class="modal-body">

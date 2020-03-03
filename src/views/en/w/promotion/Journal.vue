@@ -8,22 +8,30 @@
         <h3 class="title">Feel free to check on the journal of TMD LAB.</h3>
       </div>
       <div class="page-subtitle">
-        Journal and updates will be firstly noticed.
+        Research &amp; Development (Publications)
       </div>
       <div class="news-count">
         <div>
           NEW
           <span></span>
-          <b>3</b>
+          <b>4</b>
         </div>
       </div>
       <div class="news-list">
         <ol>
+            <li>
+            <router-link class="news-item" to="./journal/4">
+              <div class="news-title">
+                <h4>Hydrogel Crosslinking-Programmed Release of Nitric Oxide Regulates Source-Dependent Angiogenic Behaviors of Human Mesenchymal stem Cell</h4>
+                <span>Published at: Science Advances (2020.02.26, IF 12.8)</span>
+              </div>
+            </router-link>
+          </li>
           <li>
             <router-link class="news-item" to="./journal/3">
               <div class="news-title">
                 <h4>Microchannel Network Hydrogel Induced Ischemic Anastomotic Blood Perfusion</h4>
-                <span>Published at: Nature Communication (2020, to be published, IF 11.88)</span>
+                <span>Published at: Nature Communication (2020.01.30, IF 11.88)</span>
               </div>
             </router-link>
           </li>
@@ -31,7 +39,7 @@
             <router-link class="news-item" to="./journal/2">
               <div class="news-title">
                 <h4>Nasolacrimal stent with shape memory as an advanced alternative to silicone products</h4>
-                <span>Published at: Acta Biomaterilia (7th of November 2019 IF 6.638)</span>
+                <span>Published at: Acta Biomaterilia (2019.11.07, IF 6.638)</span>
               </div>
             </router-link>
           </li>
@@ -39,7 +47,7 @@
             <router-link class="news-item" to="./journal/1">
               <div class="news-title">
                 <h4>Development of a Shape-Memory Tube to Prevent Vascular Stenosis</h4>
-                <span>Published at: Advanced Materials (27th of August 2019, IF 25.809)</span>
+                <span>Published at: Advanced Materials (2019.08.27, IF 25.809)</span>
               </div>
             </router-link>
           </li>

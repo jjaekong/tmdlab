@@ -10,7 +10,7 @@
 					<div class="journal-body">
                         <dl>
                             <dt>Published at:</dt>
-                            <dd>Advanced Materials (27th of August 2019, IF 25.809)</dd>
+                            <dd>Advanced Materials (2019.08.27, IF 25.809)</dd>
                             <dt>Summary:</dt>
                             <dd>A new concept shape memory automatic anastomosis type vessel graft is developed which applies shape memory polymer based technology of recovering its originally programmed form under the human body temperature condition, and which is easily applicable to vessels with different sizes and does not require additional anastomosis procedures.</dd>
                         </dl>

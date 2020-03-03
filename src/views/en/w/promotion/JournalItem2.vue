@@ -10,7 +10,7 @@
 					<div class="journal-body">
                         <dl>
                             <dt>Published at:</dt>
-                            <dd>Acta Biomaterilia (7th of November 2019 IF 6.638)</dd>
+                            <dd>Acta Biomaterilia (2019.11.07, IF 6.638)</dd>
                             <dt>Summary:</dt>
                             <dd>A polymer-based graft is formed which is inserted to the occluded tear duct of a rabbit and which can secure the tear duct by expanding itself via body temperature. Shape memory polymer properties compared with silicon, in vitro cytotoxicity and biofilm formation inhibition, and in vivo effectiveness are confirmed.</dd>
                         </dl>

@@ -8,17 +8,25 @@
         <h3 class="title">티엠디랩의 폭넓고 다양한 논문을 확인하세요</h3>
       </div>
       <div class="page-subtitle">
-        가장 빠르게 논문 및 공지사항을 알려드립니다.
+        연구 개발 (논문 현황) 
       </div>
       <div class="news-count">
         <div>
           NEW
           <span></span>
-          <b>3</b>
+          <b>4</b>
         </div>
       </div>
       <div class="news-list">
         <ol>
+          <li>
+            <router-link class="news-item" to="./journal/4">
+              <div class="news-title">
+                <h4>Hydrogel Crosslinking-Programmed Release of Nitric Oxide Regulates Source-Dependent Angiogenic Behaviors of Human Mesenchymal stem Cell</h4>
+                <span>게재 정보: Science Advances (2020.02.26, IF 12.8)</span>
+              </div>
+            </router-link>
+          </li>
           <li>
             <router-link class="news-item" to="./journal/3">
               <div class="news-title">

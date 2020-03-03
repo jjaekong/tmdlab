@@ -3,20 +3,20 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Nasolacrimal stent with shape memory as an advanced alternative to silicone products</h5>
+                    <h5 class="modal-title">Hydrogel Crosslinking-Programmed Release of Nitric Oxide Regulates Source-Dependent Angiogenic Behaviors of Human Mesenchymal stem Cell</h5>
                     <span></span>
                 </div>
                 <div class="modal-body">
                     <dl>
                         <dt>Published at:</dt>
-                        <dd>Acta Biomaterilia (2019.11.07, IF 6.638)</dd>
+                        <dd>Science Advances (2020.02.26, IF 12.8)</dd>
                         <dt>Summary:</dt>
-                        <dd>A polymer-based graft is formed which is inserted to the occluded tear duct of a rabbit and which can secure the tear duct by expanding itself via body temperature. Shape memory polymer properties compared with silicon, in vitro cytotoxicity and biofilm formation inhibition, and in vivo effectiveness are confirmed.</dd>
+                        <dd>Vessel stabilization and vessel generation effects of bone marrow-derived mesenchymal stem cells (BMSCs) and adipose tissue-derived mesenchymal stem cells (ADSCs) are confirmed on the 3-dimensional nitric oxide (NO) gel based on microbial transglutaminase-crosslinkable gelatin gel (mTG gel).</dd>
                     </dl>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-block btn-list" @click="close()">Close</button>
-                    <a class="btn btn-details" href="https://www.sciencedirect.com/science/article/pii/S1742706119307366?via%3Dihub" target="_blank">
+                    <a class="btn btn-details" href="https://advances.sciencemag.org/content/6/9/eaay5413" target="_blank">
                         <img src="@/assets/img/ico_details.png" />
                         Detailed view
                     </a>

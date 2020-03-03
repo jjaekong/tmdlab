@@ -3,7 +3,7 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>혈관 신생 유도 3차원 마이크로 채널 네트워크 논문, 국제 학술지 (Nature Communication, IF 12.8) 게재</h4>
+					<h4>혈관 신생 유도 3차원 마이크로 채널 네트워크 논문, 국제 학술지 (Nature Communication, IF 11.88) 게재</h4>
 					<span>2020년 1월 30일</span>
 				</div>
 				<div class="modal-body">
