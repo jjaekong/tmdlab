@@ -21,7 +21,7 @@
                                             <time>26th February 2020</time>
                                         </p>
                                     </div>
-                                    <img src="@/assets/img/promotion/thumb_news_11.jpg" class="card-img-top">
+                                    <img src="@/assets/img/promotion/thumb_main_news_11.jpg" class="card-img-top">
                                     <div class="card-body">
                                         <p>
                                             “We are developing shape memory polymer...
@@ -39,7 +39,7 @@
                                             <time>30th January 2020</time>
                                         </p>
                                     </div>
-                                    <img src="@/assets/img/promotion/thumb_news_10.jpg" class="card-img-top">
+                                    <img src="@/assets/img/promotion/thumb_main_news_10.jpg" class="card-img-top">
                                     <div class="card-body">
                                         <p>
                                             TMD LAB Corporation developed the hydrogel-based micro-channel network ...
@@ -57,7 +57,7 @@
                                             <time>17th of December 2019</time>
                                         </p>
                                     </div>
-                                    <img src="@/assets/img/promotion/thumb_news_9.jpg" class="card-img-top">
+                                    <img src="@/assets/img/promotion/thumb_main_news_9.jpg" class="card-img-top">
                                     <div class="card-body">
                                         <p>
                                             Company created by Sung Hak-Joon, professor Yonsei University College of Medicine, after returning to Korea in 2018 ...
@@ -75,7 +75,7 @@
                                             <time>25th of November 2019</time>
                                         </p>
                                     </div>
-                                    <img src="@/assets/img/promotion/thumb_news_8.jpg" class="card-img-top">
+                                    <img src="@/assets/img/promotion/thumb_main_news_8.jpg" class="card-img-top">
                                     <div class="card-body">
                                         <p>
                                             TMD LAB Corporation is finally selected as the ‘innovative assignment for company creation’ out of the company creation, growth and ...
