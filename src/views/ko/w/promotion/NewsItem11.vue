@@ -3,7 +3,7 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>Enzyme-crosslinkable gelatin gel에 embedding한 줄기세포의 혈관 안정화 및 혈관 신생 유도 논문, 국제 학술지 (Science Advances, IF 12.8) 게재</h4>
+					<h4>Enzyme-crosslinkable gelatin gel에 embedding한 줄기세포의 혈관 안정화 및 <br>혈관 신생 유도 논문, 국제 학술지 (Science Advances, IF 12.8) 게재</h4>
 					<span>2020년 2월 26일</span>
 				</div>
 				<div class="modal-body">

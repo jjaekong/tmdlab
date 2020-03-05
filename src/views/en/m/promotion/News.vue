@@ -35,7 +35,7 @@
                         <router-link class="news-item" to="/m/en/promotion/news/9">
                             <img class="news-image" src="@/assets/img/m/promotion/thumb_news_9.jpg">
                             <div class="news-body">
-                                <h5>[Biospectator] TMD LAB challenges in developing the new concept stent using ‘shape memory polymer’ (17th of December 2019)</h5>
+                                <h5>[Biospectator] TMD LAB challenges in developing the new concept stent using ‘shape memory polymer’</h5>
                                 <time>17th of December 2019</time>
                             </div>
                         </router-link>
@@ -53,7 +53,7 @@
                         <router-link class="news-item" to="/m/en/promotion/news/7">
                             <img class="news-image" src="@/assets/img/m/promotion/thumb_news_7.jpg">
                             <div class="news-body">
-                                <h5>[The Korea Economic Daily] New stent material reopening occlusion via body temperature (20th of November 2019)</h5>
+                                <h5>[The Korea Economic Daily] New stent material reopening occlusion via body temperature</h5>
                                 <time>20th of November 2019</time>
                             </div>
                         </router-link>
@@ -99,7 +99,7 @@
                         <router-link class="news-item" to="/m/en/promotion/news/2">
                             <img class="news-image" src="@/assets/img/m/promotion/thumb_news_2.jpg">
                             <div class="news-body">
-                                <h5>Obtained the non-exclusive license for shape memory polymer from the industrial-educational cooperation group of Yonsei University (21st of May, 2019)</h5>
+                                <h5>Obtained the non-exclusive license for shape memory polymer from the industrial-educational cooperation group of Yonsei University</h5>
                                 <time>21st of May, 2019</time>
                             </div>
                         </router-link>
@@ -108,7 +108,7 @@
                         <router-link class="news-item" to="/m/en/promotion/news/1">
                             <img class="news-image" src="@/assets/img/m/promotion/thumb_news_1.jpg">
                             <div class="news-body">
-                                <h5>Applied for 2 patents related to stent using shape memory polymer (19th of December, 2018)</h5>
+                                <h5>Applied for 2 patents related to stent using shape memory polymer</h5>
                                 <time>19th of December, 2018</time>
                             </div>
                         </router-link>

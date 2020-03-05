@@ -4,10 +4,8 @@
         <section class="overview">
             <h3>홍보/활동</h3>
             <h4>
-                티엠디랩의 폭넓고 다양한<br>
-                논문을 확인하세요.
+                연구 개발 (논문 현황)
             </h4>
-            <p>연구 개발 (논문 현황)</p>
         </section>
         <section class="journal-list">
             <h4>NEW <span class="bar"></span> <b>4</b></h4>

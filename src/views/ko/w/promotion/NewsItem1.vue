@@ -3,7 +3,7 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>형상기억고분자를 이용한 스텐트 관련 특허 2건 출원 (2018.12.19) </h4>
+					<h4>형상기억고분자를 이용한 스텐트 관련 특허 2건 출원</h4>
 					<span>2018년 12월 19일</span>
 				</div>
 				<div class="modal-body">

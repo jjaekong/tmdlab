@@ -3,7 +3,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">연세대학교 산학협력단으로부터 형상기억고분자 통상실시권 획득 (2019.05.21)</h5>
+                    <h5 class="modal-title">연세대학교 산학협력단으로부터 형상기억고분자 통상실시권 획득</h5>
                     <time>2019년 5월 21일</time>
                 </div>
                 <div class="modal-body">

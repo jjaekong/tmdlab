@@ -3,7 +3,7 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>Thesis on vessel stabilization and vessel generation induction of the stem cell embedded to the enzyme-crosslinkable gelatin gel published at the international academic journal (Science Advances, IF 12.8)</h4>
+					<h4>Thesis on vessel stabilization and vessel generation induction of the stem cell <br>embedded to the enzyme-crosslinkable gelatin gel published at the international <br>academic journal (Science Advances, IF 12.8)</h4>
 					<span>26th February 2020</span>
 				</div>
 				<div class="modal-body">

@@ -3,7 +3,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">[한국경제] 체온으로 몸 막힌 곳 뚫는 스텐트 신소재 나온다 (19.11.20)</h5>
+                    <h5 class="modal-title">[한국경제] 체온으로 몸 막힌 곳 뚫는 스텐트 신소재 나온다</h5>
                     <time>2019년 11월 20일</time>
                 </div>
                 <div class="modal-body">

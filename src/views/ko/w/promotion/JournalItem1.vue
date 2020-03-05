@@ -3,7 +3,7 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>Development of a Shape-Memory Tube to Prevent Vascular Stenosis</h4>
+					<h4>Development of a Shape-Memory Tube to <br>Prevent Vascular Stenosis</h4>
                     <span></span>
 				</div>
 				<div class="modal-body">

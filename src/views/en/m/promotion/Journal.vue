@@ -4,9 +4,8 @@
         <section class="overview">
             <h3>Promotion/activity</h3>
             <h4>
-                Feel free to check on the journal of TMD LAB.
+                Research &amp; Development (Publications)
             </h4>
-            <p>Research &amp; Development (Publications)</p>
         </section>
         <section class="journal-list">
             <h4>NEW <span class="bar"></span> <b>4</b></h4>

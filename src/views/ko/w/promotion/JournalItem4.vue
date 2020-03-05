@@ -3,7 +3,7 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>Hydrogel Crosslinking-Programmed Release of Nitric Oxide Regulates Source-Dependent Angiogenic Behaviors of Human Mesenchymal stem Cell</h4>
+					<h4>Hydrogel Crosslinking-Programmed Release of <br>Nitric Oxide Regulates Source-Dependent <br>Angiogenic Behaviors of Human Mesenchymal <br>stem Cell</h4>
                     <span></span>
 				</div>
 				<div class="modal-body">

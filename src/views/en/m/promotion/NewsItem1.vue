@@ -3,7 +3,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Applied for 2 patents related to stent using shape memory polymer (19th of December, 2018)</h5>
+                    <h5 class="modal-title">Applied for 2 patents related to stent using shape memory polymer</h5>
                     <time>19th of December, 2018</time>
                 </div>
                 <div class="modal-body">

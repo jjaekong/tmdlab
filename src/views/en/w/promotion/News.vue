@@ -23,7 +23,7 @@
             <router-link class="news-item" to="./news/11">
               <img src="@/assets/img/promotion/thumb_news_11.jpg">
               <div class="news-title">
-                <h4>Thesis on vessel stabilization and vessel generation induction of the stem cell embedded to the enzyme-crosslinkable gelatin gel published at the international academic journal (Science Advances, IF 12.8)</h4>
+                <h4>Thesis on vessel stabilization and vessel generation induction of <br>the stem cell embedded to the enzyme-crosslinkable gelatin gel <br>published at the international academic journal (Science Advances, IF 12.8)</h4>
                 <span>26th February 2020</span>
               </div>
             </router-link>
@@ -32,7 +32,7 @@
             <router-link class="news-item" to="./news/10">
               <img src="@/assets/img/promotion/thumb_news_10.jpg">
               <div class="news-title">
-                <h4>Thesis on the 3-dimensional micro-channel network inducing vessel generation published at the <br>international academic journal (Nature Communication, IF 11.88)</h4>
+                <h4>Thesis on the 3-dimensional micro-channel network inducing vessel <br>generation published at the international academic journal <br>(Nature Communication, IF 11.88)</h4>
                 <span>30th January 2020</span>
               </div>
             </router-link>
@@ -41,7 +41,7 @@
             <router-link class="news-item" to="./news/9">
               <img src="@/assets/img/promotion/thumb_news_9.jpg">
               <div class="news-title">
-                <h4>[Biospectator] TMD LAB challenges in developing the new concept stent <br>using ‘shape memory polymer’ (17th of December 2019)</h4>
+                <h4>[Biospectator] TMD LAB challenges in developing the new concept stent <br>using ‘shape memory polymer’</h4>
                 <span>17th of December 2019</span>
               </div>
             </router-link>
@@ -50,7 +50,7 @@
             <router-link class="news-item" to="./news/8">
               <img src="@/assets/img/promotion/thumb_news_8.jpg">
               <div class="news-title">
-                <h4>‘Innovative assignment for company creation’ selected out of the company <br>creation, growth and technology development project held by Ministry of <br>SMEs and Startups</h4>
+                <h4>‘Innovative assignment for company creation’ selected out of <br>the company creation, growth and technology development project held by <br>Ministry of SMEs and Startups</h4>
                 <span>25th of November 2019</span>
               </div>
             </router-link>
@@ -59,7 +59,7 @@
             <router-link class="news-item" to="./news/7">
               <img src="@/assets/img/promotion/thumb_news_7.jpg">
               <div class="news-title">
-                <h4>[The Korea Economic Daily] New stent material reopening occlusion via body <br>temperature (20th of November 2019)</h4>
+                <h4>[The Korea Economic Daily] New stent material reopening occlusion <br>via body temperature</h4>
                 <span>20th of November 2019</span>
               </div>
             </router-link>
@@ -68,7 +68,7 @@
             <router-link class="news-item" to="./news/6">
               <img src="@/assets/img/promotion/thumb_news_6.jpg">
               <div class="news-title">
-                <h4>Thesis on the shape memory polymer-based lacrimal duct stent published at <br>the international academic journal (Acta Biomaterialia, IF 6.638)</h4>
+                <h4>Thesis on the shape memory polymer-based lacrimal duct stent <br>published at the international academic journal <br>(Acta Biomaterialia, IF 6.638)</h4>
                 <span>7th of November 2019</span>
               </div>
             </router-link>
@@ -77,7 +77,7 @@
             <router-link class="news-item" to="./news/5">
               <img src="@/assets/img/promotion/thumb_news_5.jpg">
               <div class="news-title">
-                <h4>Thesis on the shape memory polymer-based anastomotic device published at <br>the international academic journal (Advanced Materials, IF 25.809)</h4>
+                <h4>Thesis on the shape memory polymer-based anastomotic device <br>published at the international academic journal <br>(Advanced Materials, IF 25.809)</h4>
                 <span>27th of August 2019</span>
               </div>
             </router-link>
@@ -87,7 +87,7 @@
             <router-link class="news-item" to="./news/4">
               <img src="@/assets/img/promotion/thumb_news_4.jpg">
               <div class="news-title">
-                <h4>Graduated the entrance master course for medical devices, under the medical<br>device CHAMP curriculum 2019 (16th of July, 2019 – 18th of July, 2019)</h4>
+                <h4>Graduated the entrance master course for medical devices, <br>under the medical device CHAMP curriculum 2019 <br>(16th of July, 2019 – 18th of July, 2019)</h4>
                 <span>16th of July, 2019</span>
               </div>
             </router-link>
@@ -96,7 +96,7 @@
             <router-link class="news-item" to="./news/3">
               <img src="@/assets/img/promotion/thumb_news_3.jpg">
               <div class="news-title">
-                <h4>Participated into the KTERMS (Korean Tissue Engineering and Regenerative<br>Medicine Society) conference event 2019, selected to be awarded ‘superb’ in ...</h4>
+                <h4>Participated into the KTERMS (Korean Tissue Engineering <br>and Regenerative Medicine Society) conference event 2019, selected <br>to be awarded ‘superb’ in the poster division</h4>
                 <span>6th of June, 2019</span>
               </div>
             </router-link>
@@ -105,7 +105,7 @@
             <router-link class="news-item" to="./news/2">
               <img src="@/assets/img/promotion/thumb_news_2.jpg">
               <div class="news-title">
-                <h4>Obtained the non-exclusive license for shape memory polymer from the<br>industrial-educational cooperation group of Yonsei University (21st of May, 2019)</h4>
+                <h4>Obtained the non-exclusive license for shape memory polymer <br>from theindustrial-educational cooperation group of Yonsei University</h4>
                 <span>21st of May, 2019</span>
               </div>
             </router-link>
@@ -114,7 +114,7 @@
             <router-link class="news-item" to="./news/1">
               <img src="@/assets/img/promotion/thumb_news_1.jpg">
               <div class="news-title">
-                <h4>Applied for 2 patents related to stent using shape memory polymer (19th of<br>December, 2018)</h4>
+                <h4>Applied for 2 patents related to stent using shape memory polymer</h4>
                 <span>19th of December, 2018</span>
               </div>
             </router-link>

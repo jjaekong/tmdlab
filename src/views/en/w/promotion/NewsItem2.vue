@@ -3,7 +3,7 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>Obtained the non-exclusive license for shape memory polymer from the industrial-<br>educational cooperation group of Yonsei University (21st of May, 2019)</h4>
+					<h4>Obtained the non-exclusive license for shape memory polymer from <br>the industrial-educational cooperation group of Yonsei University</h4>
 					<span>21st of May, 2019</span>
 				</div>
 				<div class="modal-body">

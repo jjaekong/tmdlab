@@ -5,10 +5,9 @@
     <PathNav :path="['Promotion/activity', 'Journal']"/>
     <main id="main">
       <div class="page-title">
-        <h3 class="title">Feel free to check on the journal of TMD LAB.</h3>
+        <h3 class="title">Research &amp; Development (Publication)</h3>
       </div>
       <div class="page-subtitle">
-        Research &amp; Development (Publications)
       </div>
       <div class="news-count">
         <div>
@@ -22,7 +21,7 @@
             <li>
             <router-link class="news-item" to="./journal/4">
               <div class="news-title">
-                <h4>Hydrogel Crosslinking-Programmed Release of Nitric Oxide Regulates Source-Dependent Angiogenic Behaviors of Human Mesenchymal stem Cell</h4>
+                <h4>Hydrogel Crosslinking-Programmed Release of Nitric Oxide Regulates Source-Dependent Angiogenic <br>Behaviors of Human Mesenchymal stem Cell</h4>
                 <span>Published at: Science Advances (2020.02.26, IF 12.8)</span>
               </div>
             </router-link>

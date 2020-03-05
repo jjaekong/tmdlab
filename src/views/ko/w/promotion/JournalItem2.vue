@@ -3,7 +3,7 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4>Nasolacrimal stent with shape memory as an advanced alternative to silicone products</h4>
+					<h4>Nasolacrimal stent with shape memory as an <br>advanced alternative to silicone products</h4>
                     <span></span>
 				</div>
 				<div class="modal-body">

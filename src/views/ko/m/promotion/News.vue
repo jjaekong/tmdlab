@@ -35,7 +35,7 @@
                         <router-link class="news-item" to="/m/ko/promotion/news/9">
                             <img class="news-image" src="@/assets/img/m/promotion/thumb_news_9.jpg">
                             <div class="news-body">
-                                <h5>[바이오스펙테이터] 티엠디랩, '형상기억 고분자'로 新스텐트 개발 도전 (19.12.17)</h5>
+                                <h5>[바이오스펙테이터] 티엠디랩, '형상기억 고분자'로 新스텐트 개발 도전</h5>
                                 <time>2019년 12월 17일</time>
                             </div>
                         </router-link>
@@ -53,7 +53,7 @@
                         <router-link class="news-item" to="/m/ko/promotion/news/7">
                             <img class="news-image" src="@/assets/img/m/promotion/thumb_news_7.jpg">
                             <div class="news-body">
-                                <h5>[한국경제] 체온으로 몸 막힌 곳 뚫는 스텐트 신소재 나온다 (19.11.20)</h5>
+                                <h5>[한국경제] 체온으로 몸 막힌 곳 뚫는 스텐트 신소재 나온다</h5>
                                 <time>2019년 11월 20일</time>
                             </div>
                         </router-link>
@@ -98,7 +98,7 @@
                         <router-link class="news-item" to="/m/ko/promotion/news/2">
                             <img class="news-image" src="@/assets/img/m/promotion/thumb_news_2.jpg">
                             <div class="news-body">
-                                <h5>연세대학교 산학협력단으로부터 형상기억고분자 통상실시권 획득<br>(2019.05.21)</h5>
+                                <h5>연세대학교 산학협력단으로부터 형상기억고분자 통상실시권 획득</h5>
                                 <time>2019년 5월 21일</time>
                             </div>
                         </router-link>
@@ -107,7 +107,7 @@
                         <router-link class="news-item" to="/m/ko/promotion/news/1">
                             <img class="news-image" src="@/assets/img/m/promotion/thumb_news_1.jpg">
                             <div class="news-body">
-                                <h5>형상기억고분자를 이용한<br>스텐트 관련 특허 2건 출원<br>(2018.12.19)</h5>
+                                <h5>형상기억고분자를 이용한<br>스텐트 관련 특허 2건 출원</h5>
                                 <time>2018년 12월 19일</time>
                             </div>
                         </router-link>

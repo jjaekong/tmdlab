@@ -3,7 +3,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">[바이오스펙테이터] 티엠디랩, '형상기억 고분자'로 新스텐트 개발 도전 (19.12.17)</h5>
+                    <h5 class="modal-title">[바이오스펙테이터] 티엠디랩, '형상기억 고분자'로 新스텐트 개발 도전</h5>
                     <time>2019년 12월 17일</time>
                 </div>
                 <div class="modal-body">

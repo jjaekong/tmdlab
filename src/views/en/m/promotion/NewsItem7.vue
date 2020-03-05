@@ -3,7 +3,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">[The Korea Economic Daily] New stent material reopening occlusion via body temperature (20th of November 2019)</h5>
+                    <h5 class="modal-title">[The Korea Economic Daily] New stent material reopening occlusion via body temperature</h5>
                     <time>20th of November 2019</time>
                 </div>
                 <div class="modal-body">
