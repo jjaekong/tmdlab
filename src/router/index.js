@@ -612,7 +612,7 @@ let router = new VueRouter({
     // }
   ],
   scrollBehavior (to, from, savedPosition) {
-    if (to.path.indexOf('/news') > -1) {
+    if (to.path.indexOf('/news') > -1 || to.path.indexOf('/journal') > -1) {
       // console.log('aaaaaaa', savedPosition)
       return savedPosition
     }
