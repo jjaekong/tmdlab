@@ -5,14 +5,16 @@
             <h3>Contact</h3>
             <h4>Do you have any question about TMD LAB?</h4>
             <ul>
-                <li><img src="@/assets/img/ico_map.png"><address>Avison Biomedical Research Center #525, 50-1 Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</address></li>
-                <li><img src="@/assets/img/ico_phone.png"><a href="tel:+82-2-2228-0891" target="_blank">+82-2-2228-0891</a></li>
+                <li class="address" @click="viewMap('company')"><img src="@/assets/img/ico_map.png"><address>HEAD OFFICE - 31, Gwangnaru-ro 8-gil, Seongdong-gu, Seoul, 04799 Republic of Korea</address></li>
+                <li class="address" @click="viewMap('lab')"><img src="@/assets/img/ico_map.png"><address>LABORATORY - Avison Biomedical Research Center #525, 50-1, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</address></li>
+                <li><img src="@/assets/img/ico_phone.png"><a href="tel:+82-2-6216-0080" target="_blank">+82-2-6216-0080</a></li>
+                <li><img src="@/assets/img/ico_fax02.png"><a href="fax:+82-2-6216-0088" target="_blank">+82-2-6216-0088</a></li>
                 <li><img src="@/assets/img/ico_mail.png"><a href="mailto:Ask@tmdlab.co.kr" target="_blank">Ask@tmdlab.co.kr</a></li>
             </ul>
         </section>
         <section class="map">
             <a href="https://goo.gl/maps/KVNxgy8AKSheu58KA" target="_blank">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.655822442962!2d126.93947821566223!3d37.56317193207778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c99388121e701%3A0x97e3f4a2ab89981f!2z7Jew7IS47J2Y66OM7JuQQUJNUkM!5e0!3m2!1sko!2skr!4v1565324551258!5m2!1sko!2skr" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe :src="mapType == 'company' ? companySrc : labSrc" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
             </a>
         </section>
         <section class="qna-form">
@@ -42,10 +44,20 @@ export default {
     components: {
         Header, Footer
     },
+    data: function() {
+      return {
+          mapType: 'company',
+          companySrc: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.3806628349553!2d127.06060651531102!3d37.54609437980178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4c06a653cad%3A0x750e43561ca7fcf9!2zU0vthZTroIjsvaQg7ISx7IiY7IKs7Jil!5e0!3m2!1sko!2skr!4v1597714660356!5m2!1sko!2skr',
+          labSrc: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.655822442962!2d126.93947821566223!3d37.56317193207778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c99388121e701%3A0x97e3f4a2ab89981f!2z7Jew7IS47J2Y66OM7JuQQUJNUkM!5e0!3m2!1sko!2skr!4v1565324551258!5m2!1sko!2skr',
+      }
+    },
     methods: {
         sendMail: function() {
           var title = document.getElementById('qna-title').value
           window.open('mailto:Ask@tmdlab.co.kr?subject='+ encodeURIComponent(title))
+      },
+      viewMap: function(type) {
+          this.mapType = type
       }
     }
 }
@@ -99,6 +111,9 @@ export default {
                 }
                 & + li {
                     margin-top: pxtovw2(18px);
+                }
+                &.address {
+                    cursor: pointer;
                 }
             }
         }

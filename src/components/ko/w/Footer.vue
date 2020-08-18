@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
-                    <h2><img src="@/assets/img/logo_white.png" alt=""></h2>
+                    <h2><img src="@/assets/img/logo_2020_white.png" alt=""></h2>
                 </div>
                 <div class="col d-flex flex-column align-items-end">
                     <div class="dropdown langs">
@@ -16,10 +16,24 @@
                         </div>
                     </div>
                     <p>가능성을 넘어, 생명의 존중과 의학 기술의 발견으로</p>
-                    <address>
-                        서울특별시 서대문구 연세로 50-1 에비슨의생명연구센터 525호
-                        <small>Avison Biomedical Research Center #525, 50-1 Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</small>
-                    </address>
+                    <dl>
+                        <dt>본사</dt>
+                        <dd>
+                            <address>
+                                서울시 성동구 광나루로8길 31, 6층(성수동 2가, 성수에스케이브이원센터2)
+                                <small>31, Gwangnaru-ro 8-gil, Seongdong-gu, Seoul, 04799 Republic of Korea</small>
+                            </address>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>연구소</dt>
+                        <dd>
+                            <address>
+                                서울시 서대문구 연세로 50-1, 에비슨의생명연구센터 525호<br>
+                                <small>Avison Biomedical Research Center #525, 50-1, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</small>
+                            </address>
+                        </dd>
+                    </dl>
                 </div>
             </div>
         </div>
@@ -90,7 +104,7 @@ export default {
             margin: 0;
             img {
                 display: block;
-                width: pxtovw(228px);
+                width: pxtovw(150px);
             }
         }
     }
@@ -168,10 +182,16 @@ export default {
             }
         }
         p {
-            margin-top: pxtovw(80px);
-            margin-bottom: pxtovw(80px);
+            margin-top: pxtovw(40px);
+            margin-bottom: pxtovw(20px);
             font-size: pxtovw(24px);
             font-weight: bold;
+        }
+        dl {
+            text-align: right;
+            dd {
+                margin-bottom: 0;
+            }
         }
         address {
             display: flex;

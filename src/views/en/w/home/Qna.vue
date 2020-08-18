@@ -21,10 +21,28 @@
                                 sign up below:
                             </p>
                             <div class="contact">
-                                <a href="https://goo.gl/maps/sd8gCGraHV6Pj7gA6" class="address" target="_blank">
+                                <!-- <a href="https://goo.gl/maps/sd8gCGraHV6Pj7gA6" class="address" target="_blank">
                                     <address>Avison Biomedical Research Center #525, 50-1 Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</address>
                                     <img src="@/assets/img/ico_google_map.png" alt="Map">
-                                </a>
+                                </a> -->
+                                <dl>
+                                    <dt>HEAD OFFICE</dt>
+                                    <dd>
+                                        <a href="https://goo.gl/maps/LNtB8TZqCBXV921aA" class="address" target="_blank">
+                                            <address>31, Gwangnaru-ro 8-gil, Seongdong-gu, Seoul, 04799 Republic of Korea</address>
+                                            <img src="@/assets/img/ico_google_map.png" alt="지도">
+                                        </a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>LABORATORY</dt>
+                                    <dd>
+                                        <a href="https://goo.gl/maps/sd8gCGraHV6Pj7gA6" class="address" target="_blank">
+                                            <address>Avison Biomedical Research Center #525, 50-1, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</address>
+                                            <img src="@/assets/img/ico_google_map.png" alt="지도">
+                                        </a>
+                                    </dd>
+                                </dl>
                                 <a href="mailto:Ask@tmdlab.co.kr" class="email" target="_blank">
                                     <span>Ask@tmdlab.co.kr</span>
                                     <img src="@/assets/img/ico_google_mail.png" alt="Mail">
@@ -105,13 +123,15 @@ export default {
         text-decoration: none;
         font-size: pxtovw(16px);
         img {
-            margin-left: pxtovw(30px);
+            width: pxtovw(30px);
+            margin-left: pxtovw(10px);
         }
         & + a {
             margin-top: pxtovw(5px);
         }
     }
     address {
+        flex: 0 0 auto;
         margin-bottom: 0;
         font-weight: 900;
     }

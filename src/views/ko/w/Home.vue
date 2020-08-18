@@ -613,7 +613,12 @@ export default {
             top: 1vw;
             opacity: 0;
         }
-        .contact a {
+        .contact dl {
+            position: relative;
+            top: 1vw;
+            opacity: 0;
+        }
+        .contact > a {
             position: relative;
             top: 1vw;
             opacity: 0;
@@ -651,26 +656,31 @@ export default {
                 transition: all .3s .8s;
             }
             .contact {
-                a:nth-of-type(1) {
+                dl:nth-of-type(1) {
                     top: 0;
                     opacity: 1;
                     transition: all .3s .9s;
                 }
-                a:nth-of-type(2) {
+                dl:nth-of-type(2) {
                     top: 0;
                     opacity: 1;
                     transition: all .3s 1.0s;
+                }
+                > a {
+                    top: 0;
+                    opacity: 1;
+                    transition: all .3s 1.1s;
                 }
             }
             .more {
                 top: pxtovw(-90px);
                 opacity: 1;
-                transition: all .3s 1.1s;
+                transition: all .3s 1.2s;
             }
             .qna-form {
                 top: 0;
                 opacity: 1;
-                transition: all .3s 1.2s;
+                transition: all .3s 1.3s;
             }
         }
     }

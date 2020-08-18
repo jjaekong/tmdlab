@@ -1,7 +1,7 @@
 <template>
     <div>
         <header id="header">
-            <h1><router-link to="/m/en/"><img src="../../../assets/img/m/logo_white.png" alt=""></router-link></h1>
+            <h1><router-link to="/m/en/"><img src="../../../assets/img/logo_2020_white.png" alt=""></router-link></h1>
             <button class="btn btn-link btn-menu" data-toggle="modal" data-target="#nav" data-backdrop="false">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -11,7 +11,7 @@
         </header>
         <nav id="nav" class="modal">
             <header>
-                <h1><router-link to="/m/en/"><img src="../../../assets/img/m/logo_black.png" alt=""></router-link></h1>
+                <h1><router-link to="/m/en/"><img src="../../../assets/img/logo_2020.png" alt=""></router-link></h1>
                 <button class="btn btn-link btn-menu" data-dismiss="modal">
                     <img src="../../../assets/img/ico_close_black.png" alt="">
                 </button>
@@ -125,7 +125,7 @@ export default {
         margin: 0;
         img {
             display: block;
-            height: pxtovw2(36px);
+            height: pxtovw2(40px);
         }
     }
     .btn-menu {
@@ -167,7 +167,7 @@ export default {
             margin: 0;
             img {
                 display: block;
-                height: pxtovw2(36px);
+                height: pxtovw2(40px);
             }
         }
         .btn-menu {

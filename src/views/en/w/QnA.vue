@@ -9,15 +9,25 @@
       </PageTitle>
       <div class="contact-info">
         <div>
-          <dl>
+          <dl @click="viewMap('company')" class="address">
             <dt><img src="@/assets/img/ico_map.png" alt="주소"></dt>
-            <dd><address>Avison Biomedical Research Center #525, 50-1 Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</address></dd>
+            <dd><address>HEAD OFFICE - 31, Gwangnaru-ro 8-gil, Seongdong-gu, Seoul, 04799 Republic of Korea</address></dd>
+          </dl>
+        </div>
+        <div>
+          <dl @click="viewMap('lab')" class="address">
+            <dt><img src="@/assets/img/ico_map.png" alt="주소"></dt>
+            <dd><address>LABORATORY - Avison Biomedical Research Center #525, 50-1, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</address></dd>
           </dl>
         </div>
         <div>
           <dl>
             <dt><img src="@/assets/img/ico_phone.png" alt="전화번호"></dt>
-            <dd>+82-2-2228-0891</dd>
+            <dd>+82-2-6216-0080</dd>
+          </dl>
+          <dl>
+            <dt><img src="@/assets/img/ico_fax02.png" alt="팩스"></dt>
+            <dd>+82-2-6216-0088</dd>
           </dl>
           <dl>
             <dt><img src="@/assets/img/ico_mail.png" alt="메일"></dt>
@@ -43,7 +53,7 @@
             </div>
           </form>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.655822442962!2d126.93947821566223!3d37.56317193207778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c99388121e701%3A0x97e3f4a2ab89981f!2z7Jew7IS47J2Y66OM7JuQQUJNUkM!5e0!3m2!1sko!2skr!4v1565324551258!5m2!1sko!2skr" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe :src="mapType == 'company' ? companySrc : labSrc" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
     </main>
     <Footer />
@@ -62,10 +72,20 @@ export default {
   components: {
     Header, SubHeader, PathNav, PageTitle, Footer
   },
+  data: function() {
+      return {
+          mapType: 'company',
+          companySrc: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.3806628349553!2d127.06060651531102!3d37.54609437980178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4c06a653cad%3A0x750e43561ca7fcf9!2zU0vthZTroIjsvaQg7ISx7IiY7IKs7Jil!5e0!3m2!1sko!2skr!4v1597714660356!5m2!1sko!2skr',
+          labSrc: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.655822442962!2d126.93947821566223!3d37.56317193207778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c99388121e701%3A0x97e3f4a2ab89981f!2z7Jew7IS47J2Y66OM7JuQQUJNUkM!5e0!3m2!1sko!2skr!4v1565324551258!5m2!1sko!2skr',
+      }
+  },
   methods: {
       sendMail: function() {
           var title = document.getElementById('qna-title').value
           window.open('mailto:Ask@tmdlab.co.kr?subject='+ encodeURIComponent(title))
+      },
+      viewMap: function(type) {
+          this.mapType = type
       }
   }
 }
@@ -104,6 +124,9 @@ export default {
         }
         & + dl {
           margin-left: pxtovw(20px);
+        }
+        &.address {
+            cursor: pointer;
         }
       }
       address {

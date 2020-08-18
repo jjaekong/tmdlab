@@ -154,9 +154,14 @@
               <dt>대표</dt>
               <dd>강미란</dd>
               <dt>주소</dt>
-              <dd>서울특별시 서대문구 연세로 50-1 에비슨의생명연구센터 525호</dd>
+              <dd>
+                  <p>본사 - 서울시 성동구 광나루로8길 31, 6층(성수동 2가, 성수에스케이브이원센터2)</p>
+                  <p>연구소 - 서울시 서대문구 연세로 50-1, 에비슨의생명연구센터 525호</p>
+              </dd>
               <dt>대표번호</dt>
-              <dd>02-2228-0891</dd>
+              <dd>02-6216-0080</dd>
+              <dt>팩스</dt>
+              <dd>02-6216-0088</dd>
               <dt>이메일</dt>
               <dd><a href="mailto:ask@tmdlab.co.kr">ask@tmdlab.co.kr</a></dd>
             </dl>
@@ -507,6 +512,12 @@ export default {
           float: left;
           width: pxtovw(100px);
           opacity: .7;
+        }
+        dd {
+            margin-left: pxtovw(100px);
+        }
+        p {
+            margin-bottom: 0;
         }
       }
     }

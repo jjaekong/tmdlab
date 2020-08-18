@@ -137,7 +137,7 @@ export default {
             border-bottom: 1px solid rgba(#383838, .1);
             .logo {
                 a {
-                    background-image: url(../../../assets/img/logo_black.gif);
+                    background-image: url(../../../assets/img/logo_2020.png);
                 }
             }
             .menu {
@@ -183,14 +183,15 @@ export default {
         letter-spacing: 0;
         .logo {
             margin: 0;
-            width: pxtovw(228px);
-            height: pxtovw(24px);
+            width: pxtovw(150px);
+            height: pxtovw(40px);
             a {
                 display: block;
                 width: 100%;
                 height: 100%;
                 // background-image: url(../../../assets/img/logo_black.gif);
-                background-image: url(../../../assets/img/logo_white.png);
+                // background-image: url(../../../assets/img/logo_white.png);
+                background-image: url(../../../assets/img/logo_2020_white.png);
                 background-repeat: no-repeat;
                 background-size: 100% auto;
                 background-position: 50% 50%;

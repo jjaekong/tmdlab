@@ -22,10 +22,28 @@
                                 있으시다면 문의해주시기 바랍니다 
                             </p>
                             <div class="contact">
-                                <a href="https://goo.gl/maps/sd8gCGraHV6Pj7gA6" class="address" target="_blank">
+                                <!-- <a href="https://goo.gl/maps/sd8gCGraHV6Pj7gA6" class="address" target="_blank">
                                     <address>서울특별시 서대문구 연세로 50-1 에비슨의생명연구센터 525호</address>
                                     <img src="@/assets/img/ico_google_map.png" alt="지도">
-                                </a>
+                                </a> -->
+                                <dl>
+                                    <dt>본사</dt>
+                                    <dd>
+                                        <a href="https://goo.gl/maps/LNtB8TZqCBXV921aA" class="address" target="_blank">
+                                            <address>서울시 성동구 광나루로8길 31, 6층(성수동 2가, 성수에스케이브이원센터2)</address>
+                                            <img src="@/assets/img/ico_google_map.png" alt="지도">
+                                        </a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>연구소</dt>
+                                    <dd>
+                                        <a href="https://goo.gl/maps/sd8gCGraHV6Pj7gA6" class="address" target="_blank">
+                                            <address>서울시 서대문구 연세로 50-1, 에비슨의생명연구센터 525호</address>
+                                            <img src="@/assets/img/ico_google_map.png" alt="지도">
+                                        </a>
+                                    </dd>
+                                </dl>
                                 <a href="mailto:Ask@tmdlab.co.kr" class="email" target="_blank">
                                     <span>Ask@tmdlab.co.kr</span>
                                     <img src="@/assets/img/ico_google_mail.png" alt="메일">
@@ -106,7 +124,8 @@ export default {
         text-decoration: none;
         font-size: pxtovw(16px);
         img {
-            margin-left: pxtovw(30px);
+            width: pxtovw(30px);
+            margin-left: pxtovw(10px);
         }
         & + a {
             margin-top: pxtovw(5px);

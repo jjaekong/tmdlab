@@ -31,10 +31,24 @@
             <img class="scrolldown" src="@/assets/img/m/ico_arrow_down.png">
         </section>
         <div class="contact">
-            <a href="https://goo.gl/maps/sd8gCGraHV6Pj7gA6" class="address" target="_blank">
-                <address>Avison Biomedical Research Center #525, 50-1 Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</address>
-                <img src="@/assets/img/ico_google_map.png" alt="Map">
-            </a>
+            <dl>
+                <dt>HEAD OFFICE</dt>
+                <dd>
+                    <a href="https://goo.gl/maps/LNtB8TZqCBXV921aA" class="address" target="_blank">
+                        <address>31, Gwangnaru-ro 8-gil, Seongdong-gu, Seoul, 04799 Republic of Korea</address>
+                        <img src="@/assets/img/ico_google_map.png" alt="Map">
+                    </a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>LABORATORY</dt>
+                <dd>
+                    <a href="https://goo.gl/maps/sd8gCGraHV6Pj7gA6" class="address" target="_blank">
+                        <address>Avison Biomedical Research Center #525, 50-1, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</address>
+                        <img src="@/assets/img/ico_google_map.png" alt="Map">
+                    </a>
+                </dd>
+            </dl>
             <a href="mailto:Ask@tmdlab.co.kr" class="email" target="_blank">
                 <span>Ask@tmdlab.co.kr</span>
                 <img src="@/assets/img/ico_google_mail.png" alt="Mail">
@@ -56,7 +70,11 @@ export default {
 
 <style lang="scss" scoped>
 @import "./src/assets/css/functions.scss";
-
+.slide.qna {
+    section {
+        padding-bottom: pxtovw2(10px) !important;
+    }
+}
 .form-wrap {
     .form-row {
         margin-left: pxtovw2(-10px);
@@ -99,19 +117,35 @@ export default {
     justify-content: center;
     padding-left: pxtovw2(70px);
     padding-right: pxtovw2(70px);
-    height: pxtovw2(195px);
+    // height: pxtovw2(195px);
+    height: pxtovw2(300px);
     background: rgba(#000, .6);
-    a {
-        display: flex;
-        align-items: center;
+    dl {
+        margin-bottom: pxtovw2(10px);
         font-size: pxtovw2(20px);
-        line-height: pxtovw2(42px);
+        line-height: pxtovw2(30px);
+        dt {
+            color: white;
+        }
+        dd {
+            margin-bottom: 0;
+        }
+    }
+    a {
+        // display: flex;
+        // align-items: center;
+        font-size: pxtovw2(20px);
+        // line-height: pxtovw2(42px);
         color: #9b9b9b;
         text-decoration: none;
         address {
+            display: inline;
             margin-bottom: 0;
         }
         img {
+            position: relative;
+            top: pxtovw2(-3px);
+            width: pxtovw2(25px) !important;
             margin-left: pxtovw(20px);
         }
         & + a {

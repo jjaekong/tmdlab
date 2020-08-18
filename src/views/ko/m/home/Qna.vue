@@ -34,10 +34,24 @@
             <img class="scrolldown" src="@/assets/img/m/ico_arrow_down.png">
         </section>
         <div class="contact">
-            <a href="https://goo.gl/maps/sd8gCGraHV6Pj7gA6" class="address" target="_blank">
-                <address>서울특별시 서대문구 연세로 50-1 에비슨의생명연구센터 525호</address>
-                <img src="@/assets/img/ico_google_map.png" alt="지도">
-            </a>
+            <dl>
+                <dt>본사</dt>
+                <dd>
+                    <a href="https://goo.gl/maps/LNtB8TZqCBXV921aA" class="address" target="_blank">
+                        <address>서울시 성동구 광나루로8길 31, 6층<br>(성수동 2가, 성수에스케이브이원센터2)</address>
+                        <img src="@/assets/img/ico_google_map.png" alt="지도">
+                    </a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>연구소</dt>
+                <dd>
+                    <a href="https://goo.gl/maps/sd8gCGraHV6Pj7gA6" class="address" target="_blank">
+                        <address>서울시 서대문구 연세로 50-1, 에비슨의생명연구센터 525호</address>
+                        <img src="@/assets/img/ico_google_map.png" alt="지도">
+                    </a>
+                </dd>
+            </dl>
             <a href="mailto:Ask@tmdlab.co.kr" class="email" target="_blank">
                 <span>Ask@tmdlab.co.kr</span>
                 <img src="@/assets/img/ico_google_mail.png" alt="메일">
@@ -101,19 +115,35 @@ export default {
     flex-direction: column;
     justify-content: center;
     padding-left: pxtovw2(70px);
-    height: pxtovw2(134px);
+    padding-right: pxtovw2(70px);
+    // height: pxtovw2(134px);
+    height: pxtovw2(250px);
     background: rgba(#000, .6);
-    a {
-        display: flex;
-        align-items: center;
+    dl {
+        margin-bottom: pxtovw2(10px);
         font-size: pxtovw2(20px);
-        line-height: pxtovw2(42px);
+        line-height: pxtovw2(30px);
+        dt {
+            color: white;
+        }
+        dd {
+            margin-bottom: 0;
+        }
+    }
+    a {
+        // display: flex;
+        // align-items: center;
+        font-size: pxtovw2(20px);
         color: #9b9b9b;
         text-decoration: none;
         address {
+            display: inline;
             margin-bottom: 0;
         }
         img {
+            position: relative;
+            top: pxtovw2(-3px);
+            width: pxtovw2(25px) !important;
             margin-left: pxtovw(20px);
         }
     }

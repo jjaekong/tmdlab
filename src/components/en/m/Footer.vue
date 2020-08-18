@@ -1,11 +1,24 @@
 <template>
     <footer id="footer">
         <button class="btn btn-link btn-top" @click="gotoTop()"><img src="@/assets/img/ico_arrow_top.png" alt="위로"></button>
-        <h2><img src="@/assets/img/logo_white.png" alt="TMD Lab"></h2>
+        <h2><img src="@/assets/img/logo_2020_white.png" alt="TMD Lab"></h2>
         <p class="slogan">Beyond a possibility, achievement of high-tech medical advancement</p>
-        <address>
-            <p>Avison Biomedical Research Center #525, 50-1 Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</p>
-        </address>
+        <dl>
+            <dt>HEAD OFFICE</dt>
+            <dd>
+                <address>
+                    <p>31, Gwangnaru-ro 8-gil, Seongdong-gu, Seoul, 04799 Republic of Korea</p>
+                </address>
+            </dd>
+        </dl>
+        <dl>
+            <dt>LABORATORY</dt>
+            <dd>
+                <address>
+                    <p>Avison Biomedical Research Center #525, 50-1, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</p>
+                </address>
+            </dd>
+        </dl>
     </footer>
 </template>
 
@@ -50,7 +63,7 @@ export default {
         }
     }
     h2 {
-        height: pxtovw2(36px);
+        height: pxtovw2(40px);
         margin-bottom: pxtovw2(90px);
         opacity: .22;
         img {
@@ -59,11 +72,16 @@ export default {
         }
     }
     .slogan {
-        margin-bottom: 0;
         font-size: pxtovw2(28px);
-        line-height: pxtovw2(66px);
+        line-height: pxtovw2(40px);
         text-align: right;
         font-weight: 900;
+    }
+    dl {
+        text-align: right;
+        dt {
+            font-size: pxtovw2(24px);
+        }
     }
     address {
         margin-bottom: 0;
@@ -71,7 +89,7 @@ export default {
         p {
             margin-bottom: 0;
             font-size: pxtovw2(18px);
-            line-height: pxtovw2(66px);
+            line-height: pxtovw2(24px);
         }
         small {
             display: block;

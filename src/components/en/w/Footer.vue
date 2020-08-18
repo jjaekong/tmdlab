@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col col-5">
-                    <h2><img src="@/assets/img/logo_white.png" alt=""></h2>
+                    <h2><img src="@/assets/img/logo_2020_white.png" alt=""></h2>
                 </div>
                 <div class="col col-7 d-flex flex-column align-items-end">
                     <div class="dropdown langs">
@@ -16,9 +16,22 @@
                         </div>
                     </div>
                     <p>Beyond a possibility, achievement of high-tech medical advancement</p>
-                    <address>
-                        Avison Biomedical Research Center #525, 50-1 Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea
-                    </address>
+                    <dl>
+                        <dt>HEAD OFFICE</dt>
+                        <dd>
+                            <address>
+                                31, Gwangnaru-ro 8-gil, Seongdong-gu, Seoul, 04799 Republic of Korea
+                            </address>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>LABORATORY</dt>
+                        <dd>
+                            <address>
+                                Avison Biomedical Research Center #525, 50-1, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea
+                            </address>
+                        </dd>
+                    </dl>
                 </div>
             </div>
         </div>
@@ -89,7 +102,7 @@ export default {
             margin: 0;
             img {
                 display: block;
-                width: pxtovw(228px);
+                width: pxtovw(150px);
             }
         }
     }
@@ -167,10 +180,16 @@ export default {
             }
         }
         p {
-            margin-top: pxtovw(80px);
-            margin-bottom: pxtovw(80px);
+            margin-top: pxtovw(40px);
+            margin-bottom: pxtovw(20px);
             font-size: pxtovw(24px);
             font-weight: bold;
+        }
+        dl {
+            text-align: right;
+            dd {
+                margin-bottom: 0;
+            }
         }
         address {
             display: flex;

@@ -136,9 +136,14 @@
               <dt>CEO</dt>
               <dd>Mi-Lan Kang</dd>
               <dt>Address</dt>
-              <dd>Avison Biomedical Research Center #525, 50-1 Yonsei-ro,<br>Seodaemun-gu, Seoul, Republic of Korea</dd>
+              <dd>
+                  <p>HEAD OFFICE - 31, Gwangnaru-ro 8-gil, Seongdong-gu, Seoul, 04799 Republic of Korea</p>
+                  <p>LABORATORY - Avison Biomedical Research Center #525, 50-1, Yonsei-ro,<br>Seodaemun-gu, Seoul, Republic of Korea</p>
+                </dd>
               <dt>Tel.</dt>
-              <dd>02-2228-0891</dd>
+              <dd>+82-2-6216-0080</dd>
+              <dt>Fax.</dt>
+              <dd>+82-2-6216-0088</dd>
               <dt>E-mail</dt>
               <dd><a href="mailto:ask@tmdlab.co.kr">ask@tmdlab.co.kr</a></dd>
             </dl>
@@ -534,6 +539,10 @@ export default {
         }
         dd {
           margin-left: pxtovw(100px);
+        }
+        p {
+            margin: 0;
+            padding: 0;
         }
       }
     }
