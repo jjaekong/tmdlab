@@ -75,7 +75,7 @@ export default {
   data: function() {
       return {
           mapType: 'company',
-          companySrc: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.3806628349553!2d127.06060651531102!3d37.54609437980178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4c06a653cad%3A0x750e43561ca7fcf9!2zU0vthZTroIjsvaQg7ISx7IiY7IKs7Jil!5e0!3m2!1sko!2skr!4v1597714660356!5m2!1sko!2skr',
+          companySrc: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.3366555172747!2d127.0663418!3d37.5471314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4c15cf40031%3A0x6f8fff16de9bda37!2z7ISc7Jq47Yq567OE7IucIOyEseuPmeq1rCDshLHsiJjrj5ky6rCAIDI4MS0xOA!5e0!3m2!1sko!2skr!4v1597905586563!5m2!1sko!2skr',
           labSrc: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.655822442962!2d126.93947821566223!3d37.56317193207778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c99388121e701%3A0x97e3f4a2ab89981f!2z7Jew7IS47J2Y66OM7JuQQUJNUkM!5e0!3m2!1sko!2skr!4v1565324551258!5m2!1sko!2skr',
       }
   },

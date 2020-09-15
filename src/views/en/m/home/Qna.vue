@@ -34,7 +34,7 @@
             <dl>
                 <dt>HEAD OFFICE</dt>
                 <dd>
-                    <a href="https://goo.gl/maps/LNtB8TZqCBXV921aA" class="address" target="_blank">
+                    <a href="https://goo.gl/maps/MaKMyu3qTYrPLiem7" class="address" target="_blank">
                         <address>31, Gwangnaru-ro 8-gil, Seongdong-gu, Seoul, 04799 Republic of Korea</address>
                         <img src="@/assets/img/ico_google_map.png" alt="Map">
                     </a>
