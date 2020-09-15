@@ -12,11 +12,35 @@
         <div>
           NEW
           <span></span>
-          <b>4</b>
+          <b>7</b>
         </div>
       </div>
       <div class="news-list">
         <ol>
+            <li>
+                <router-link class="news-item" to="./journal/7">
+                    <div class="news-title">
+                        <h4>Shape Memory Tube Plug for Fine-control of Intraocular Pressure by Glaucoma Devices</h4>
+                        <span>게재 정보: ACS Biomaterials Science &amp; Engineering (2020.06.08, IF 4.152)</span>
+                    </div>
+                </router-link>
+            </li>
+            <li>
+                <router-link class="news-item" to="./journal/6">
+                    <div class="news-title">
+                        <h4>External Self-Closing Tube to Occlude a Vessel Gradually as a Therapeutic Means of Portosystemic Shunt</h4>
+                        <span>게재 정보: Advances Therapeutics (2020.05.14)</span>
+                    </div>
+                </router-link>
+            </li>
+            <li>
+            <router-link class="news-item" to="./journal/5">
+              <div class="news-title">
+                <h4>Anti-Atherogenic Effect of Stem Cell Nanovesicles Targeting Disturbed Flow sites</h4>
+                <span>게재 정보: Small (2020.04.16, IF 10.856)</span>
+              </div>
+            </router-link>
+          </li>
           <li>
             <router-link class="news-item" to="./journal/4">
               <div class="news-title">

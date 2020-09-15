@@ -8,9 +8,42 @@
             </h4>
         </section>
         <section class="journal-list">
-            <h4>NEW <span class="bar"></span> <b>4</b></h4>
+            <h4>NEW <span class="bar"></span> <b>7</b></h4>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <router-link class="journal-item" to="/m/en/promotion/journal/7">
+                            <div class="journal-body">
+                                <h5>Shape Memory Tube Plug for Fine-control of Intraocular Pressure by Glaucoma Devices</h5>
+                                <dl>
+                                    <dt>Published at:</dt>
+                                    <dd>ACS Biomaterials Science &amp; Engineering (2020.06.08, IF 4.152)</dd>
+                                </dl>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="journal-item" to="/m/en/promotion/journal/6">
+                            <div class="journal-body">
+                                <h5>External Self-Closing Tube to Occlude a Vessel Gradually as a Therapeutic Means of Portosystemic Shunt</h5>
+                                <dl>
+                                    <dt>Published at:</dt>
+                                    <dd>Advances Therapeutics (2020.05.14)</dd>
+                                </dl>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="journal-item" to="/m/en/promotion/journal/5">
+                            <div class="journal-body">
+                                <h5>Anti-Atherogenic Effect of Stem Cell Nanovesicles Targeting Disturbed Flow sites</h5>
+                                <dl>
+                                    <dt>Published at:</dt>
+                                    <dd>Small (2020.04.16, IF 10.856)</dd>
+                                </dl>
+                            </div>
+                        </router-link>
+                    </div>
                     <div class="swiper-slide">
                         <router-link class="journal-item" to="/m/en/promotion/journal/4">
                             <div class="journal-body">
