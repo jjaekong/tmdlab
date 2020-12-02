@@ -22,24 +22,10 @@
                                 있으시다면 문의해주시기 바랍니다 
                             </p>
                             <div class="contact">
-                                <dl>
-                                    <dt>본사</dt>
-                                    <dd>
-                                        <a href="https://goo.gl/maps/MaKMyu3qTYrPLiem7" class="address" target="_blank">
-                                            <address>서울시 성동구 광나루로8길 31, 6층(성수동 2가, 성수에스케이브이원센터2)</address>
-                                            <img src="@/assets/img/ico_google_map.png" alt="지도">
-                                        </a>
-                                    </dd>
-                                </dl>
-                                <dl>
-                                    <dt>연구소</dt>
-                                    <dd>
-                                        <a href="https://goo.gl/maps/sd8gCGraHV6Pj7gA6" class="address" target="_blank">
-                                            <address>서울시 서대문구 연세로 50-1, 에비슨의생명연구센터 525호</address>
-                                            <img src="@/assets/img/ico_google_map.png" alt="지도">
-                                        </a>
-                                    </dd>
-                                </dl>
+                                <a href="https://goo.gl/maps/MaKMyu3qTYrPLiem7" class="address" target="_blank">
+                                    <address>서울시 성동구 광나루로8길 31, 6층(성수동 2가, 성수에스케이브이원센터2)</address>
+                                    <img src="@/assets/img/ico_google_map.png" alt="지도">
+                                </a>
                                 <a href="mailto:ask@tmdlab.com" class="email" target="_blank">
                                     <span>ask@tmdlab.com</span>
                                     <img src="@/assets/img/ico_google_mail.png" alt="메일">

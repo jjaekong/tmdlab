@@ -5,8 +5,7 @@
             <h3>Contact</h3>
             <h4>Do you have any question about TMD LAB?</h4>
             <ul>
-                <li class="address" @click="viewMap('company')"><img src="@/assets/img/ico_map.png"><address>HEAD OFFICE - 31, Gwangnaru-ro 8-gil, Seongdong-gu, Seoul, 04799 Republic of Korea</address></li>
-                <li class="address" @click="viewMap('lab')"><img src="@/assets/img/ico_map.png"><address>LABORATORY - Avison Biomedical Research Center #525, 50-1, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</address></li>
+                <li class="address" @click="viewMap('company')"><img src="@/assets/img/ico_map.png"><address>31, Gwangnaru-ro 8-gil, Seongdong-gu, Seoul, 04799 Republic of Korea</address></li>
                 <li><img src="@/assets/img/ico_phone.png"><a href="tel:+82-2-6216-0080" target="_blank">+82-2-6216-0080</a></li>
                 <li><img src="@/assets/img/ico_fax02.png"><a href="fax:+82-2-6216-0088" target="_blank">+82-2-6216-0088</a></li>
                 <li><img src="@/assets/img/ico_mail.png"><a href="mailto:ask@tmdlab.com" target="_blank">ask@tmdlab.com</a></li>

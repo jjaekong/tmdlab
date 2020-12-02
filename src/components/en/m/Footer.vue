@@ -3,22 +3,9 @@
         <button class="btn btn-link btn-top" @click="gotoTop()"><img src="@/assets/img/ico_arrow_top.png" alt="위로"></button>
         <h2><img src="@/assets/img/logo_2020_white.png" alt="TMD Lab"></h2>
         <p class="slogan">Beyond a possibility, achievement of high-tech medical advancement</p>
-        <dl>
-            <dt>HEAD OFFICE</dt>
-            <dd>
-                <address>
-                    <p>31, Gwangnaru-ro 8-gil, Seongdong-gu, Seoul, 04799 Republic of Korea</p>
-                </address>
-            </dd>
-        </dl>
-        <dl>
-            <dt>LABORATORY</dt>
-            <dd>
-                <address>
-                    <p>Avison Biomedical Research Center #525, 50-1, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</p>
-                </address>
-            </dd>
-        </dl>
+        <address>
+            <p>31, Gwangnaru-ro 8-gil, Seongdong-gu, Seoul, 04799 Republic of Korea</p>
+        </address>
     </footer>
 </template>
 

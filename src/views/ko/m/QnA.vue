@@ -5,8 +5,7 @@
             <h3>문의</h3>
             <h4>티엠티랩에 궁금하신<br>사항이 있으신가요?</h4>
             <ul>
-                <li class="address" @click="viewMap('company')"><img src="@/assets/img/ico_map.png"><address>본사 - 서울시 성동구 광나루로8길 31, 6층<br>(성수동 2가, 성수에스케이브이원센터2)</address></li>
-                <li class="address" @click="viewMap('lab')"><img src="@/assets/img/ico_map.png"><address>연구소 - 서울시 서대문구 연세로 50-1, 에비슨의생명연구센터 525호</address></li>
+                <li class="address" @click="viewMap('company')"><img src="@/assets/img/ico_map.png"><address>서울시 성동구 광나루로8길 31, 6층<br>(성수동 2가, 성수에스케이브이원센터2)</address></li>
                 <li><img src="@/assets/img/ico_phone.png"><a href="tel:+82-2-6216-0080" target="_blank">02-6216-0080</a></li>
                 <li><img src="@/assets/img/ico_fax02.png"><a href="fax:+82-2-6216-0088" target="_blank">02-6216-0088</a></li>
                 <li><img src="@/assets/img/ico_mail.png"><a href="mailto:ask@tmdlab.com" target="_blank">ask@tmdlab.com</a></li>

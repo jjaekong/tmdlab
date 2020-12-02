@@ -31,24 +31,10 @@
             <img class="scrolldown" src="@/assets/img/m/ico_arrow_down.png">
         </section>
         <div class="contact">
-            <dl>
-                <dt>HEAD OFFICE</dt>
-                <dd>
-                    <a href="https://goo.gl/maps/MaKMyu3qTYrPLiem7" class="address" target="_blank">
-                        <address>31, Gwangnaru-ro 8-gil, Seongdong-gu, Seoul, 04799 Republic of Korea</address>
-                        <img src="@/assets/img/ico_google_map.png" alt="Map">
-                    </a>
-                </dd>
-            </dl>
-            <dl>
-                <dt>LABORATORY</dt>
-                <dd>
-                    <a href="https://goo.gl/maps/sd8gCGraHV6Pj7gA6" class="address" target="_blank">
-                        <address>Avison Biomedical Research Center #525, 50-1, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</address>
-                        <img src="@/assets/img/ico_google_map.png" alt="Map">
-                    </a>
-                </dd>
-            </dl>
+            <a href="https://goo.gl/maps/MaKMyu3qTYrPLiem7" class="address" target="_blank">
+                <address>31, Gwangnaru-ro 8-gil, Seongdong-gu, Seoul, 04799 Republic of Korea</address>
+                <img src="@/assets/img/ico_google_map.png" alt="Map">
+            </a>
             <a href="mailto:ask@tmdlab.com" class="email" target="_blank">
                 <span>ask@tmdlab.com</span>
                 <img src="@/assets/img/ico_google_mail.png" alt="Mail">

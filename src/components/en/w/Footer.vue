@@ -16,22 +16,9 @@
                         </div>
                     </div>
                     <p>Beyond a possibility, achievement of high-tech medical advancement</p>
-                    <dl>
-                        <dt>HEAD OFFICE</dt>
-                        <dd>
-                            <address>
-                                31, Gwangnaru-ro 8-gil, Seongdong-gu, Seoul, 04799 Republic of Korea
-                            </address>
-                        </dd>
-                    </dl>
-                    <dl>
-                        <dt>LABORATORY</dt>
-                        <dd>
-                            <address>
-                                Avison Biomedical Research Center #525, 50-1, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea
-                            </address>
-                        </dd>
-                    </dl>
+                    <address>
+                        31, Gwangnaru-ro 8-gil, Seongdong-gu, Seoul, 04799 Republic of Korea
+                    </address>
                 </div>
             </div>
         </div>
