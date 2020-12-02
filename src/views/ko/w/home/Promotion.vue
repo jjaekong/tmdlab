@@ -6,11 +6,29 @@
                 <div class="col">
                     <section>
                         <header>
-                            <h6 class="category ml-1"><span>홍보/활동</span> <b>11</b></h6>
+                            <h6 class="category ml-1"><span>홍보/활동</span> <b>12</b></h6>
                             <!-- <a href="#" class="more">더보기<span class="box"><span></span></span></a> -->
                             <router-link class="more" to="/w/ko/promotion/news">더보기<span class="box"><span></span></span></router-link>
                         </header>
                         <ul class="news">
+                            <li>
+                                <router-link class="card" to="/w/ko/promotion/news/12">
+                                    <div class="card-header">
+                                        <h4 class="card-title">
+                                            티엠디랩-연세대 의대 공동연구, ‘의료기기 맞춤형 소재’ 국책과제 선정
+                                        </h4>
+                                        <p class="date">
+                                            <time>2020년 9월 15일</time>
+                                        </p>
+                                    </div>
+                                    <img src="@/assets/img/promotion/thumb_main_news_12_ko.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                        <p>
+                                            체온에 반응하는 첨단 형상기억고분자 원천기술로 ‘인체삽입형 의료기기’ 분야의 새 시대 열어
+                                        </p>
+                                    </div>
+                                </router-link>
+                            </li>
                             <li>
                                 <router-link class="card" to="/w/ko/promotion/news/11">
                                     <div class="card-header">
@@ -68,7 +86,7 @@
                                     </div>
                                 </router-link>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <router-link class="card" to="/w/ko/promotion/news/8">
                                     <div class="card-header">
                                         <h4 class="card-title">
@@ -88,7 +106,7 @@
                                         </p>
                                     </div>
                                 </router-link>
-                            </li>
+                            </li> -->
                         </ul>
                     </section>
                 </div>
@@ -191,6 +209,13 @@ export default {
             .card-img-top {
                 // width: pxtovw(380px);
                 // height: pxtovw(200px);
+            }
+            .card-image {
+                width: pxtovw(380px);
+                height: pxtovw(200px);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 50% 50%;
             }
             .card-body {
                 padding: pxtovw(20px) pxtovw(30px) pxtovw(20px) pxtovw(30px);

@@ -206,7 +206,8 @@ body {
                     max-height: pxtovw(600px);
                     .news-image {
                         display: block;
-                        width: 100%;
+                        margin: 0 auto;
+                        max-width: 100%;
                     }
                     .news-body {
                         padding: pxtovw(20px) pxtovw(40px);
@@ -555,7 +556,8 @@ body {
                     padding: 0 pxtovw2(40px) pxtovw2(40px);
                     .news-image {
                         display: block;
-                        width: 100%;
+                        margin: 0 auto;
+                        max-width: 100%;
                     }
                     p {
                         margin-top: pxtovw2(30px);

@@ -145,7 +145,7 @@
               <dt>Fax.</dt>
               <dd>+82-2-6216-0088</dd>
               <dt>E-mail</dt>
-              <dd><a href="mailto:ask@tmdlab.co.kr">ask@tmdlab.co.kr</a></dd>
+              <dd><a href="mailto:ask@tmdlab.com">ask@tmdlab.com</a></dd>
             </dl>
           </div>
         </div>

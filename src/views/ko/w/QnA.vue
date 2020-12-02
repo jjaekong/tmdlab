@@ -31,7 +31,7 @@
           </dl>
           <dl>
             <dt><img src="@/assets/img/ico_mail.png" alt="메일"></dt>
-            <dd><a href="mailto:Ask@tmdlab.co.kr" target="_blank">Ask@tmdlab.co.kr</a></dd>
+            <dd><a href="mailto:ask@tmdlab.com" target="_blank">ask@tmdlab.com</a></dd>
           </dl>
         </div>
       </div>
@@ -82,7 +82,7 @@ export default {
   methods: {
       sendMail: function() {
           var title = document.getElementById('qna-title').value
-          window.open('mailto:Ask@tmdlab.co.kr?subject='+ encodeURIComponent(title))
+          window.open('mailto:ask@tmdlab.com?subject='+ encodeURIComponent(title))
       },
       viewMap: function(type) {
           this.mapType = type

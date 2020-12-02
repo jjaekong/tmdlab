@@ -163,7 +163,7 @@
               <dt>팩스</dt>
               <dd>02-6216-0088</dd>
               <dt>이메일</dt>
-              <dd><a href="mailto:ask@tmdlab.co.kr">ask@tmdlab.co.kr</a></dd>
+              <dd><a href="mailto:ask@tmdlab.com">ask@tmdlab.com</a></dd>
             </dl>
           </div>
         </div>

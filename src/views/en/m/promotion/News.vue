@@ -9,10 +9,19 @@
             <p>News and updates will be firstly noticed.</p>
         </section>
         <section class="news-list">
-            <h4>NEW <span class="bar"></span> <b>11</b></h4>
+            <h4>NEW <span class="bar"></span> <b>12</b></h4>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/12">
+                            <img class="news-image" src="@/assets/img/promotion/thumb_news_12_en.jpg">
+                            <div class="news-body">
+                                <h5>TMD Lab - Yonsei University College of Medicine Joint Research, selected as a “medical device customized material” national assignment.</h5>
+                                <time>15th September 2020</time>
+                            </div>
+                        </router-link>
+                    </div>
                     <div class="swiper-slide">
                         <router-link class="news-item" to="/m/en/promotion/news/11">
                             <img class="news-image" src="@/assets/img/m/promotion/thumb_news_11.jpg">

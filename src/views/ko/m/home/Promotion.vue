@@ -4,10 +4,24 @@
         <section class="p-0">
             <header>
                 <h6 class="category">홍보/활동</h6>
-                <p>11</p>
+                <p>12</p>
             </header>
             <div class="swiper-container swiper-container-h">
                 <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/ko/promotion/news/12">
+                            <header>
+                                <h4>티엠디랩-연세대 의대 공동연구, ‘의료기기 맞춤형 소재’ 국책과제 선정</h4>
+                                <time>2020년 9월 15일</time>
+                            </header>
+                            <img class="news-image" src="@/assets/img/promotion/thumb_news_12_ko.jpg">
+                            <div class="news-body">
+                                <p>
+                                    체온에 반응하는 첨단 형상기억고분자 원천기술로 ‘인체삽입형 의료기기’ 분야의 새 시대 열어
+                                </p>
+                            </div>
+                        </router-link>
+                    </div>
                     <div class="swiper-slide">
                         <router-link class="news-item" to="/m/ko/promotion/news/11">
                             <header>
@@ -125,8 +139,11 @@ header {
     }
     .news-image {
         width: pxtovw2(518px);
-        // height: pxtovw2(273px);
-        background: #e0e0e0;
+        height: pxtovw2(273px);
+        background-color: #e0e0e0;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
         border: 0;
     }
     .news-body {

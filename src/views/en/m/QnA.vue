@@ -9,7 +9,7 @@
                 <li class="address" @click="viewMap('lab')"><img src="@/assets/img/ico_map.png"><address>LABORATORY - Avison Biomedical Research Center #525, 50-1, Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea</address></li>
                 <li><img src="@/assets/img/ico_phone.png"><a href="tel:+82-2-6216-0080" target="_blank">+82-2-6216-0080</a></li>
                 <li><img src="@/assets/img/ico_fax02.png"><a href="fax:+82-2-6216-0088" target="_blank">+82-2-6216-0088</a></li>
-                <li><img src="@/assets/img/ico_mail.png"><a href="mailto:Ask@tmdlab.co.kr" target="_blank">Ask@tmdlab.co.kr</a></li>
+                <li><img src="@/assets/img/ico_mail.png"><a href="mailto:ask@tmdlab.com" target="_blank">ask@tmdlab.com</a></li>
             </ul>
         </section>
         <section class="map">
@@ -52,7 +52,7 @@ export default {
     methods: {
         sendMail: function() {
           var title = document.getElementById('qna-title').value
-          window.open('mailto:Ask@tmdlab.co.kr?subject='+ encodeURIComponent(title))
+          window.open('mailto:ask@tmdlab.com?subject='+ encodeURIComponent(title))
       },
       viewMap: function(type) {
           this.mapType = type

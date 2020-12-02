@@ -14,20 +14,29 @@
         <div>
           NEW
           <span></span>
-          <b>11</b>
+          <b>12</b>
         </div>
       </div>
       <div class="news-list">
         <ol>
+            <li>
+                <router-link class="news-item" to="./news/12">
+                    <div class="news-image" :style="{ 'background-image': 'url(' + require('@/assets/img/promotion/thumb_news_12_ko.jpg') + ')' }"></div>
+                    <div class="news-title">
+                        <h4>티엠디랩-연세대 의대 공동연구, ‘의료기기 맞춤형 소재’ 국책과제 선정</h4>
+                        <span>2020년 9월 15일</span>
+                    </div>
+                </router-link>
+            </li>
            <li>
-            <router-link class="news-item" to="./news/11">
-                <img src="@/assets/img/promotion/thumb_news_11.jpg">
-              <div class="news-title">
-                <h4>Enzyme-crosslinkable gelatin gel에 embedding한 줄기세포의 혈관 안정화 및<br> 혈관 신생 유도 논문, 국제 학술지 (Science Advances, IF 12.8) 게재</h4>
-                <span>2020년 2월 26일</span>
-              </div>
-            </router-link>
-          </li>
+                <router-link class="news-item" to="./news/11">
+                    <img src="@/assets/img/promotion/thumb_news_11.jpg">
+                    <div class="news-title">
+                        <h4>Enzyme-crosslinkable gelatin gel에 embedding한 줄기세포의 혈관 안정화 및<br> 혈관 신생 유도 논문, 국제 학술지 (Science Advances, IF 12.8) 게재</h4>
+                        <span>2020년 2월 26일</span>
+                    </div>
+                </router-link>
+            </li>
           <li>
             <router-link class="news-item" to="./news/10">
                 <img src="@/assets/img/promotion/thumb_news_10.jpg">
@@ -233,6 +242,12 @@ export default {
     img {
       width: pxtovw(243px);
       background: #a1a1a1;
+    }
+    .news-image {
+        width: pxtovw(243px);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
     }
     .news-title {
       display: flex;

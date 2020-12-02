@@ -10,9 +10,19 @@
             <p>가장 빠르게 뉴스 및 공지사항을 알려드립니다.</p>
         </section>
         <section class="news-list">
-            <h4>NEW <span class="bar"></span> <b>11</b></h4>
+            <h4>NEW <span class="bar"></span> <b>12</b></h4>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/ko/promotion/news/12">
+                            <!-- <img class="news-image" src="@/assets/img/m/promotion/thumb_news_12_ko.jpg"> -->
+                            <div class="news-image" :style="{ 'background-image': 'url('+ require('@/assets/img/promotion/thumb_news_12_ko.jpg') + ')' }"></div>
+                            <div class="news-body">
+                                <h5>티엠디랩-연세대 의대 공동연구, ‘의료기기 맞춤형 소재’ 국책과제 선정</h5>
+                                <time>2020년 9월 15일</time>
+                            </div>
+                        </router-link>
+                    </div>
                     <div class="swiper-slide">
                         <router-link class="news-item" to="/m/ko/promotion/news/11">
                             <img class="news-image" src="@/assets/img/m/promotion/thumb_news_11.jpg">
@@ -229,6 +239,9 @@ export default {
             .news-image {
                 width: pxtovw2(450px);
                 height: pxtovw2(238px);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 50% 50%;
             }
             .news-body {
                 flex: 1;

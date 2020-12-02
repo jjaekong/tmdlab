@@ -39,8 +39,8 @@
                                         </a>
                                     </dd>
                                 </dl>
-                                <a href="mailto:Ask@tmdlab.co.kr" class="email" target="_blank">
-                                    <span>Ask@tmdlab.co.kr</span>
+                                <a href="mailto:ask@tmdlab.com" class="email" target="_blank">
+                                    <span>ask@tmdlab.com</span>
                                     <img src="@/assets/img/ico_google_mail.png" alt="Mail">
                                 </a>
                             </div>
@@ -94,7 +94,7 @@ export default {
     methods: {
         sendMail: function() {
             var title = $('#qna-title').val()
-            window.open('mailto:Ask@tmdlab.co.kr?subject='+ encodeURIComponent(title) )
+            window.open('mailto:ask@tmdlab.com?subject='+ encodeURIComponent(title) )
         }
     }
 }

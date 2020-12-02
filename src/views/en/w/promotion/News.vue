@@ -14,11 +14,20 @@
         <div>
           NEW
           <span></span>
-          <b>11</b>
+          <b>12</b>
         </div>
       </div>
       <div class="news-list">
         <ol>
+            <li>
+                <router-link class="news-item" to="./news/12">
+                <img src="@/assets/img/promotion/thumb_news_12_en.jpg">
+                <div class="news-title">
+                    <h4>TMD Lab - Yonsei University College of Medicine Joint Research, selected as a “medical device customized material” national assignment.</h4>
+                    <span>15th September 2020</span>
+                </div>
+                </router-link>
+            </li>
             <li>
             <router-link class="news-item" to="./news/11">
               <img src="@/assets/img/promotion/thumb_news_11.jpg">

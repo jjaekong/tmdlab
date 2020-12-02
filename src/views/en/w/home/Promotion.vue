@@ -6,11 +6,29 @@
                 <div class="col">
                     <section>
                         <header>
-                            <h6 class="category ml-1"><span>Promotion/activity</span> <b>11</b></h6>
+                            <h6 class="category ml-1"><span>Promotion/activity</span> <b>12</b></h6>
                             <!-- <a href="#" class="more">Here for details<span class="box"><span></span></span></a> -->
                             <router-link class="more" to="/w/en/promotion/news">Here for details<span class="box"><span></span></span></router-link>
                         </header>
                         <ul class="news">
+                            <li>
+                                <router-link class="card" to="/w/en/promotion/news/12">
+                                    <div class="card-header">
+                                        <h4 class="card-title">
+                                            TMD Lab - Yonsei University College of Medicine Joint Research, selected as a “medical device customized material” national assignment.
+                                        </h4>
+                                        <p class="date">
+                                            <time>15th September 2020</time>
+                                        </p>
+                                    </div>
+                                    <img src="@/assets/img/promotion/thumb_main_news_12_en.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                        <p>
+                                            Opening a new era in the field of “internal medical devices” with advanced shape memory polymer source technology that responds to body temperature
+                                        </p>
+                                    </div>
+                                </router-link>
+                            </li>
                             <li>
                                 <router-link class="card" to="/w/en/promotion/news/11">
                                     <div class="card-header">
@@ -65,7 +83,7 @@
                                     </div>
                                 </router-link>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <router-link class="card" to="/w/en/promotion/news/8">
                                     <div class="card-header">
                                         <h4 class="card-title">
@@ -82,7 +100,7 @@
                                         </p>
                                     </div>
                                 </router-link>
-                            </li>
+                            </li> -->
                         </ul>
                     </section>
                 </div>

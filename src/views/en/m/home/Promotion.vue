@@ -4,10 +4,24 @@
         <section class="p-0">
             <header>
                 <h6 class="category">Promotion/activity</h6>
-                <p>11</p>
+                <p>12</p>
             </header>
             <div class="swiper-container swiper-container-h">
                 <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/12">
+                            <header>
+                                <h4>TMD Lab - Yonsei University College of Medicine Joint Research, selected as a “medical device customized material” national assignment.</h4>
+                                <time>15th September 2020</time>
+                            </header>
+                            <img class="news-image" src="@/assets/img/promotion/thumb_news_12_en.jpg">
+                            <div class="news-body">
+                                <p>
+                                    Opening a new era in the field of “internal medical devices” with advanced shape memory polymer source technology that responds to body temperature
+                                </p>
+                            </div>
+                        </router-link>
+                    </div>
                     <div class="swiper-slide">
                         <router-link class="news-item" to="/m/en/promotion/news/11">
                             <header>
@@ -51,7 +65,7 @@
                             </div>
                         </router-link>
                     </div>
-                    <div class="swiper-slide">
+                    <!-- <div class="swiper-slide">
                         <router-link class="news-item" to="/m/en/promotion/news/8">
                             <header>
                                 <h4>‘Innovative assignment for company creation’ selected out of the company creation, growth and technology development project held by Ministry of SMEs and Startups</h4>
@@ -64,7 +78,7 @@
                                 </p>
                             </div>
                         </router-link>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <img class="scrolldown" src="@/assets/img/m/ico_arrow_down.png">
