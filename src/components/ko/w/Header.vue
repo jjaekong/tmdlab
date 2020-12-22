@@ -1,5 +1,5 @@
 <template>
-    <header id="header" :class="{ 'expend': isExpendNav }" @mouseleave="collapseNav()">
+    <header id="header" :class="{ 'expend': isExpendNav }" @mouseleave="collapseNav()" :style="{ top: scrollTop+'px' }">
         <div class="container-fluid" id="topmenu">
             <div class="row justify-content-between align-items-center">
                 <div class="col-2 d-flex"><h1 class="logo"><router-link to="/w/ko/home"><span class="sr-only">TMD LAP - TRANSFORMATIVE MEDICAL DEVICE</span></router-link></h1></div>
@@ -49,9 +49,12 @@
                             <li>
                                 <h5>형상기억고분자</h5>
                                 <ul>
-                                    <li><router-link to="/w/ko/product/smp-l">누도·누액관 스텐트</router-link></li>
-                                    <li><router-link to="/w/ko/product/smp-v">혈관 외벽 스텐트</router-link></li>
-                                    <li><router-link to="/w/ko/product/smp-b">담관 스텐트</router-link></li>
+                                    <li><router-link to="/w/ko/product/innoself-l">누도·누액관 스텐트</router-link></li>
+                                    <li><router-link to="/w/ko/product/innoself-v">혈관 외벽 스텐트</router-link></li>
+                                    <li><router-link to="/w/ko/product/innoself-b">담관 스텐트</router-link></li>
+                                    <li><router-link to="/w/ko/product/innoself-p">누점플러그</router-link></li>
+                                    <li><router-link to="/w/ko/product/innoself-g">형상기억 녹내장 튜브</router-link></li>
+                                    <li><router-link to="/w/ko/product/innoself-r">코 성형물 임플란트</router-link></li>
                                 </ul>
                                 <h5>세포유래 나노소포체</h5>
                                 <ul>
@@ -86,12 +89,18 @@ export default {
     data: function() {
         return {
             isExpendNav: false,
+            scrollTop: 0,
         }
     },
     computed: {
         ...mapState({
             lang: state => state.lang
         }),
+    },
+    beforeCreate: function() {
+        window.addEventListener('scroll', () => {
+            this.scrollTop = document.documentElement.scrollTop
+        })
     },
     methods: {
         expendNav: function() {
@@ -123,10 +132,11 @@ export default {
 @import "./src/assets/css/functions.scss";
 
 .ko .web #header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
+    min-width: pxtovw(1600px);
     // height: 4.42708333333vw;
     background: #fff;
     border-bottom: 1px solid rgba(#ebebeb, .1);
@@ -175,12 +185,11 @@ export default {
         padding-right: pxtovw(60px);
         .row {
             height: 100%;
-            .col {
-            }
         }
     }
     #topmenu {
-        height: 4.42708333333vw;
+        // height: 4.42708333333vw;
+        height: pxtovw(85px);
         border-bottom: 1px solid rgba(#383838, 0);
         .logo {
             margin: 0;
@@ -215,7 +224,8 @@ export default {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    font-size: 0.9375vw;
+                    // font-size: 0.9375vw;
+                    font-size: pxtovw(18px);
                     // color: #424242;
                     height: 100%;
                     text-decoration: none;
@@ -277,7 +287,7 @@ export default {
     }
     #submenu {
         display: none;
-        height: pxtovw(240px);
+        height: pxtovw(320px);
         .submenu {
             padding-top: pxtovw(20px);
             > ul {
@@ -314,12 +324,6 @@ export default {
                     }
                     &:nth-of-type(3) {
                         > ul {
-                            // text-align: left;
-                            li {
-                                // &:before {
-                                //     content: "ㆍ";
-                                // }
-                            }
                             a {
                                 display: inline;
                                 line-height: pxtovw(28px);

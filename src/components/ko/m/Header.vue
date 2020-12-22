@@ -32,9 +32,12 @@
                     <div>
                         <h4><router-link to="/m/ko/product/smp-l" data-dismiss="modal">형상기억고분자</router-link></h4>
                         <ul>
-                            <li><router-link to="/m/ko/product/smp-l" data-dismiss="modal">누도 누액관 스텐트</router-link></li>
-                            <li><router-link to="/m/ko/product/smp-v" data-dismiss="modal">혈관 외벽 스텐트</router-link></li>
-                            <li><router-link to="/m/ko/product/smp-b" data-dismiss="modal">담관 스텐트</router-link></li>
+                            <li><router-link to="/m/ko/product/innoself-l" data-dismiss="modal">누도 누액관 스텐트</router-link></li>
+                            <li><router-link to="/m/ko/product/innoself-v" data-dismiss="modal">혈관 외벽 스텐트</router-link></li>
+                            <li><router-link to="/m/ko/product/innoself-b" data-dismiss="modal">담관 스텐트</router-link></li>
+                            <li><router-link to="/m/ko/product/innoself-p" data-dismiss="modal">누점플러그</router-link></li>
+                            <li><router-link to="/m/ko/product/innoself-g" data-dismiss="modal">형상기억 녹내장 튜브</router-link></li>
+                            <li><router-link to="/m/ko/product/innoself-r" data-dismiss="modal">코 성형물 임플란트</router-link></li>
                         </ul>
                     </div>
                     <div>
@@ -155,7 +158,7 @@ export default {
     right: 0;
     bottom: 0;
     background: #fff;
-    padding: 0 pxtovw2(40px) pxtovw2(100px) !important;
+    padding: 0 pxtovw2(40px) pxtovw2(150px) !important;
     header {
         display: flex;
         justify-content: space-between;

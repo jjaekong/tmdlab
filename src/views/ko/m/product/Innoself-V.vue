@@ -5,7 +5,7 @@
             <h3>제품</h3>
             <header class="page-title">
                 <span>형상기억</span>
-                <h4>혈관 외벽 스텐트 <sup>SMP-V<sup>&reg;</sup></sup></h4>
+                <h4>혈관 외벽 스텐트 <sup>Innoself&trade; V</sup></h4>
             </header>
             <div class="surgery-list">
                 <div class="swiper-container">

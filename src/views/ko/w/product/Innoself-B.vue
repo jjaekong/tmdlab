@@ -7,7 +7,7 @@
       <div class="product-title">
         <div class="category">형상기억</div>
         <h3 class="title">담관 스텐트</h3>
-        <span class="brand">SMP-B<sup>&reg;</sup></span>
+        <span class="brand">Innoself&trade; B</span>
       </div>
       <div class="feature feature-1">
         <div class="feature-container">

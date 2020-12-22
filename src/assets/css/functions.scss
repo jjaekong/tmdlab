@@ -1,7 +1,9 @@
 @function pxtovw($target) {
-    @return ($target / (1920px / 100)) * 1vw;
+    @return $target;
+    // @return ($target / (1920px / 100)) * 1vw;
 }
 
 @function pxtovw2($target) {
+    // @return $target;
     @return ($target / (720px / 100)) * 1vw;
 }

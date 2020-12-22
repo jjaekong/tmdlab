@@ -37,6 +37,7 @@ export default {
 
 #subheader {
     padding-top: pxtovw(86px);
+    min-width: pxtovw(1600px);
     height: pxtovw(300px);
     display: flex;
     justify-content: center;

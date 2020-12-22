@@ -7,7 +7,7 @@
                 <h4>형상기억고분자</h4>
                 <div class="scientific">
                     <div class="full">Shape Memory Polymer</div>
-                    <div class="short">SMP</div>
+                    <div class="short">Innoself<sup>TM</sup></div>
                 </div>
             </header>
             <p>
@@ -17,7 +17,12 @@
                 성질을 가진 고분자
             </p>
         </section>
-        <section class="smp shape">
+        <section class="smp shape shape-2">
+            <p>
+                <img src="@/assets/img/m/technology/img_smp_shape2.png">
+            </p>
+        </section>
+        <section class="smp shape shape-1">
             <p>
                 <img src="@/assets/img/m/technology/img_smp_shape.png">
             </p>
@@ -156,7 +161,7 @@ export default {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    width: pxtovw2(88px);
+                    width: pxtovw2(126px);
                     background: #0160a1;
                     font-size: pxtovw2(17px);
                     line-height: pxtovw2(17px);
@@ -234,6 +239,14 @@ export default {
     }
     .smp.shape {
         padding: 0 !important;
+        &.shape-1 {
+            background: #fff;
+            padding-top: pxtovw2(50px) !important;
+            border-top: 1px solid #999;
+        }
+        p {
+            margin: 0;
+        }
         img {
             display: block;
             width: 100%;

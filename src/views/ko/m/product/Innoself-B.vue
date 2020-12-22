@@ -5,7 +5,7 @@
             <h3>제품</h3>
             <header class="page-title">
                 <span>형상기억</span>
-                <h4>담관 스텐트 <sup>SMP-B<sup>&reg;</sup></sup></h4>
+                <h4>담관 스텐트 <sup>Innoself&trade; B</sup></h4>
             </header>
             <div class="surgery-list">
                 <div class="swiper-container">

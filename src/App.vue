@@ -1,6 +1,8 @@
 <template>
     <div id="app" :class="$route.path.split('/')[2]">
-        <router-view/>
+        <keep-alive>
+            <router-view/>
+        </keep-alive>
     </div>
 </template>
 
@@ -44,6 +46,7 @@ body {
         font-family: 'Noto Sans KR', sans-serif;
         letter-spacing: pxtovw(-1px);
         .web {
+            min-width: pxtovw(1600px);
             &.product {
                 .keyword {
                     position: relative;

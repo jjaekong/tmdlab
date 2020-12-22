@@ -5,7 +5,7 @@
             <h3>제품</h3>
             <header class="page-title">
                 <span>형상기억</span>
-                <h4>누도·누액관 스텐트 <sup>SMP-L<sup>&reg;</sup></sup></h4>
+                <h4>누도·누액관 스텐트 <sup>Innoself&trade; L</sup></h4>
             </header>
             <div class="feature-define">
                 <div class="keyword">현황</div>
