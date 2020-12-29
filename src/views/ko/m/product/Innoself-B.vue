@@ -59,7 +59,7 @@
                 <img src="@/assets/img/m/product/img_smp_b_figure_1.jpg">
             </div>
             <div class="summary">
-                <h5>SMP-B<sup>&reg;</sup> <span>효과</span></h5>
+                <h5>Innoself&trade; B <span>효과</span></h5>
                 <ul>
                     <li>자가 팽창에 의해 스텐트 이탈률 감소</li>
                     <li>바이오필름 생성 억제</li>

@@ -22,8 +22,8 @@
                     <div class="feature-define">
                         <div class="keyword">해결방안</div>
                     </div>
+                    <img class="feature-image" src="@/assets/img/product/innoself-g/img_feature_2.jpg" alt="">
                 </div>
-                <img class="feature-image" src="@/assets/img/product/innoself-g/img_feature_2.jpg" alt="">
             </div>
         </main>
         <Footer />
@@ -87,23 +87,30 @@
         }
 
         .feature-2 {
-            height: pxtovw(760px);
             background-image: url(../../../../assets/img/product/innoself-g/bg_feature_2.jpg);
             background-repeat: no-repeat;
             background-size: cover;
-            padding-top: pxtovw(80px);
+            padding-bottom: pxtovw(80px);
+
+            // .feature-define {
+            //     position: absolute;
+            //     .keyword {
+            //         top: pxtovw(-130px);
+            //     }
+            // }
 
             .feature-define {
-                position: absolute;
                 .keyword {
-                    top: pxtovw(-130px);
+                    margin-top: pxtovw(-50px);
+                    margin-bottom: pxtovw(30px);
                 }
             }
 
             .feature-image {
                 display: block;
                 margin: 0 auto;
-                width: pxtovw(1599px);
+                max-width: pxtovw(1599px);
+                width: 100%;
             }
         }
     }

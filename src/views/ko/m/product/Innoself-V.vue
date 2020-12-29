@@ -64,7 +64,7 @@
                 <img src="@/assets/img/m/product/img_smp_v_figure_1.jpg">
             </div>
             <div class="summary">
-                <h5>SMP-V<sup>&reg;</sup></h5>
+                <h5>Innoself&trade; V</h5>
                 <ul>
                     <li>혈관 외벽 지지체로써 협착 방지</li>
                     <li>동맥과 정맥의 혈압 차이로 인한 부종 방지</li>

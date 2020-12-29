@@ -71,7 +71,7 @@
                         <div>
                             <img class="feature-image" src="@/assets/img/product/smp-v/img_feature_4.jpg" alt="">
                             <div class="feature-desc">
-                                <h4>SMP-V<sup>&reg;</sup></h4>
+                                <h4>Innoself&trade; V</h4>
                                 <ul>
                                     <li><img src="@/assets/img/ico_check_circle.png"> 혈관 외벽 지지체로써 협착 방지</li>
                                     <li><img src="@/assets/img/ico_check_circle.png"> 동맥과 정맥의 혈압 차이로 인한 부종 방지</li>
@@ -84,7 +84,7 @@
                     <div class="feature-row">
                         <div>
                             <div class="feature-desc float-right">
-                                Tm 온도에서 SMP-V<sup>&reg;</sup> 시제품의 형상 복원으로 혈관 외벽을 랩핑함
+                                Tm 온도에서 Innoself&trade; V 시제품의 형상 복원으로 혈관 외벽을 랩핑함
                             </div>
                         </div>
                         <div></div>

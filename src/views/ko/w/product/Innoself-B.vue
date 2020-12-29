@@ -64,7 +64,7 @@
           </div>
           <div class="feature-row">
             <div class="feature-desc">
-              <h4><b>SMP-B<sup>&reg;</sup></b> 효과</h4>
+              <h4><b>Innoself&trade; B</b> 효과</h4>
               <ul>
                 <li><img src="@/assets/img/ico_check_circle.png"> 자가 팽창에 의해 스텐트 이탈률 감소</li>
                 <li><img src="@/assets/img/ico_check_circle.png"> 바이오필름 생성 억제</li>
