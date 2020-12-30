@@ -30,7 +30,7 @@
                 <h3><a href="#">제품</a></h3>
                 <div class="d-flex">
                     <div>
-                        <h4><router-link to="/m/ko/product/smp-l" data-dismiss="modal">형상기억고분자</router-link></h4>
+                        <h4><router-link to="/m/ko/product/innoself-l" data-dismiss="modal">형상기억고분자</router-link></h4>
                         <ul>
                             <li><router-link to="/m/ko/product/innoself-l" data-dismiss="modal">누도 누액관 스텐트</router-link></li>
                             <li><router-link to="/m/ko/product/innoself-v" data-dismiss="modal">혈관 외벽 스텐트</router-link></li>
