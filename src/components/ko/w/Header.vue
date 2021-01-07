@@ -3,7 +3,7 @@
         <div class="container-fluid" id="topmenu">
             <div class="row justify-content-between align-items-center">
                 <div class="col-2 d-flex"><h1 class="logo"><router-link to="/w/ko/home"><span class="sr-only">TMD LAP - TRANSFORMATIVE MEDICAL DEVICE</span></router-link></h1></div>
-                <div class="col d-flex justify-content-center" style="height: 100%;">
+                <div class="col-8 d-flex justify-content-center" style="height: 100%;">
                     <nav class="menu d-flex align-items-center" @mouseover="expendNav()">
                         <ul>
                             <li><router-link to="/w/ko/introduce" @focus="expendNav()">소개</router-link></li>
@@ -31,7 +31,7 @@
         <div class="container-fluid" id="submenu">
             <div class="row">
                 <div class="col-2"></div>
-                <div class="col d-flex justify-content-center">
+                <div class="col-8 d-flex justify-content-center">
                     <nav class="submenu">
                         <ul class="p-0 d-flex">
                             <li>

@@ -1,5 +1,5 @@
 <template>
-  <div class="web product smp-b">
+  <div class="web product innoself-b">
     <Header />
     <SubHeader :title="'Products'" />
     <PathNav :path="['Products', 'Shape memory polymer', 'Bile duct stent']"/>
@@ -7,7 +7,7 @@
       <div class="product-title">
         <span class="category">Shape memory</span>
         <h3 class="title">Bile duct stent</h3>
-        <span class="brand">SMP-B<sup>&reg;</sup></span>
+        <span class="brand">Innoself&trade; B</span>
       </div>
       <div class="feature feature-1">
         <div class="feature-container">
@@ -61,7 +61,7 @@
           </div>
           <div class="feature-row">
             <div class="feature-desc">
-              <h4><b>SMP-B<sup>&reg;</sup></b> effect</h4>
+              <h4><b>Innoself&trade; B</b> effect</h4>
               <ul>
                 <li><img src="@/assets/img/ico_check_circle.png"> Reducing the stent dislocation rate<br>due to self-expansion</li>
                 <li><img src="@/assets/img/ico_check_circle.png"> Inhibiting biofilm formation</li>

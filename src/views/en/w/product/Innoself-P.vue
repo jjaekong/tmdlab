@@ -1,41 +1,41 @@
 <template>
     <div class="web product innoself-p">
         <Header />
-        <SubHeader :title="'제품'" />
-        <PathNav :path="['제품', '형상기억고분자', '누점플러그']" />
+        <SubHeader :title="'Products'" />
+        <PathNav :path="['Products', 'Shape memory polymer', 'Punctal plug']"/>
         <main id="main">
             <div class="product-title">
-                <div class="category">형상기억</div>
-                <h3 class="title">누점플러그</h3>
+                <div class="category">Shape memory polymer</div>
+                <h3 class="title">Punctal plug</h3>
                 <span class="brand">Innoself&trade; P</span>
             </div>
             <div class="feature feature-1">
                 <div class="feature-container">
                     <div class="feature-define">
-                        <div class="keyword">현황</div> 안구건조증의 원인
+                        <div class="keyword">Current<br>Condition</div> Cause of dry eye syndrome
                     </div>
-                    <img class="feature-image" src="@/assets/img/product/innoself-p/img_feature_1.jpg" alt="">
+                    <img class="feature-image" src="@/assets/img/product/innoself-p/en/img_feature_1.jpg" alt="">
                 </div>
             </div>
             <div class="feature feature-2">
                 <div class="feature-container">
                     <div class="feature-define">
-                        <div class="keyword">증상</div>
+                        <div class="keyword">Symptom</div>
                     </div>
-                    <img class="feature-image" src="@/assets/img/product/innoself-p/img_feature_2.jpg" alt="">
+                    <img class="feature-image" src="@/assets/img/product/innoself-p/en/img_feature_2.jpg" alt="">
                 </div>
             </div>
             <div class="feature feature-3">
                 <div class="feature-container">
                     <div class="feature-define">
-                        <div class="keyword">치료</div> 눈물점에 누점플러그를 삽입하여 눈물의 소실을 막는 누점폐쇄술을 실시함
+                        <div class="keyword">Treatment</div> Punctal obstruction is performed by inserting a punctal plug into the tear point to prevent the loss of tears.
                     </div>
-                    <img class="feature-image" src="@/assets/img/product/innoself-p/img_feature_3.jpg" alt="">
+                    <img class="feature-image" src="@/assets/img/product/innoself-p/en/img_feature_3.jpg" alt="">
                 </div>
             </div>
             <div class="feature feature-4">
                 <div class="feature-container">
-                    <img class="feature-image" src="@/assets/img/product/innoself-p/img_feature_4.jpg" alt="">
+                    <img class="feature-image" src="@/assets/img/product/innoself-p/en/img_feature_4.jpg" alt="">
                 </div>
             </div>
         </main>
@@ -44,10 +44,10 @@
 </template>
 
 <script>
-    import Header from '@/components/ko/w/Header.vue'
-    import SubHeader from '@/components/ko/w/SubHeader.vue'
-    import PathNav from '@/components/ko/w/PathNav.vue'
-    import Footer from '@/components/ko/w/Footer.vue'
+    import Header from '@/components/en/w/Header.vue'
+    import SubHeader from '@/components/en/w/SubHeader.vue'
+    import PathNav from '@/components/en/w/PathNav.vue'
+    import Footer from '@/components/en/w/Footer.vue'
 
     export default {
         components: {

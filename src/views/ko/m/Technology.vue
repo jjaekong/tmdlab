@@ -7,7 +7,7 @@
                 <h4>형상기억고분자</h4>
                 <div class="scientific">
                     <div class="full">Shape Memory Polymer</div>
-                    <div class="short">Innoself<sup>TM</sup></div>
+                    <div class="short">Innoself&trade;</div>
                 </div>
             </header>
             <p>

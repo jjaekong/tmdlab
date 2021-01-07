@@ -46,12 +46,12 @@ import KO_M_Home from '../views/ko/m/Home.vue'
 import KO_M_QnA from '../views/ko/m/QnA.vue'
 
 import EN_W_Home from '../views/en/w/Home.vue'
-import EN_W_Introduce from '../views/en/w/Introduce.vue'
-import EN_W_Technology from '../views/en/w/Technology.vue'
-import EN_W_ProdSMPL from '../views/en/w/product/SMP-L.vue'
-import EN_W_ProdSMPB from '../views/en/w/product/SMP-B.vue'
-import EN_W_ProdSMPV from '../views/en/w/product/SMP-V.vue'
-import EN_W_ProdTNV from '../views/en/w/product/TNV.vue'
+// import EN_W_Introduce from '../views/en/w/Introduce.vue'
+// import EN_W_Technology from '../views/en/w/Technology.vue'
+// import EN_W_ProdSMPL from '../views/en/w/product/SMP-L.vue'
+// import EN_W_ProdSMPB from '../views/en/w/product/SMP-B.vue'
+// import EN_W_ProdSMPV from '../views/en/w/product/SMP-V.vue'
+// import EN_W_ProdTNV from '../views/en/w/product/TNV.vue'
 import EN_W_QnA from '../views/en/w/QnA.vue'
 
 import EN_M_Home from '../views/en/m/Home.vue'
@@ -90,27 +90,39 @@ let router = new VueRouter({
         },
         {
             path: '/w/en/introduce',
-            component: EN_W_Introduce,
+            component: () => import('../views/en/w/Introduce.vue'),
         },
         {
             path: '/w/en/technology',
-            component: EN_W_Technology,
+            component: () => import('../views/en/w/Technology.vue'),
         },
         {
-            path: '/w/en/product/smp-l',
-            component: EN_W_ProdSMPL,
+            path: '/w/en/product/innoself-l',
+            component: () => import('../views/en/w/product/Innoself-L.vue'),
         },
         {
-            path: '/w/en/product/smp-b',
-            component: EN_W_ProdSMPB,
+            path: '/w/en/product/innoself-b',
+            component: () => import('../views/en/w/product/Innoself-B.vue'),
         },
         {
-            path: '/w/en/product/smp-v',
-            component: EN_W_ProdSMPV,
+            path: '/w/en/product/innoself-v',
+            component: () => import('../views/en/w/product/Innoself-V.vue'),
+        },
+        {
+            path: '/w/en/product/innoself-p',
+            component: () => import('../views/en/w/product/Innoself-P.vue'),
+        },
+        {
+            path: '/w/en/product/innoself-g',
+            component: () => import('../views/en/w/product/Innoself-G.vue'),
+        },
+        {
+            path: '/w/en/product/innoself-r',
+            component: () => import('../views/en/w/product/Innoself-R.vue'),
         },
         {
             path: '/w/en/product/tnv',
-            component: EN_W_ProdTNV,
+            component: () => import('../views/en/w/product/TNV.vue'),
         },
         {
             path: '/w/en/promotion/news',

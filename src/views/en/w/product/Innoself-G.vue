@@ -1,28 +1,28 @@
 <template>
     <div class="web product innoself-g">
         <Header />
-        <SubHeader :title="'제품'" />
-        <PathNav :path="['제품', '형상기억고분자', '형상기억 녹내장 튜브']" />
+        <SubHeader :title="'Products'" />
+        <PathNav :path="['Products', 'Shape memory polymer', 'Glaucoma drainage device']"/>
         <main id="main">
             <div class="product-title">
-                <div class="category">형상기억</div>
-                <h3 class="title">형상기억 녹내장 튜브</h3>
+                <span class="category">Shape memory</span>
+                <h3 class="title">Glaucoma drainage device</h3>
                 <span class="brand">Innoself&trade; G</span>
             </div>
             <div class="feature feature-1">
                 <div class="feature-container">
                     <div class="feature-define">
-                        <div class="keyword">문제점</div> 기존 치료법인 녹내장 Valve(배액 장치), Tube는 초기 단계에서 안압이 과도하게 떨어지는 경우가 자주 발생
+                        <div class="keyword">Issue</div> Glaucoma drainage device often in too much drop of intraocular pressure in the early phase
                     </div>
-                    <img class="feature-image" src="@/assets/img/product/innoself-g/img_feature_1.jpg" alt="">
+                    <img class="feature-image" src="@/assets/img/product/innoself-g/en/img_feature_1.jpg" alt="">
                 </div>
             </div>
             <div class="feature feature-2">
                 <div class="feature-container">
                     <div class="feature-define">
-                        <div class="keyword">해결방안</div>
+                        <div class="keyword">Effect</div>
                     </div>
-                    <img class="feature-image" src="@/assets/img/product/innoself-g/img_feature_2.jpg" alt="">
+                    <img class="feature-image" src="@/assets/img/product/innoself-g/en/img_feature_2.jpg" alt="">
                 </div>
             </div>
         </main>
@@ -31,10 +31,10 @@
 </template>
 
 <script>
-    import Header from '@/components/ko/w/Header.vue'
-    import SubHeader from '@/components/ko/w/SubHeader.vue'
-    import PathNav from '@/components/ko/w/PathNav.vue'
-    import Footer from '@/components/ko/w/Footer.vue'
+    import Header from '@/components/en/w/Header.vue'
+    import SubHeader from '@/components/en/w/SubHeader.vue'
+    import PathNav from '@/components/en/w/PathNav.vue'
+    import Footer from '@/components/en/w/Footer.vue'
 
     export default {
         components: {

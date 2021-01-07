@@ -1,9 +1,9 @@
 <template>
-    <header id="header" :class="{ 'expend': isExpendNav }" @mouseleave="collapseNav()">
+    <header id="header" :class="{ 'expend': isExpendNav }" @mouseleave="collapseNav()" :style="{ top: scrollTop+'px' }">
         <div class="container-fluid" id="topmenu">
             <div class="row justify-content-between align-items-center">
                 <div class="col-2 d-flex"><h1 class="logo"><router-link to="/"><span class="sr-only">TMD LAP - TRANSFORMATIVE MEDICAL DEVICE</span></router-link></h1></div>
-                <div class="col d-flex justify-content-center" style="height: 100%;">
+                <div class="col-8 d-flex justify-content-center" style="height: 100%;">
                     <nav class="menu d-flex align-items-center" @mouseover="expendNav()">
                         <ul>
                             <li><router-link to="/w/en/introduce" @focus="expendNav()">Introduction</router-link></li>
@@ -31,7 +31,7 @@
         <div class="container-fluid" id="submenu">
             <div class="row">
                 <div class="col-2"></div>
-                <div class="col d-flex justify-content-center">
+                <div class="col-8 d-flex justify-content-center">
                     <nav class="submenu">
                         <ul class="p-0 d-flex">
                             <li>
@@ -49,9 +49,12 @@
                             <li>
                                 <h5>Shape memory polymer</h5>
                                 <ul>
-                                    <li><router-link to="/w/en/product/smp-l">Lacrimal duct stent</router-link></li>
-                                    <li><router-link to="/w/en/product/smp-v">Blood vessel external wrapping stent</router-link></li>
-                                    <li><router-link to="/w/en/product/smp-b">Bile duct stent</router-link></li>
+                                    <li><router-link to="/w/en/product/innoself-l">Lacrimal duct stent</router-link></li>
+                                    <li><router-link to="/w/en/product/innoself-v">Blood vessel external wrapping stent</router-link></li>
+                                    <li><router-link to="/w/en/product/innoself-b">Bile duct stent</router-link></li>
+                                    <li><router-link to="/w/en/product/innoself-p">Punctal plug</router-link></li>
+                                    <li><router-link to="/w/en/product/innoself-g">Glaucoma drainage device</router-link></li>
+                                    <li><router-link to="/w/en/product/innoself-r">Rhinoplastry Implant</router-link></li>
                                 </ul>
                                 <h5>Cell-derived nanovesicles</h5>
                                 <ul>
@@ -85,12 +88,18 @@ export default {
     data: function() {
         return {
             isExpendNav: false,
+            scrollTop: 0,
         }
     },
     computed: {
         ...mapState({
             lang: state => state.lang
         }),
+    },
+    beforeCreate: function() {
+        window.addEventListener('scroll', () => {
+            this.scrollTop = document.documentElement.scrollTop
+        })
     },
     methods: {
         expendNav: function() {
@@ -122,10 +131,11 @@ export default {
 @import "./src/assets/css/functions.scss";
 
 .en .web #header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
+    min-width: pxtovw(1600px);
     // height: 4.42708333333vw;
     background: #fff;
     border-bottom: 1px solid rgba(#ebebeb, .1);
@@ -173,12 +183,11 @@ export default {
         padding-right: pxtovw(60px);
         .row {
             height: 100%;
-            .col {
-            }
         }
     }
     #topmenu {
-        height: 4.42708333333vw;
+        // height: 4.42708333333vw;
+        height: pxtovw(85px);
         border-bottom: 1px solid rgba(#383838, 0);
         letter-spacing: 0;
         .logo {
@@ -277,7 +286,7 @@ export default {
     }
     #submenu {
         display: none;
-        height: pxtovw(240px);
+        height: pxtovw(320px);
         letter-spacing: 0;
         .submenu {
             padding-top: pxtovw(20px);

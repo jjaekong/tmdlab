@@ -1,28 +1,28 @@
 <template>
     <div class="web product innoself-r">
         <Header />
-        <SubHeader :title="'제품'" />
-        <PathNav :path="['제품', '형상기억고분자', '코 성형물 임플란트']" />
+        <SubHeader :title="'Products'" />
+        <PathNav :path="['Products', 'Shape memory polymer', 'Rhinoplastry Implant']"/>
         <main id="main">
             <div class="product-title">
-                <div class="category">형상기억</div>
-                <h3 class="title">코 성형물 임플란트</h3>
+                <div class="category">Shape memory polymer</div>
+                <h3 class="title">Rhinoplastry Implant</h3>
                 <span class="brand">Innoself&trade; R</span>
             </div>
             <div class="feature feature-1">
                 <div class="feature-container">
                     <div class="feature-define">
-                        <div class="keyword">문제점</div>
+                        <div class="keyword">Issue</div>
                     </div>
-                    <img class="feature-image" src="@/assets/img/product/innoself-r/img_feature_1.jpg" alt="">
+                    <img class="feature-image" src="@/assets/img/product/innoself-r/en/img_feature_1.jpg" alt="">
                 </div>
             </div>
             <div class="feature feature-2">
                 <div class="feature-container">
                     <div class="feature-define">
-                        <div class="keyword">해결방안</div>
+                        <div class="keyword">Effect</div>
                     </div>
-                    <img class="feature-image" src="@/assets/img/product/innoself-r/img_feature_2.jpg" alt="">
+                    <img class="feature-image" src="@/assets/img/product/innoself-r/en/img_feature_2.jpg" alt="">
                 </div>
             </div>
         </main>
@@ -31,10 +31,10 @@
 </template>
 
 <script>
-    import Header from '@/components/ko/w/Header.vue'
-    import SubHeader from '@/components/ko/w/SubHeader.vue'
-    import PathNav from '@/components/ko/w/PathNav.vue'
-    import Footer from '@/components/ko/w/Footer.vue'
+    import Header from '@/components/en/w/Header.vue'
+    import SubHeader from '@/components/en/w/SubHeader.vue'
+    import PathNav from '@/components/en/w/PathNav.vue'
+    import Footer from '@/components/en/w/Footer.vue'
 
     export default {
         components: {

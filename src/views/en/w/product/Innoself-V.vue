@@ -1,5 +1,5 @@
 <template>
-  <div class="web product smp-v">
+  <div class="web product innoself-v">
     <Header />
     <SubHeader :title="'Products'" />
     <PathNav :path="['Products', 'Shape memory polymer', 'Shape memory Blood vessel external wrapping stent']"/>
@@ -7,7 +7,7 @@
       <div class="product-title">
         <span class="category">Shape memory</span>
         <h3 class="title">Blood vessel external wrapping stent</h3>
-        <span class="brand">SMP-V<sup>&reg;</sup></span>
+        <span class="brand">Innoself&trade; V</span>
       </div>
       <div class="feature feature-1">
         <div class="feature-container">
@@ -74,7 +74,7 @@
             <div>
               <img class="feature-image" src="@/assets/img/product/smp-v/img_feature_4.jpg" alt="">
               <div class="feature-desc">
-                <h4>SMP-V<sup>&reg;</sup></h4>
+                <h4>Innoself&trade; V</h4>
                 <ul>
                   <li><img src="@/assets/img/ico_check_circle.png"> Preventing stenosis by external wrapping<br>the blood vessel</li>
                   <li><img src="@/assets/img/ico_check_circle.png"> Preventing edema due to blood pressure<br>difference between the artery and the vein</li>
@@ -87,7 +87,7 @@
           <div class="feature-row">
             <div>
               <div class="feature-desc float-right">
-                External wrapping the blood vessel at Tm temperature, by returning its SMP-V<sup>&reg;</sup> prototype shape
+                External wrapping the blood vessel at Tm temperature, by returning its Innoself&trade; V prototype shape
               </div>
             </div>
             <div></div>

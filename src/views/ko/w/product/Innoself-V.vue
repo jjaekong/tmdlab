@@ -1,5 +1,5 @@
 <template>
-    <div class="web product smp-v">
+    <div class="web product innoself-v">
         <Header />
         <SubHeader :title="'제품'" />
         <PathNav :path="['제품', '형상기억고분자', '혈관 외벽 스텐트']" />

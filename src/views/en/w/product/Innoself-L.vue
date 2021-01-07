@@ -1,5 +1,5 @@
 <template>
-  <div class="web product smp-l">
+  <div class="web product innoself-l">
     <Header />
     <SubHeader :title="'Products'" />
     <PathNav :path="['Products', 'Shape memory polymer', 'Shape memory  Lacrimal duct stent']"/>
@@ -7,7 +7,7 @@
       <div class="product-title">
         <span class="category">Shape memory</span>
         <h3 class="title">Lacrimal duct stent</h3>
-        <span class="brand">SMP-L<sup>&reg;</sup></span>
+        <span class="brand">Innoself&trade; L</span>
       </div>
       <div class="feature feature-1">
         <div class="feature-container">

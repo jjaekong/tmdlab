@@ -11,7 +11,7 @@
                         Shape Memory Polymer
                     </div>
                     <div class="short-name">
-                        Innoself<sup>TM</sup>
+                        Innoself&trade;
                     </div>
                 </div>
                 <div class="description">
