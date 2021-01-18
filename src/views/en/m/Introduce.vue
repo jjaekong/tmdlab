@@ -48,6 +48,25 @@
                 </li>
             </ol>
         </section>
+        <section class="vision">
+            <h4>VISION</h4>
+            <div class="vision-box box">
+                <h5>VISION</h5>
+                <p>
+                    Contributing to healthy lives<br>
+                    through high-tech advancement<br>
+                    in medicine
+                </p>
+            </div>
+            <div class="mission-box box">
+                <h5>MISSION</h5>
+                <p>
+                    Beyond a possibility,<br>
+                    R&amp;D new materials for medical devices<br>
+                    and therapeutics
+                </p>
+            </div>
+        </section>
         <section class="members">
             <h4>Members</h4>
             <ul>
@@ -262,6 +281,47 @@ export default {
                     }
                 }
             }
+        }
+    }
+    .vision {
+        background-image: url(../../../assets/img/m/introduce/bg_vision.jpg);
+        background-size: cover;
+        background-position: 50% 50%;
+        padding-top: pxtovw2(85px) !important;
+        padding-bottom: pxtovw2(40px) !important;
+        h4 {
+            color: white;
+        }
+        .box {
+            margin-bottom: pxtovw2(10px);
+            height: pxtovw2(320px);
+            padding-top: pxtovw2(40px);
+            padding-left: pxtovw2(40px);
+            padding-right: pxtovw2(40px);
+            h5 {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+                font-size: pxtovw2(24px);
+                line-height: pxtovw2(66px);
+                text-decoration: underline;
+            }
+            p {
+                font-size: pxtovw2(26px);
+                line-height: pxtovw2(48px);
+                font-weight: bold;
+            }
+        }
+        .vision-box {
+            background-image: url(../../../assets/img/m/introduce/bg_vision_box.jpg);
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+        .mission-box {
+            background-image: url(../../../assets/img/m/introduce/bg_mission_box.jpg);
+            background-size: cover;
+            background-position: 50% 50%;
+            color: white;
+            text-shadow: 0px pxtovw2(3px) pxtovw2(3px) rgba(0, 0, 0, 0.35);
         }
     }
     .members {

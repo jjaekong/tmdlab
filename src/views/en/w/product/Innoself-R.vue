@@ -6,7 +6,7 @@
         <main id="main">
             <div class="product-title">
                 <div class="category">Shape memory polymer</div>
-                <h3 class="title">Rhinoplastry Implant</h3>
+                <h3 class="title">Rhinoplasty Implant</h3>
                 <span class="brand">Innoself&trade; R</span>
             </div>
             <div class="feature feature-1">

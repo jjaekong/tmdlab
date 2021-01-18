@@ -1,11 +1,11 @@
 <template>
-    <div class="mobile product smp-v">
+    <div class="mobile product innoself-v">
         <Header />
         <section class="overview">
             <h3>Products</h3>
             <header class="page-title">
-                <!-- <span>형상기억</span> -->
-                <h4>Shape memory  Blood vessel external wrapping stent <sup>SMP-V<sup>&reg;</sup></sup></h4>
+                <span class="category">Shape memory</span>
+                <h4>Blood vessel external wrapping stent <sup>Innoself&trade; V</sup></h4>
             </header>
             <div class="surgery-list">
                 <div class="swiper-container">
@@ -58,7 +58,7 @@
                 <img src="@/assets/img/m/product/en/img_smp_v_figure_1.jpg">
             </div>
             <div class="summary">
-                <h5>SMP-V<sup>&reg;</sup></h5>
+                <h5>Innoself&trade; V</h5>
                 <ul>
                     <li>Preventing stenosis by external wrapping the blood vessel</li>
                     <li>Preventing edema due to blood pressure difference between the artery and the vein</li>
@@ -101,6 +101,13 @@ export default {
 .mobile.product {
     .overview {
         padding-bottom: pxtovw2(50px) !important;
+        .page-title {
+            .category {
+                margin-bottom: 0;
+                margin-right: pxtovw2(10px);
+                width: pxtovw2(180px) !important;
+            }
+        }
         .surgery-list {
             margin-left: pxtovw2(-40px);
             margin-right: pxtovw2(-40px);

@@ -28,6 +28,7 @@
                     </p>
                 </div>
             </section>
+            
             <section class="history" id="history">
                 <h4 class="section-title">Company history</h4>
                 <div class="container-fluid">
@@ -67,6 +68,30 @@
                             </ul>
                         </li>
                     </ol>
+                </div>
+            </section>
+            <section class="vision" id="vision">
+                <h4 class="section-title">VISION</h4>
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-center">
+                        <div class="vision-box box">
+                            <h4>VISION</h4>
+                            <p>
+                                Contributing to<br>
+                                healthy lives<br>
+                                through high-tech<br>
+                                advancement in medicine
+                            </p>
+                        </div>
+                        <div class="mission-box box">
+                            <h4>MISSION</h4>
+                            <p>
+                                Beyond a possibility,<br>
+                                R&amp;D new materials for<br>
+                                medical devices and therapeutics
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="members">
@@ -330,6 +355,54 @@
                             }
                         }
                     }
+                }
+            }
+        }
+
+        #vision {
+            padding-top: pxtovw(90px);
+            padding-bottom: pxtovw(100px);
+            background-image: url(../../../assets/img/introduce/bg_vision.jpg);
+            background-repeat:  no-repeat;
+            background-position: 50% 50%;
+            .section-title {
+                margin-bottom: pxtovw(70px);
+                color: white !important;
+            }
+            .container-fluid {
+                max-width: pxtovw(1600px);
+                height: pxtovw(770px);
+                background: #fff;
+            }
+            .vision-box {
+                padding-top: pxtovw(160px);
+                padding-left: pxtovw(415px);
+                width: pxtovw(695px);
+                height: pxtovw(718px);
+                background-image: url(../../../assets/img/introduce/img_vision.jpg);
+                background-repeat: no-repeat;
+            }
+            .mission-box {
+                margin-top: pxtovw(165px);
+                padding-top: pxtovw(85px);
+                padding-left: pxtovw(80px);
+                width: pxtovw(800px);
+                height: pxtovw(543px);
+                background-image: url(../../../assets/img/introduce/img_mission.jpg);
+                color: white;
+            }
+            .box {
+                h4 {
+                    margin-bottom: pxtovw(15px);
+                    font-size: pxtovw(24px);
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    text-decoration: underline;
+                }
+                p {
+                    font-size: pxtovw(24px);
+                    line-height: pxtovw(48px);
+                    font-weight: bold;
                 }
             }
         }

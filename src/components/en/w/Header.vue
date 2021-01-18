@@ -38,6 +38,7 @@
                                 <ul>
                                     <li><router-link to="/w/en/introduce">About TMD LAB</router-link></li>
                                     <li><router-link to="/w/en/introduce#history">History of TMD LAB</router-link></li>
+                                    <li><router-link to="/w/en/introduce#vision">Vision</router-link></li>
                                 </ul>
                             </li>
                             <li>
@@ -54,7 +55,7 @@
                                     <li><router-link to="/w/en/product/innoself-b">Bile duct stent</router-link></li>
                                     <li><router-link to="/w/en/product/innoself-p">Punctal plug</router-link></li>
                                     <li><router-link to="/w/en/product/innoself-g">Glaucoma drainage device</router-link></li>
-                                    <li><router-link to="/w/en/product/innoself-r">Rhinoplastry Implant</router-link></li>
+                                    <li><router-link to="/w/en/product/innoself-r">Rhinoplasty Implant</router-link></li>
                                 </ul>
                                 <h5>Cell-derived nanovesicles</h5>
                                 <ul>
@@ -70,6 +71,7 @@
                             <li>
                                 <ul>
                                     <li><router-link to="/w/en/qna">Customer inquiry</router-link></li>
+                                    <li><router-link to="/w/en/recruit">Recruit</router-link></li>
                                 </ul>
                             </li>
                         </ul>

@@ -21,20 +21,23 @@
             </div>
             <div class="listgroup">
                 <h3><router-link to="/m/en/technology" data-dismiss="modal">Technology</router-link></h3>
-                <ul>
-                    <li><router-link to="/m/en/technology#smp" data-dismiss="modal">Shape memory polymer</router-link></li>
-                    <li><router-link to="/m/en/technology#cnv" data-dismiss="modal">Cell-derived nanovesicles</router-link></li>
+                <ul class="d-flex">
+                    <li style="flex: 1;"><router-link to="/m/en/technology#smp" data-dismiss="modal">Shape memory polymer</router-link></li>
+                    <li style="flex: 1;"><router-link to="/m/en/technology#cnv" data-dismiss="modal">Cell-derived nanovesicles</router-link></li>
                 </ul>
             </div>
             <div class="listgroup product">
                 <h3><a href="#">Products</a></h3>
                 <div class="d-flex">
                     <div style="flex: 1;">
-                        <h4><router-link to="/m/en/product/smp-l" data-dismiss="modal">Shape memory polymer</router-link></h4>
+                        <h4><router-link to="/m/en/product/innoself-l" data-dismiss="modal">Shape memory polymer</router-link></h4>
                         <ul>
-                            <li><router-link to="/m/en/product/smp-l" data-dismiss="modal">Lacrimal duct stent</router-link></li>
-                            <li><router-link to="/m/en/product/smp-v" data-dismiss="modal">Blood vessel external wrapping stent</router-link></li>
-                            <li><router-link to="/m/en/product/smp-b" data-dismiss="modal">Bile duct stent</router-link></li>
+                            <li><router-link to="/m/en/product/innoself-l" data-dismiss="modal">Lacrimal duct stent</router-link></li>
+                            <li><router-link to="/m/en/product/innoself-v" data-dismiss="modal">Blood vessel external wrapping stent</router-link></li>
+                            <li><router-link to="/m/en/product/innoself-b" data-dismiss="modal">Bile duct stent</router-link></li>
+                            <li><router-link to="/m/en/product/innoself-p" data-dismiss="modal">Punctal plug</router-link></li>
+                            <li><router-link to="/m/en/product/innoself-g" data-dismiss="modal">Glaucoma drainage device</router-link></li>
+                            <li><router-link to="/m/en/product/innoself-r" data-dismiss="modal">Rhinoplasty Implant</router-link></li>
                         </ul>
                     </div>
                     <div style="flex: 1;">
@@ -47,13 +50,17 @@
             </div>
             <div class="listgroup">
                 <h3><router-link to="/m/en/promotion/news" data-dismiss="modal">Promotion/activity</router-link></h3>
-                <ul>
-                    <li><router-link to="/m/en/promotion/news" data-dismiss="modal">News</router-link></li>
-                    <li><router-link to="/m/en/promotion/journal" data-dismiss="modal">Journal</router-link></li>
+                <ul class="d-flex">
+                    <li style="flex: 1;"><router-link to="/m/en/promotion/news" data-dismiss="modal">News</router-link></li>
+                    <li style="flex: 1;"><router-link to="/m/en/promotion/journal" data-dismiss="modal">Journal</router-link></li>
                 </ul>
             </div>
             <div class="listgroup">
                 <h3><router-link to="/m/en/qna" data-dismiss="modal">Contact</router-link></h3>
+                <ul class="d-flex">
+                    <li style="flex: 1;"><router-link to="/m/en/qna" data-dismiss="modal">Customer inquiry</router-link></li>
+                    <li style="flex: 1;"><router-link to="/m/en/recruit" data-dismiss="modal">Recruit</router-link></li>
+                </ul>
             </div>
             <div class="langs">
                 <a class="en" :class="isLangActive('en') ? 'active' : ''" href="#" @click.prevent="changeLang('en')">ENG</a>
@@ -155,7 +162,7 @@ export default {
     right: 0;
     bottom: 0;
     background: #fff;
-    padding: 0 pxtovw2(40px) pxtovw2(100px) !important;
+    padding: 0 pxtovw2(40px) pxtovw2(150px) !important;
     header {
         display: flex;
         justify-content: space-between;
@@ -234,8 +241,20 @@ export default {
         }
     }
     .listgroup {
-        margin-top: pxtovw2(20px);
+        margin-top: pxtovw2(10px);
         padding-left: pxtovw2(15px);
+        &:nth-of-type(2),
+        &:nth-of-type(4),
+        &:nth-of-type(5) {
+            ul {
+                li + li {
+                    margin-top: 0;
+                }
+                li:nth-of-type(2) {
+                    margin-left: pxtovw2(90px) !important;
+                }
+            }
+        }
         &.product {
             .d-flex {
                 div:nth-of-type(1) {

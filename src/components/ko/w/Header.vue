@@ -38,6 +38,7 @@
                                 <ul>
                                     <li><router-link to="/w/ko/introduce">회사소개</router-link></li>
                                     <li><router-link to="/w/ko/introduce#history">연혁</router-link></li>
+                                    <li><router-link to="/w/ko/introduce#vision">비전</router-link></li>
                                 </ul>
                             </li>
                             <li>
@@ -71,6 +72,7 @@
                             <li>
                                 <ul>
                                     <li><router-link to="/w/ko/qna">고객문의</router-link></li>
+                                    <li><router-link to="/w/ko/recruit">채용</router-link></li>
                                 </ul>
                             </li>
                         </ul>

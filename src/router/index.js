@@ -55,12 +55,12 @@ import EN_W_Home from '../views/en/w/Home.vue'
 import EN_W_QnA from '../views/en/w/QnA.vue'
 
 import EN_M_Home from '../views/en/m/Home.vue'
-import EN_M_Introduce from '../views/en/m/Introduce.vue'
-import EN_M_Technology from '../views/en/m/Technology.vue'
-import EN_M_ProdSMPL from '../views/en/m/product/SMP-L.vue'
-import EN_M_ProdSMPB from '../views/en/m/product/SMP-B.vue'
-import EN_M_ProdSMPV from '../views/en/m/product/SMP-V.vue'
-import EN_M_ProdTNV from '../views/en/m/product/TNV.vue'
+// import EN_M_Introduce from '../views/en/m/Introduce.vue'
+// import EN_M_Technology from '../views/en/m/Technology.vue'
+// import EN_M_ProdSMPL from '../views/en/m/product/SMP-L.vue'
+// import EN_M_ProdSMPB from '../views/en/m/product/SMP-B.vue'
+// import EN_M_ProdSMPV from '../views/en/m/product/SMP-V.vue'
+// import EN_M_ProdTNV from '../views/en/m/product/TNV.vue'
 import EN_M_QnA from '../views/en/m/QnA.vue'
 import $ from 'jquery'
 
@@ -214,6 +214,10 @@ let router = new VueRouter({
             path: '/w/en/qna',
             component: EN_W_QnA,
         },
+        {
+            path: '/w/en/recruit',
+            component: () => import('../views/en/w/Recruit.vue'),
+        },
 
         // 영문 모바일
         {
@@ -226,31 +230,43 @@ let router = new VueRouter({
         },
         {
             path: '/m/en/introduce',
-            component: EN_M_Introduce
+            component: () => import('../views/en/m/Introduce.vue'),
         },
         {
             path: '/m/en/technology',
-            component: EN_M_Technology
+            component: () => import('../views/en/m/Technology.vue'),
         },
         {
             path: '/m/en/product/',
-            redirect: '/m/en/product/smp-l',
+            redirect: '/m/en/product/innoself-l',
         },
         {
-            path: '/m/en/product/smp-l',
-            component: EN_M_ProdSMPL,
+            path: '/m/en/product/innoself-l',
+            component: () => import('../views/en/m/product/Innoself-L.vue'),
         },
         {
-            path: '/m/en/product/smp-b',
-            component: EN_M_ProdSMPB,
+            path: '/m/en/product/innoself-b',
+            component: () => import('../views/en/m/product/Innoself-B.vue'),
         },
         {
-            path: '/m/en/product/smp-v',
-            component: EN_M_ProdSMPV,
+            path: '/m/en/product/innoself-v',
+            component: () => import('../views/en/m/product/Innoself-V.vue'),
+        },
+        {
+            path: '/m/en/product/innoself-p',
+            component: () => import('../views/en/m/product/Innoself-P.vue'),
+        },
+        {
+            path: '/m/en/product/innoself-g',
+            component: () => import('../views/en/m/product/Innoself-G.vue'),
+        },
+        {
+            path: '/m/en/product/innoself-r',
+            component: () => import('../views/en/m/product/Innoself-R.vue'),
         },
         {
             path: '/m/en/product/tnv',
-            component: EN_M_ProdTNV,
+            component: () => import('../views/en/m/product/TNV.vue'),
         },
         {
             path: '/m/en/promotion/news',
@@ -341,6 +357,10 @@ let router = new VueRouter({
         {
             path: '/m/en/qna',
             component: EN_M_QnA,
+        },
+        {
+            path: '/m/en/recruit',
+            component: () => import('../views/en/m/Recruit.vue'),
         },
 
         // 국문 웹
@@ -477,6 +497,10 @@ let router = new VueRouter({
         {
             path: '/w/ko/qna',
             component: KO_W_QnA,
+        },
+        {
+            path: '/w/ko/recruit',
+            component: () => import('../views/ko/w/Recruit.vue'),
         },
 
         // 국문 모바일
@@ -617,6 +641,10 @@ let router = new VueRouter({
         {
             path: '/m/ko/qna',
             component: KO_M_QnA,
+        },
+        {
+            path: '/m/ko/recruit',
+            component: () => import('../views/ko/m/Recruit.vue'),
         },
         {
             path: '*',

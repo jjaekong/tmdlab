@@ -1,11 +1,11 @@
 <template>
-    <div class="mobile product smp-b">
+    <div class="mobile product innoself-b">
         <Header />
         <section class="overview">
             <h3>Products</h3>
             <header class="page-title">
-                <!-- <span>형상기억</span> -->
-                <h4>Bile duct stent <sup>SMP-B<sup>&reg;</sup></sup></h4>
+                <span class="category">Shape memory</span>
+                <h4>Bile duct stent <sup>Innoself&trade; B</sup></h4>
             </header>
             <div class="surgery-list">
                 <div class="swiper-container">
@@ -56,7 +56,7 @@
                 <img src="@/assets/img/m/product/en/img_smp_b_figure_1.jpg">
             </div>
             <div class="summary">
-                <h5>SMP-B<sup>&reg;</sup> <span>effect</span></h5>
+                <h5>Innoself&trade; B <span>effect</span></h5>
                 <ul>
                     <li>Reducing the stent dislocation rate due to self-expansion</li>
                     <li>Inhibiting biofilm formation</li>
@@ -99,6 +99,13 @@ export default {
 .mobile.product {
     .overview {
         padding-bottom: pxtovw2(50px) !important;
+        .page-title {
+            .category {
+                margin-bottom: 0;
+                margin-right: pxtovw2(10px);
+                width: pxtovw2(180px) !important;
+            }
+        }
         .surgery-list {
             margin-left: pxtovw2(-40px);
             margin-right: pxtovw2(-40px);

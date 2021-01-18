@@ -2,7 +2,7 @@
     <div class="web qna">
         <Header />
         <SubHeader :title="'Contact'" />
-        <PathNav :path="['Contact']" />
+        <PathNav :path="['Contact', 'Customer inquiry']" />
         <main id="main">
             <PageTitle>
                 <template v-slot:title>Do you have any question about TMD LAB?</template>

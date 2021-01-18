@@ -21,9 +21,9 @@
             </div>
             <div class="listgroup">
                 <h3><router-link to="/m/ko/technology" data-dismiss="modal">기술</router-link></h3>
-                <ul>
-                    <li><router-link to="/m/ko/technology#smp" data-dismiss="modal">형상기억고분자</router-link></li>
-                    <li><router-link to="/m/ko/technology#cnv" data-dismiss="modal">세포유래 나노소포체 </router-link></li>
+                <ul class="d-flex">
+                    <li style="flex: 1"><router-link to="/m/ko/technology#smp" data-dismiss="modal">형상기억고분자</router-link></li>
+                    <li style="flex: 1"><router-link to="/m/ko/technology#cnv" data-dismiss="modal">세포유래 나노소포체 </router-link></li>
                 </ul>
             </div>
             <div class="listgroup product">
@@ -50,13 +50,17 @@
             </div>
             <div class="listgroup">
                 <h3><router-link to="/m/ko/promotion/news" data-dismiss="modal">홍보/활동</router-link></h3>
-                <ul>
-                    <li><router-link to="/m/ko/promotion/news" data-dismiss="modal">뉴스</router-link></li>
-                    <li><router-link to="/m/ko/promotion/journal" data-dismiss="modal">논문</router-link></li>
+                <ul class="d-flex">
+                    <li style="flex: 1;"><router-link to="/m/ko/promotion/news" data-dismiss="modal">뉴스</router-link></li>
+                    <li style="flex: 1;"><router-link to="/m/ko/promotion/journal" data-dismiss="modal">논문</router-link></li>
                 </ul>
             </div>
             <div class="listgroup">
                 <h3><router-link to="/m/ko/qna" data-dismiss="modal">문의</router-link></h3>
+                <ul class="d-flex">
+                    <li style="flex: 1;"><router-link to="/m/ko/qna" data-dismiss="modal">고객문의</router-link></li>
+                    <li style="flex: 1;"><router-link to="/m/ko/recruit" data-dismiss="modal">채용</router-link></li>
+                </ul>
             </div>
             <div class="langs">
                 <a class="en" :class="isLangActive('en') ? 'active' : ''" href="#" @click.prevent="changeLang('en')">ENG</a>
@@ -235,9 +239,19 @@ export default {
         }
     }
     .listgroup {
-        margin-top: pxtovw2(30px);
+        margin-top: pxtovw2(10px);
         padding-left: pxtovw2(15px);
+        &:nth-of-type(2),
+        &:nth-of-type(4),
+        &:nth-of-type(5) {
+            ul {
+                li:nth-of-type(2) {
+                    margin-left: pxtovw2(65px) !important;
+                }
+            }
+        }
         &.product {
+            margin-bottom: pxtovw2(20px);
             .d-flex {
                 div:nth-of-type(1) {
                     width: pxtovw2(300px);

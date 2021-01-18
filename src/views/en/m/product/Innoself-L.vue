@@ -1,11 +1,11 @@
 <template>
-    <div class="mobile product smp-l">
+    <div class="mobile product innoself-l">
         <Header />
         <section class="overview">
             <h3>Products</h3>
             <header class="page-title">
-                <!-- <span>형상기억</span> -->
-                <h4>Shape memory  Lacrimal duct stent <sup>SMP-L<sup>&reg;</sup></sup></h4>
+                <span class="category">Shape memory</span>
+                <h4>Lacrimal duct stent <sup>Innoself&trade; L</sup></h4>
             </header>
             <div class="feature-define">
                 <div class="keyword">Current condition</div>
@@ -72,6 +72,13 @@ export default {
         padding-bottom: pxtovw2(60px) !important;
         .page-title {
             margin-bottom: pxtovw2(120px);
+        }
+        .page-title {
+            .category {
+                margin-bottom: 0;
+                margin-right: pxtovw2(10px);
+                width: pxtovw2(180px) !important;
+            }
         }
         .feature-define {
             margin-bottom: pxtovw2(50px);

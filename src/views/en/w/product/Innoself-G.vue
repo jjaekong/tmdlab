@@ -12,7 +12,7 @@
             <div class="feature feature-1">
                 <div class="feature-container">
                     <div class="feature-define">
-                        <div class="keyword">Issue</div> Glaucoma drainage device often in too much drop of intraocular pressure in the early phase
+                        <div class="keyword">Issue</div> Glaucoma drainage device often cause too much initial drop in intraocular pressure in the early phase
                     </div>
                     <img class="feature-image" src="@/assets/img/product/innoself-g/en/img_feature_1.jpg" alt="">
                 </div>

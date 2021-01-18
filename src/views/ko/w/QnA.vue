@@ -2,7 +2,7 @@
     <div class="web qna">
         <Header />
         <SubHeader :title="'문의'" />
-        <PathNav :path="['문의']" />
+        <PathNav :path="['문의', '고객문의']" />
         <main id="main">
             <PageTitle>
                 <template v-slot:title>티엠디랩에 궁금하신 사항이 있으신가요?</template>

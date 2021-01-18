@@ -4,7 +4,7 @@
         <section class="smp overview" id="smp">
             <h3>Technology</h3>
             <header>
-                <h4>Shape memory polymer (SMP)</h4>
+                <h4>Shape memory polymer (Innoself&trade;)</h4>
                 <!-- <div class="scientific">
                     <div class="full">Shape Memory Polymer</div>
                     <div class="short">SMP</div>
@@ -14,7 +14,12 @@
                 SMP has its special characteristics: once it is formed to have a certain shape under a specific condition, it returns to its original form under that condition even after its shape is changed due to external stimulation.
             </p>
         </section>
-        <section class="smp shape">
+        <section class="smp shape shape-2">
+            <p>
+                <img src="@/assets/img/m/technology/img_smp_shape2.png">
+            </p>
+        </section>
+        <section class="smp shape shape-1">
             <p>
                 <img src="@/assets/img/m/technology/img_smp_shape.png">
             </p>
@@ -226,6 +231,14 @@ export default {
     }
     .smp.shape {
         padding: 0 !important;
+        &.shape-1 {
+            background: #fff;
+            padding-top: pxtovw2(50px) !important;
+            border-top: 1px solid #999;
+        }
+        p {
+            margin: 0;
+        }
         img {
             display: block;
             width: 100%;

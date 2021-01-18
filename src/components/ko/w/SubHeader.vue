@@ -30,6 +30,9 @@ export default {
 .web.qna #subheader {
     background-image: url(../../../assets/img/subheader_qna.jpg);
 }
+.web.recruit #subheader {
+    background-image: url(../../../assets/img/subheader_recruit.jpg);
+}
 </style>
 
 <style lang="scss" scoped>
