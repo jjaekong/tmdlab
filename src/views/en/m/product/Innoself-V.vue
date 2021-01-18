@@ -88,7 +88,7 @@ export default {
         }
     },
     mounted: function() {
-        this.swiper = new Swiper ('.mobile.product.smp-v .swiper-container', {
+        this.swiper = new Swiper ('.mobile.product.innoself-v .swiper-container', {
             slidesPerView: 'auto',
         });
     }

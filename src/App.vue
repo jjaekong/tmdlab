@@ -1,7 +1,7 @@
 <template>
     <div id="app" :class="$route.path.split('/')[2]">
         <keep-alive>
-            <router-view/>
+            <router-view />
         </keep-alive>
     </div>
 </template>

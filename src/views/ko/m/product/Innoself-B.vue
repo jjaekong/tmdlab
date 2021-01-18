@@ -1,5 +1,5 @@
 <template>
-    <div class="mobile product smp-b">
+    <div class="mobile product innoself-b">
         <Header />
         <section class="overview">
             <h3>제품</h3>
@@ -89,7 +89,7 @@ export default {
         }
     },
     mounted: function() {
-        this.swiper = new Swiper ('.mobile.product.smp-b .swiper-container', {
+        this.swiper = new Swiper ('.mobile.product.innoself-b .swiper-container', {
             slidesPerView: 'auto',
         });
     }
