@@ -23,7 +23,6 @@
                 <h3><router-link to="/m/ko/technology" data-dismiss="modal">기술</router-link></h3>
                 <ul class="d-flex">
                     <li style="flex: 1"><router-link to="/m/ko/technology#smp" data-dismiss="modal">형상기억고분자</router-link></li>
-                    <li style="flex: 1"><router-link to="/m/ko/technology#cnv" data-dismiss="modal">세포유래 나노소포체 </router-link></li>
                 </ul>
             </div>
             <div class="listgroup product">
@@ -38,12 +37,6 @@
                             <li><router-link to="/m/ko/product/innoself-p" data-dismiss="modal">누점플러그</router-link></li>
                             <li><router-link to="/m/ko/product/innoself-g" data-dismiss="modal">형상기억 녹내장 튜브</router-link></li>
                             <li><router-link to="/m/ko/product/innoself-r" data-dismiss="modal">코 성형물 임플란트</router-link></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4><router-link to="/m/ko/product/tnv" data-dismiss="modal">세포유래 나노소포체</router-link></h4>
-                        <ul>
-                            <li><router-link to="/m/ko/product/tnv" data-dismiss="modal">관절염 치료제</router-link></li>
                         </ul>
                     </div>
                 </div>

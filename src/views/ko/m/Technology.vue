@@ -47,7 +47,7 @@
                 </div>
             </div>
         </section>
-        <section class="cnv overview" id="cnv">
+        <!-- <section class="cnv overview" id="cnv">
             <header>
                 <h4>세포유래 나노소포체</h4>
                 <div class="scientific">
@@ -67,7 +67,7 @@
             <div class="figure">
                 <img src="@/assets/img/m/technology/img_cnv_overview.jpg">
             </div>
-        </section>
+        </section> -->
         <Footer />
     </div>
 </template>

@@ -44,7 +44,7 @@
                     </div>
                 </div>
             </section>
-            <section id="cnv">
+            <!-- <section id="cnv">
                 <h4 class="section-title">세포유래 나노소포체</h4>
                 <div class="scientific-name">
                     <div class="full-name">
@@ -64,7 +64,7 @@
                 <div class="feature feature-1">
                     <img src="@/assets/img/technology/img_feature_3.jpg">
                 </div>
-            </section>
+            </section> -->
         </main>
         <Footer />
     </div>

@@ -23,7 +23,6 @@
                 <h3><router-link to="/m/en/technology" data-dismiss="modal">Technology</router-link></h3>
                 <ul class="d-flex">
                     <li style="flex: 1;"><router-link to="/m/en/technology#smp" data-dismiss="modal">Shape memory polymer</router-link></li>
-                    <li style="flex: 1;"><router-link to="/m/en/technology#cnv" data-dismiss="modal">Cell-derived nanovesicles</router-link></li>
                 </ul>
             </div>
             <div class="listgroup product">
@@ -38,12 +37,6 @@
                             <li><router-link to="/m/en/product/innoself-p" data-dismiss="modal">Punctal plug</router-link></li>
                             <li><router-link to="/m/en/product/innoself-g" data-dismiss="modal">Glaucoma drainage device</router-link></li>
                             <li><router-link to="/m/en/product/innoself-r" data-dismiss="modal">Rhinoplasty Implant</router-link></li>
-                        </ul>
-                    </div>
-                    <div style="flex: 1;">
-                        <h4><router-link to="/m/en/product/tnv" data-dismiss="modal">Cell-derived nanovesicles</router-link></h4>
-                        <ul>
-                            <li><router-link to="/m/en/product/tnv" data-dismiss="modal">Treatment to osteoarthritis</router-link></li>
                         </ul>
                     </div>
                 </div>

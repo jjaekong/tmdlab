@@ -12,9 +12,9 @@
                 <div class="swiper-slide">
                     <TechSMP />
                 </div>
-                <div class="swiper-slide">
+                <!-- <div class="swiper-slide">
                     <TechCNV />
-                </div>
+                </div> -->
                 <div class="swiper-slide">
                     <Promotion />
                 </div>
@@ -36,7 +36,7 @@ import ScrollDown from '@/components/en/w/ScrollDown.vue'
 import Welcome from '@/views/en/w/home/Welcome.vue'
 import Introduce from '@/views/en/w/home/Introduce.vue'
 import TechSMP from '@/views/en/w/home/TechSMP.vue'
-import TechCNV from '@/views/en/w/home/TechCNV.vue'
+// import TechCNV from '@/views/en/w/home/TechCNV.vue'
 import Promotion from '@/views/en/w/home/Promotion.vue'
 import Qna from '@/views/en/w/home/Qna.vue'
 
@@ -51,7 +51,7 @@ export default {
         Welcome,
         Introduce,
         TechSMP,
-        TechCNV,
+        // TechCNV,
         Promotion,
         Qna
     },

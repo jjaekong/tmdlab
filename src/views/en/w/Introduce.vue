@@ -94,7 +94,7 @@
                     </div>
                 </div>
             </section>
-            <section class="members">
+            <!-- <section class="members">
                 <h4 class="section-title">Members</h4>
                 <div class="container-fluid">
                     <ul class="profiles">
@@ -164,7 +164,7 @@
                         </li>
                     </ul>
                 </div>
-            </section>
+            </section> -->
             <section class="contact">
                 <div class="container-fluid">
                     <div class="contact-wrapper">
@@ -365,6 +365,7 @@
             background-image: url(../../../assets/img/introduce/bg_vision.jpg);
             background-repeat:  no-repeat;
             background-position: 50% 50%;
+            background-size: cover;
             .section-title {
                 margin-bottom: pxtovw(70px);
                 color: white !important;

@@ -44,7 +44,6 @@
                             <li>
                                 <ul>
                                     <li><router-link to="/w/ko/technology">형상기억고분자</router-link></li>
-                                    <li><router-link to="/w/ko/technology#cnv">세포유래 나노소포체</router-link></li>
                                 </ul>
                             </li>
                             <li>
@@ -56,10 +55,6 @@
                                     <li><router-link to="/w/ko/product/innoself-p">누점플러그</router-link></li>
                                     <li><router-link to="/w/ko/product/innoself-g">형상기억 녹내장 튜브</router-link></li>
                                     <li><router-link to="/w/ko/product/innoself-r">코 성형물 임플란트</router-link></li>
-                                </ul>
-                                <h5>세포유래 나노소포체</h5>
-                                <ul>
-                                    <li><router-link to="/w/ko/product/tnv">관절염 치료제</router-link></li>
                                 </ul>
                             </li>
                             <li>
@@ -289,7 +284,7 @@ export default {
     }
     #submenu {
         display: none;
-        height: pxtovw(320px);
+        height: pxtovw(260px);
         .submenu {
             padding-top: pxtovw(20px);
             > ul {

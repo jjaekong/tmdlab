@@ -43,13 +43,9 @@
                 </div>
             </div>
         </section>
-        <section class="cnv overview" id="cnv">
+        <!-- <section class="cnv overview" id="cnv">
             <header>
                 <h4>Cell-derived Nanovesicles (CNV)</h4>
-                <!-- <div class="scientific">
-                    <div class="full">Cell-derived Nanovesicle</div>
-                    <div class="short">CNV</div>
-                </div> -->
             </header>
             <p>
                 It copies the extracellular vesicle (ex: exosome) with lipid bilayer structure which is secreted from the cell, and becomes a self-assembled cell membrane particle with its size less than 100nm under physical spallation.<br>
@@ -59,7 +55,7 @@
             <div class="figure">
                 <img src="@/assets/img/m/technology/img_cnv_overview.jpg">
             </div>
-        </section>
+        </section> -->
         <Footer />
     </div>
 </template>

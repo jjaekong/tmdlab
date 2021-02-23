@@ -44,7 +44,6 @@
                             <li>
                                 <ul>
                                     <li><router-link to="/w/en/technology">Shape memory polymer</router-link></li>
-                                    <li><router-link to="/w/en/technology#cnv">Cell-derived nanovesicles</router-link></li>
                                 </ul>
                             </li>
                             <li>
@@ -56,10 +55,6 @@
                                     <li><router-link to="/w/en/product/innoself-p">Punctal plug</router-link></li>
                                     <li><router-link to="/w/en/product/innoself-g">Glaucoma drainage device</router-link></li>
                                     <li><router-link to="/w/en/product/innoself-r">Rhinoplasty Implant</router-link></li>
-                                </ul>
-                                <h5>Cell-derived nanovesicles</h5>
-                                <ul>
-                                    <li><router-link to="/w/en/product/tnv">Treatment to osteoarthritis</router-link></li>
                                 </ul>
                             </li>
                             <li>
@@ -288,7 +283,7 @@ export default {
     }
     #submenu {
         display: none;
-        height: pxtovw(320px);
+        height: pxtovw(260px);
         letter-spacing: 0;
         .submenu {
             padding-top: pxtovw(20px);

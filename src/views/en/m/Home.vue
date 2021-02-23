@@ -12,9 +12,9 @@
                 <div class="swiper-slide">
                     <TechSMP />
                 </div>
-                <div class="swiper-slide">
+                <!-- <div class="swiper-slide">
                     <TechCNV />
-                </div>
+                </div> -->
                 <div class="swiper-slide">
                     <Promotion />
                 </div>
@@ -33,7 +33,7 @@ import 'swiper/css/swiper.min.css'
 import Welcome from '@/views/en/m/home/Welcome.vue'
 import Introduce from '@/views/en/m/home/Introduce.vue'
 import TechSMP from '@/views/en/m/home/TechSMP.vue'
-import TechCNV from '@/views/en/m/home/TechCNV.vue'
+// import TechCNV from '@/views/en/m/home/TechCNV.vue'
 import Promotion from '@/views/en/m/home/Promotion.vue'
 import Qna from '@/views/en/m/home/Qna.vue'
 
@@ -42,7 +42,7 @@ import Header from '@/components/en/m/Header.vue'
 export default {
     components: {
         Header,
-        Welcome, Introduce, TechSMP, TechCNV, Promotion, Qna
+        Welcome, Introduce, TechSMP, Promotion, Qna
     },
     data: function() {
         return {

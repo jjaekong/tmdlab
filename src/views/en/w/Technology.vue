@@ -46,16 +46,8 @@
                     </div>
                 </div>
             </section>
-            <section id="cnv">
+            <!-- <section id="cnv">
                 <h4 class="section-title">Cell-derived Nanovesicles <span class="short-name">CNV</span></h4>
-                <!-- <div class="scientific-name">
-          <div class="full-name">
-            Cell-derived Nanovesicle
-          </div>
-          <div class="short-name">
-            CNV
-          </div>
-        </div> -->
                 <div class="description">
                     <p>
                         It copies the extracellular vesicle (ex: exosome) with lipid bilayer structure which is secreted
@@ -71,7 +63,7 @@
                 <div class="feature feature-1">
                     <img src="@/assets/img/technology/img_feature_3.jpg">
                 </div>
-            </section>
+            </section> -->
         </main>
         <Footer />
     </div>

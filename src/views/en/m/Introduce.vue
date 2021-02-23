@@ -67,7 +67,7 @@
                 </p>
             </div>
         </section>
-        <section class="members">
+        <!-- <section class="members">
             <h4>Members</h4>
             <ul>
                 <li>
@@ -132,7 +132,7 @@
                     </div>
                 </li>
             </ul>
-        </section>
+        </section> -->
         <Footer />
     </div>
 </template>

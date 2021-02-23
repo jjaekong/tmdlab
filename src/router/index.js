@@ -120,10 +120,10 @@ let router = new VueRouter({
             path: '/w/en/product/innoself-r',
             component: () => import('../views/en/w/product/Innoself-R.vue'),
         },
-        {
-            path: '/w/en/product/tnv',
-            component: () => import('../views/en/w/product/TNV.vue'),
-        },
+        // {
+        //     path: '/w/en/product/tnv',
+        //     component: () => import('../views/en/w/product/TNV.vue'),
+        // },
         {
             path: '/w/en/promotion/news',
             component: () => import('../views/en/w/promotion/News.vue'),
@@ -264,10 +264,10 @@ let router = new VueRouter({
             path: '/m/en/product/innoself-r',
             component: () => import('../views/en/m/product/Innoself-R.vue'),
         },
-        {
-            path: '/m/en/product/tnv',
-            component: () => import('../views/en/m/product/TNV.vue'),
-        },
+        // {
+        //     path: '/m/en/product/tnv',
+        //     component: () => import('../views/en/m/product/TNV.vue'),
+        // },
         {
             path: '/m/en/promotion/news',
             component: () => import('../views/en/m/promotion/News.vue'),
@@ -392,10 +392,10 @@ let router = new VueRouter({
             path: '/w/ko/product/innoself-v',
             component: () => import('../views/ko/w/product/Innoself-V.vue')
         },
-        {
-            path: '/w/ko/product/tnv',
-            component: () => import('../views/ko/w/product/TNV.vue')
-        },
+        // {
+        //     path: '/w/ko/product/tnv',
+        //     component: () => import('../views/ko/w/product/TNV.vue')
+        // },
         {
             path: '/w/ko/product/innoself-p',
             component: () => import('../views/ko/w/product/Innoself-P.vue')
@@ -536,10 +536,10 @@ let router = new VueRouter({
             path: '/m/ko/product/innoself-v',
             component: () => import('../views/ko/m/product/Innoself-V.vue'),
         },
-        {
-            path: '/m/ko/product/tnv',
-            component: () => import('../views/ko/m/product/TNV.vue'),
-        },
+        // {
+        //     path: '/m/ko/product/tnv',
+        //     component: () => import('../views/ko/m/product/TNV.vue'),
+        // },
         {
             path: '/m/ko/product/innoself-p',
             component: () => import('../views/ko/m/product/Innoself-P.vue')
