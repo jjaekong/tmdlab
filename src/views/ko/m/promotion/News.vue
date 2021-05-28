@@ -10,9 +10,38 @@
             <p>가장 빠르게 뉴스 및 공지사항을 알려드립니다.</p>
         </section>
         <section class="news-list">
-            <h4>NEW <span class="bar"></span> <b>12</b></h4>
+            <h4>NEW <span class="bar"></span> <b>15</b></h4>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/ko/promotion/news/15">
+                            <img class="news-image" src="@/assets/img/m/promotion/m_thumb_news_15.jpg">
+                            <div class="news-body">
+                                <h5>한국산업기술진흥협회에서 지원하는 고경력 연구인력 채용지원사업에 과제 선정</h5>
+                                <time>2021년 05월 24일</time>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/ko/promotion/news/14">
+                            <img class="news-image" src="@/assets/img/m/promotion/m_thumb_news_14.jpg">
+                            <div class="news-body">
+                                <h5>혈관외벽 서포트 연구 논문, Small journal cover 선정 (2021.05)</h5>
+                                <time>2021년 05월 06일</time>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/ko/promotion/news/13">
+                            <img class="news-image" src="@/assets/img/m/promotion/m_thumb_news_13.jpg">
+                            <div class="news-body">
+                                <h5>2021년 춘계 생체재료학회 우수 논문 발표상 수상</h5>
+                                <time>2021년 03월 26일</time>
+                            </div>
+                        </router-link>
+                    </div>
+
                     <div class="swiper-slide">
                         <router-link class="news-item" to="/m/ko/promotion/news/12">
                             <!-- <img class="news-image" src="@/assets/img/m/promotion/thumb_news_12_ko.jpg"> -->

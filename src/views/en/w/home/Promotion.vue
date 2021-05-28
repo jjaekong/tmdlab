@@ -12,10 +12,65 @@
                         </header>
                         <ul class="news">
                             <li>
+                                <router-link class="card" to="/w/en/promotion/news/15">
+                                    <div class="card-header">
+                                        <h4 class="card-title">
+                                            Selected for the recruitment support project for highly experienced researchers supported by the Korea Industrial Technology Association
+                                        </h4>
+                                        <p class="date">
+                                            <time>24th of May 2021</time>
+                                        </p>
+                                    </div>
+                                    <img src="@/assets/img/promotion/PC_thumb_news_15.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                        <p>
+                                            The TMD Lab project (manufacture of polymer materials and composite materials) was selected for the recruitment support ...
+                                        </p>
+                                    </div>
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link class="card" to="/w/en/promotion/news/14">
+                                    <div class="card-header">
+                                        <h4 class="card-title">
+                                            Outer Vascular Wall Support Research Paper, Selected as Small Journal Cover (2021.05)
+                                        </h4>
+                                        <p class="date">
+                                            <time>6th May 2021</time>
+                                        </p>
+                                    </div>
+                                    <img src="@/assets/img/promotion/PC_thumb_news_14.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                        <p>
+                                            Outer Vascular Wall Support Research Paper(Dilation-Responsive Microshape Programming Prevents Vascular Graft Stenosis), published in Small (IF 11.459) on ...
+
+                                        </p>
+                                    </div>
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link class="card" to="/w/en/promotion/news/13">
+                                    <div class="card-header">
+                                        <h4 class="card-title">
+                                            2021 Spring Biomaterials Society Outstanding Paper Presentation Award
+                                        </h4>
+                                        <p class="date">
+                                            <time>26th March 2021</time>
+                                        </p>
+                                    </div>
+                                    <img src="@/assets/img/promotion/PC_thumb_news_13.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                        <p>
+                                            In March 2021, the 2021 Korean Society for Biomaterials Spring Conference hosted by the Korean Society for Biomaterials was held as an online conference.
+                                        </p>
+                                    </div>
+                                </router-link>
+                            </li>
+                            <li>
                                 <router-link class="card" to="/w/en/promotion/news/12">
                                     <div class="card-header">
                                         <h4 class="card-title">
-                                            TMD Lab - Yonsei University College of Medicine Joint Research, selected as a “medical device customized material” national assignment.
+                                            TMD Lab - Yonsei University College of Medicine Joint Research, selected as a “medical device customized material” national assignment. ...
                                         </h4>
                                         <p class="date">
                                             <time>15th September 2020</time>
@@ -24,83 +79,11 @@
                                     <img src="@/assets/img/promotion/thumb_main_news_12_en.jpg" class="card-img-top">
                                     <div class="card-body">
                                         <p>
-                                            Opening a new era in the field of “internal medical devices” with advanced shape memory polymer source technology that responds to body temperature
+                                            Opening a new era in the field of “internal medical devices” with advanced shape memory polymer source technology that ...
                                         </p>
                                     </div>
                                 </router-link>
                             </li>
-                            <li>
-                                <router-link class="card" to="/w/en/promotion/news/11">
-                                    <div class="card-header">
-                                        <h4 class="card-title">
-                                            Thesis on vessel stabilization and vessel generation induction of the stem cell embedded to the enzyme-crosslinkable gelatin gel published at the international academic journal (Science Advances, IF 12.8)
-                                        </h4>
-                                        <p class="date">
-                                            <time>26th February 2020</time>
-                                        </p>
-                                    </div>
-                                    <img src="@/assets/img/promotion/thumb_main_news_11.jpg" class="card-img-top">
-                                    <div class="card-body">
-                                        <p>
-                                            “We are developing shape memory polymer...
-                                        </p>
-                                    </div>
-                                </router-link>
-                            </li>
-                            <li>
-                                <router-link class="card" to="/w/en/promotion/news/10">
-                                    <div class="card-header">
-                                        <h4 class="card-title">
-                                            Thesis on the 3-dimensional micro-channel network inducing vessel generation published at the international academic journal (Nature Communication, IF 11.88)
-                                        </h4>
-                                        <p class="date">
-                                            <time>30th January 2020</time>
-                                        </p>
-                                    </div>
-                                    <img src="@/assets/img/promotion/thumb_main_news_10.jpg" class="card-img-top">
-                                    <div class="card-body">
-                                        <p>
-                                            TMD LAB Corporation developed the hydrogel-based micro-channel network ...
-                                        </p>
-                                    </div>
-                                </router-link>
-                            </li>
-                            <li>
-                                <router-link class="card" to="/w/en/promotion/news/9">
-                                    <div class="card-header">
-                                        <h4 class="card-title">
-                                            [Biospectator] TMD LAB challenges in developing the new concept stent using ‘shape memory polymer’ (17th of December 2019)
-                                        </h4>
-                                        <p class="date">
-                                            <time>17th of December 2019</time>
-                                        </p>
-                                    </div>
-                                    <img src="@/assets/img/promotion/thumb_main_news_9.jpg" class="card-img-top">
-                                    <div class="card-body">
-                                        <p>
-                                            Company created by Sung Hak-Joon, professor Yonsei University College of Medicine, after returning to Korea in 2018 ...
-                                        </p>
-                                    </div>
-                                </router-link>
-                            </li>
-                            <!-- <li>
-                                <router-link class="card" to="/w/en/promotion/news/8">
-                                    <div class="card-header">
-                                        <h4 class="card-title">
-                                            ‘Innovative assignment for company creation’ selected out of the company creation, growth and technology development project held by Ministry of SMEs and Startups
-                                        </h4>
-                                        <p class="date">
-                                            <time>25th of November 2019</time>
-                                        </p>
-                                    </div>
-                                    <img src="@/assets/img/promotion/thumb_main_news_8.jpg" class="card-img-top">
-                                    <div class="card-body">
-                                        <p>
-                                            TMD LAB Corporation is finally selected as the ‘innovative assignment for company creation’ out of the company creation, growth and ...
-                                        </p>
-                                    </div>
-                                </router-link>
-                            </li> -->
                         </ul>
                     </section>
                 </div>

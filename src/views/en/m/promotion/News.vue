@@ -9,9 +9,37 @@
             <p>News and updates will be firstly noticed.</p>
         </section>
         <section class="news-list">
-            <h4>NEW <span class="bar"></span> <b>12</b></h4>
+            <h4>NEW <span class="bar"></span> <b>15</b></h4>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/15">
+                            <img class="news-image" src="@/assets/img/m/promotion/m_thumb_news_15.jpg">
+                            <div class="news-body">
+                                <h5>Selected for the recruitment support project for highly experienced researchers supported by the Korea Industrial Technology Association</h5>
+                                <time>24th of May 2021</time>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/14">
+                            <img class="news-image" src="@/assets/img/m/promotion/m_thumb_news_14.jpg">
+                            <div class="news-body">
+                                <h5>Outer Vascular Wall Support Research Paper, Selected as Small Journal Cover (2021.05)</h5>
+                                <time>6th of May 2021</time>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/en/promotion/news/13">
+                            <img class="news-image" src="@/assets/img/m/promotion/m_thumb_news_13.jpg">
+                            <div class="news-body">
+                                <h5>2021 Spring Biomaterials Society Outstanding Paper Presentation Award</h5>
+                                <time>26th of March 2021</time>
+                            </div>
+                        </router-link>
+                    </div>
                     
                     <div class="swiper-slide">
                         <router-link class="news-item" to="/m/en/promotion/news/12">

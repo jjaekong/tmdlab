@@ -26,11 +26,10 @@
                             <router-link to="/w/en/promotion/news" class="more">Here for details<span class="box"><span></span></span></router-link>
                         </header>
                         <ul>
+                            <li><router-link to="/w/en/promotion/news/15"><span>Selected for the recruitment support project for highly ...</span><time>24th May 2021</time></router-link></li>
+                            <li><router-link to="/w/en/promotion/news/14"><span>Outer Vascular Wall Support Research Paper, Selected as ...</span><time>6th May 2021</time></router-link></li>
+                            <li><router-link to="/w/en/promotion/news/13"><span>2021 Spring Biomaterials Society Outstanding Paper Presentation ...</span><time>26th March 2021</time></router-link></li>
                             <li><router-link to="/w/en/promotion/news/12"><span>TMD Lab - Yonsei University College of Medicine Joint ...</span><time>15th September 2020</time></router-link></li>
-                            <li><router-link to="/w/en/promotion/news/11"><span>Thesis on vessel stabilization and vessel generation ...</span><time>26th February 2020</time></router-link></li>
-                            <li><router-link to="/w/en/promotion/news/10"><span>Thesis on the 3-dimensional micro-channel network ...</span><time>30th January 2020</time></router-link></li>
-                            <li><router-link to="/w/en/promotion/news/9"><span>[Biospectator] TMD LAB challenges in developing ...</span><time>17th of December 2019</time></router-link></li>
-                            <!-- <li><router-link to="/w/en/promotion/news/8"><span>‘Innovative assignment for company creation’ ...</span><time>25th of November 2019</time></router-link></li> -->
                         </ul>
                     </section>
                 </div>

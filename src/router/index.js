@@ -1,66 +1,16 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-// import Home from '../views/Home.vue'
-
-// Vue.use(VueRouter)
-
-// const routes = [
-//   {
-//     path: '/',
-//     name: 'home',
-//     component: Home
-//   },
-//   {
-//     path: '/about',
-//     name: 'about',
-//     // route level code-splitting
-//     // this generates a separate chunk (about.[hash].js) for this route
-//     // which is lazy-loaded when the route is visited.
-//     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-//   }
-// ]
-
-// const router = new VueRouter({
-//   routes
-// })
-
-// export default router
-
 import KO_W_Home from '../views/ko/w/Home.vue'
-// import KO_W_Introduce from '../views/ko/w/Introduce.vue'
-// import KO_W_Technology from '../views/ko/w/Technology.vue'
-// import KO_W_ProdSMPL from '../views/ko/w/product/SMP-L.vue'
-// import KO_W_ProdSMPB from '../views/ko/w/product/SMP-B.vue'
-// import KO_W_ProdSMPV from '../views/ko/w/product/SMP-V.vue'
-// import KO_W_ProdTNV from '../views/ko/w/product/TNV.vue'
 import KO_W_QnA from '../views/ko/w/QnA.vue'
 
 import KO_M_Home from '../views/ko/m/Home.vue'
-// import KO_M_Introduce from '../views/ko/m/Introduce.vue'
-// import KO_M_Technology from '../views/ko/m/Technology.vue'
-// import KO_M_ProdSMPL from '../views/ko/m/product/SMP-L.vue'
-// import KO_M_ProdSMPB from '../views/ko/m/product/SMP-B.vue'
-// import KO_M_ProdSMPV from '../views/ko/m/product/SMP-V.vue'
-// import KO_M_ProdTNV from '../views/ko/m/product/TNV.vue'
 import KO_M_QnA from '../views/ko/m/QnA.vue'
 
 import EN_W_Home from '../views/en/w/Home.vue'
-// import EN_W_Introduce from '../views/en/w/Introduce.vue'
-// import EN_W_Technology from '../views/en/w/Technology.vue'
-// import EN_W_ProdSMPL from '../views/en/w/product/SMP-L.vue'
-// import EN_W_ProdSMPB from '../views/en/w/product/SMP-B.vue'
-// import EN_W_ProdSMPV from '../views/en/w/product/SMP-V.vue'
-// import EN_W_ProdTNV from '../views/en/w/product/TNV.vue'
 import EN_W_QnA from '../views/en/w/QnA.vue'
 
 import EN_M_Home from '../views/en/m/Home.vue'
-// import EN_M_Introduce from '../views/en/m/Introduce.vue'
-// import EN_M_Technology from '../views/en/m/Technology.vue'
-// import EN_M_ProdSMPL from '../views/en/m/product/SMP-L.vue'
-// import EN_M_ProdSMPB from '../views/en/m/product/SMP-B.vue'
-// import EN_M_ProdSMPV from '../views/en/m/product/SMP-V.vue'
-// import EN_M_ProdTNV from '../views/en/m/product/TNV.vue'
 import EN_M_QnA from '../views/en/m/QnA.vue'
 import $ from 'jquery'
 
@@ -127,7 +77,20 @@ let router = new VueRouter({
         {
             path: '/w/en/promotion/news',
             component: () => import('../views/en/w/promotion/News.vue'),
-            children: [{
+            children: [
+                {
+                    path: '/w/en/promotion/news/15',
+                    component: () => import('../views/en/w/promotion/NewsItem15.vue'),
+                },
+                {
+                    path: '/w/en/promotion/news/14',
+                    component: () => import('../views/en/w/promotion/NewsItem14.vue'),
+                },
+                {
+                    path: '/w/en/promotion/news/13',
+                    component: () => import('../views/en/w/promotion/NewsItem13.vue'),
+                },
+                {
                     path: '/w/en/promotion/news/12',
                     component: () => import('../views/en/w/promotion/NewsItem12.vue'),
                 },
@@ -180,7 +143,12 @@ let router = new VueRouter({
         {
             path: '/w/en/promotion/journal',
             component: () => import('../views/en/w/promotion/Journal.vue'),
-            children: [{
+            children: [
+                {
+                    path: '/w/en/promotion/journal/8',
+                    component: () => import('../views/en/w/promotion/JournalItem8.vue'),
+                },
+                {
                     path: '/w/en/promotion/journal/7',
                     component: () => import('../views/en/w/promotion/JournalItem7.vue'),
                 },
@@ -271,7 +239,20 @@ let router = new VueRouter({
         {
             path: '/m/en/promotion/news',
             component: () => import('../views/en/m/promotion/News.vue'),
-            children: [{
+            children: [
+                {
+                    path: '/m/en/promotion/news/15',
+                    component: () => import('../views/en/m/promotion/NewsItem15.vue'),
+                },
+                {
+                    path: '/m/en/promotion/news/14',
+                    component: () => import('../views/en/m/promotion/NewsItem14.vue'),
+                },
+                {
+                    path: '/m/en/promotion/news/13',
+                    component: () => import('../views/en/m/promotion/NewsItem13.vue'),
+                },
+                {
                     path: '/m/en/promotion/news/12',
                     component: () => import('../views/en/m/promotion/NewsItem12.vue'),
                 },
@@ -324,7 +305,12 @@ let router = new VueRouter({
         {
             path: '/m/en/promotion/journal',
             component: () => import('../views/en/m/promotion/Journal.vue'),
-            children: [{
+            children: [
+                {
+                    path: '/m/en/promotion/journal/8',
+                    component: () => import('../views/en/m/promotion/JournalItem8.vue'),
+                },
+                {
                     path: '/m/en/promotion/journal/7',
                     component: () => import('../views/en/m/promotion/JournalItem7.vue'),
                 },
@@ -411,7 +397,20 @@ let router = new VueRouter({
         {
             path: '/w/ko/promotion/news',
             component: () => import('../views/ko/w/promotion/News.vue'),
-            children: [{
+            children: [
+                {
+                    path: '/w/ko/promotion/news/15',
+                    component: () => import('../views/ko/w/promotion/NewsItem15.vue'),
+                },
+                {
+                    path: '/w/ko/promotion/news/14',
+                    component: () => import('../views/ko/w/promotion/NewsItem14.vue'),
+                },
+                {
+                    path: '/w/ko/promotion/news/13',
+                    component: () => import('../views/ko/w/promotion/NewsItem13.vue'),
+                },
+                {
                     path: '/w/ko/promotion/news/12',
                     component: () => import('../views/ko/w/promotion/NewsItem12.vue'),
                 },
@@ -464,7 +463,12 @@ let router = new VueRouter({
         {
             path: '/w/ko/promotion/journal',
             component: () => import('../views/ko/w/promotion/Journal.vue'),
-            children: [{
+            children: [
+                {
+                    path: '/w/ko/promotion/journal/8',
+                    component: () => import('../views/ko/w/promotion/JournalItem8.vue'),
+                },
+                {
                     path: '/w/ko/promotion/journal/7',
                     component: () => import('../views/ko/w/promotion/JournalItem7.vue'),
                 },
@@ -555,7 +559,20 @@ let router = new VueRouter({
         {
             path: '/m/ko/promotion/news',
             component: () => import('../views/ko/m/promotion/News.vue'),
-            children: [{
+            children: [
+                {
+                    path: '/m/ko/promotion/news/15',
+                    component: () => import('../views/ko/m/promotion/NewsItem15.vue'),
+                },
+                {
+                    path: '/m/ko/promotion/news/14',
+                    component: () => import('../views/ko/m/promotion/NewsItem14.vue'),
+                },
+                {
+                    path: '/m/ko/promotion/news/13',
+                    component: () => import('../views/ko/m/promotion/NewsItem13.vue'),
+                },
+                {
                     path: '/m/ko/promotion/news/12',
                     component: () => import('../views/ko/m/promotion/NewsItem12.vue'),
                 },
@@ -608,7 +625,12 @@ let router = new VueRouter({
         {
             path: '/m/ko/promotion/journal',
             component: () => import('../views/ko/m/promotion/Journal.vue'),
-            children: [{
+            children: [
+                {
+                    path: '/m/ko/promotion/journal/8',
+                    component: () => import('../views/ko/m/promotion/JournalItem8.vue'),
+                },
+                {
                     path: '/m/ko/promotion/journal/7',
                     component: () => import('../views/ko/m/promotion/JournalItem7.vue'),
                 },

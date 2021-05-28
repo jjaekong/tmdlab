@@ -4,10 +4,52 @@
         <section class="p-0">
             <header>
                 <h6 class="category">홍보/활동</h6>
-                <p>12</p>
+                <p>15</p>
             </header>
             <div class="swiper-container swiper-container-h">
                 <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/ko/promotion/news/15">
+                            <header>
+                                <h4>한국산업기술진흥협회에서 지원하는 고경력 연구인력 채용지원사업에 과제 선정</h4>
+                                <time>2021년 05월 24일</time>
+                            </header>
+                            <img class="news-image" src="@/assets/img/m/promotion/m_thumb_news_15.jpg">
+                            <div class="news-body">
+                                <p>
+                                    한국산업기술진흥협회에서 지원하는 2021년 상반기 고경력 연구인력 채용지원사업에 티엠디랩 과제 (고분자 소재 및 복합재료 제조)가 선정되었다.
+                                </p>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/ko/promotion/news/14">
+                            <header>
+                                <h4>혈관외벽 서포트 연구 논문, Small journal cover 선정 (2021.05)</h4>
+                                <time>2021년 05월 06일</time>
+                            </header>
+                            <img class="news-image" src="@/assets/img/m/promotion/m_thumb_news_14.jpg">
+                            <div class="news-body">
+                                <p>
+                                    2021년 3월 17일 Small (IF 11.459)에 게재된 혈관외벽 서포트 연구 논문(Dilation-Responsive Microshape Programming Prevents Vascular Graft Stenosis)이 2021년 5월호(Vol.17 No.18) cover를 장식하였습니다.
+                                </p>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div class="swiper-slide">
+                        <router-link class="news-item" to="/m/ko/promotion/news/13">
+                            <header>
+                                <h4>2021년 춘계 생체재료학회 우수 논문 발표상 수상</h4>
+                                <time>2021년 03월 26일</time>
+                            </header>
+                            <img class="news-image" src="@/assets/img/m/promotion/m_thumb_news_13.jpg">
+                            <div class="news-body">
+                                <p>
+                                    2021년 3월 한국생체재료학회가 주관하는 2021년 한국생체재료학회 춘계 학술대회가 온라인 컨퍼런스로 진행되었다.
+                                </p>
+                            </div>
+                        </router-link>
+                    </div>
                     <div class="swiper-slide">
                         <router-link class="news-item" to="/m/ko/promotion/news/12">
                             <header>
@@ -18,64 +60,6 @@
                             <div class="news-body">
                                 <p>
                                     체온에 반응하는 첨단 형상기억고분자 원천기술로 ‘인체삽입형 의료기기’ 분야의 새 시대 열어
-                                </p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="swiper-slide">
-                        <router-link class="news-item" to="/m/ko/promotion/news/11">
-                            <header>
-                                <h4>Enzyme-crosslinkable gelatin gel에 embedding한 줄기세포의 혈관 안정화 ...</h4>
-                                <time>2020년 2월 26일</time>
-                            </header>
-                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_11.jpg">
-                            <div class="news-body">
-                                <p>
-                                    ㈜티엠디랩은 microbial transglutaminase-crosslinkable gelatin gel (NO gel)을 이용한 줄기세포의 혈관 안정화 및 혈관 신생 효과를 확인한 연구결과를 Science 자매지인 ‘Science Advances’에 게재하였다.
-                                </p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="swiper-slide">
-                        <router-link class="news-item" to="/m/ko/promotion/news/10">
-                            <header>
-                                <h4>혈관 신생 유도 3차원 마이크로 채널 네트워크 논문, 국제 학술지 게재</h4>
-                                <time>2020년 1월 30일</time>
-                            </header>
-                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_10.jpg">
-                            <div class="news-body">
-                                <p>
-                                    ㈜티엠디랩은 손상된 조직으로의 혈관 신생 유도를 돕는 하이드로겔 기반 마이크로 채널 네트워크를 개발하였고 그 효과를 Nature 자매지인 ‘Nature Communication’에 게재하였다.
-                                </p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="swiper-slide">
-                        <router-link class="news-item" to="/m/ko/promotion/news/9">
-                            <header>
-                                <h4>[바이오스펙테이터] 티엠디랩, '형상기억 고분자'로 新스텐트 개발 도전</h4>
-                                <time>2019년 12월 17일</time>
-                            </header>
-                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_9.jpg">
-                            <div class="news-body">
-                                <p>
-                                    성학준 연세의대 교수 2018년 국내 귀국해 창업<br>
-                                    형상기억 기술로 최소침습 및 안전성 확보<br>
-                                    누관스텐트부터 파이프라인 확대
-                                </p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="swiper-slide">
-                        <router-link class="news-item" to="/m/ko/promotion/news/8">
-                            <header>
-                                <h4>중소벤처기업부에서 주관하는 창업성장기술개발사업 ‘혁신형 창업과제’ 선정</h4>
-                                <time>2019년 11월 25일</time>
-                            </header>
-                            <img class="news-image" src="@/assets/img/m/promotion/thumb_news_8.jpg">
-                            <div class="news-body">
-                                <p>
-                                    ㈜티엠디랩은 중소벤처기업부가 지원하는 창업성장기술개발사업 ‘혁신형 창업과제’로 최종 선정되었다. 이번 사업 개발 기간은 2019년 11월부터 2021년 11월까지 총 24개월이며 총 4억원의 연구비를 지원받게 되었다. 
                                 </p>
                             </div>
                         </router-link>

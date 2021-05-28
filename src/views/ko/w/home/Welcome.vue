@@ -26,11 +26,10 @@
                             <router-link to="/w/ko/promotion/news" class="more">더보기<span class="box"><span></span></span></router-link>
                         </header>
                         <ul>
+                            <li><router-link to="/w/ko/promotion/news/15"><span>한국산업기술진흥협회에서 지원하는 고경력 연구인력 채용지원사업에 ...</span><time>2021년 05월 24일</time></router-link></li>
+                            <li><router-link to="/w/ko/promotion/news/14"><span>혈관외벽 서포트 연구 논문, Small journal cover 선정 (2021.05)</span><time>2021년 05월 06일</time></router-link></li>
+                            <li><router-link to="/w/ko/promotion/news/13"><span>2021년 춘계 생체재료학회 우수 논문 발표상 수상</span><time>2021년 03월 26일</time></router-link></li>
                             <li><router-link to="/w/ko/promotion/news/12"><span>티엠디랩-연세대 의대 공동연구, ‘의료기기 맞춤형 소재’ 국책과제 선정</span><time>2020년 9월 15일</time></router-link></li>
-                            <li><router-link to="/w/ko/promotion/news/11"><span>Enzyme-crosslinkable gelatin gel에 embedding한 줄기세포의 혈관 안정화</span><time>2020년 2월 26일</time></router-link></li>
-                            <li><router-link to="/w/ko/promotion/news/10"><span>혈관 신생 유도 3차원 마이크로 채널 네트워크 논문, 국제 학술지 게재</span><time>2020년 1월 30일</time></router-link></li>
-                            <li><router-link to="/w/ko/promotion/news/9"><span>[바이오스펙테이터] 티엠디랩, '형상기억 고분자'로 新스텐트 개발 도전</span><time>2019년 12월 17일</time></router-link></li>
-                            <!-- <li><router-link to="/w/ko/promotion/news/8"><span>중소벤처기업부에서 주관하는 창업성장기술개발사업 ‘혁신형 창업과제’ 선정</span><time>2019년 11월 25일</time></router-link></li> -->
                         </ul>
                     </section>
                 </div>

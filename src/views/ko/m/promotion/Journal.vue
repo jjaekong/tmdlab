@@ -8,9 +8,22 @@
             </h4>
         </section>
         <section class="journal-list">
-            <h4>NEW <span class="bar"></span> <b>7</b></h4>
+            <h4>NEW <span class="bar"></span> <b>8</b></h4>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <router-link class="journal-item" to="/m/ko/promotion/journal/8">
+                            <div class="journal-body">
+                                <h5>Dilation-Responsive Microshape Programming Prevents Vascular Graft Stenosis</h5>
+                                <dl>
+                                    <dt>게제정보:</dt>
+                                    <dd>
+                                        Small (2021.03.17, IF 11.459)
+                                    </dd>
+                                </dl>
+                            </div>
+                        </router-link>
+                    </div>
                     <div class="swiper-slide">
                         <router-link class="journal-item" to="/m/ko/promotion/journal/7">
                             <div class="journal-body">
