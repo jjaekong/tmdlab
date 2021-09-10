@@ -1,3 +1,4 @@
+// vue localhost 웹화면에서 https 문제시 아래 if문 주석처리 후 확인
 if (window.location) {
   if (window.location.protocol == 'http:') {
     var url = 'https://'+ window.location.host + window.location.pathname + window.location.hash;

@@ -8,27 +8,14 @@
                 <h4 class="section-title">Company outline</h4>
                 <div class="container-fluid">
                     <p>
-                        TMD LAB is a corporate established to research and develop new material medical devices and
-                        cutting edge biomedicine,<br>
-                        with shape memory polymer and cell-derived nanovesicle base technology.<br>
-                        In regard to shape memory polymer base technology, we have obtained the non-exclusive license
-                        from the industrial-educational cooperation group<br>
-                        of Yonsei University along with the right to develop and make sales on a product with SMP.<br>
-                        We also have secured the property right for the CNV base technology through patent application
-                        from TMD LAB itself.
+                        TMD Lab presents new solutions for disease prevention and treatment based on shape memory polymer technology. The founder, professor Hak-Joon Sung, first developed a shape-memory polymer, source material technology based on polycaprolactone while working at Vanderbilt University in the US. After moving to Yonsei University in Korea in 2018, professor Hak-Joon Sung further developed the shape memory polymer source material technology and started research on the development of medical devices and convergence therapies that can be inserted into the body. Since its founding in 2018, TMD Lab has further developed the shape memory polymer source material technology by using various biocompatible polymers as well as polycaprolactone. 
                     </p>
                     <img src="@/assets/img/introduce/en/img_company_plan.jpg" alt="">
                     <p>
-                        TMD LAB is on its way of preparing R&amp;D and licensing on arthritis medicine based on CNV
-                        technology,<br>
-                        and the human insertion stent with a new concept based on SMP base technology.<br>
-                        TMD LAB takes its core corporate value in contributing to healthy lives of humankind.<br>
-                        We promise that we will reach to the global enterprise, based on our unique cutting edge
-                        technology.
+                        Currently, TMD Lab’s shape memory polymer has excellent controllability and a wide spectrum of physical properties, so it can provide various medical solutions according to the characteristics of the treatment area and environment. In addition, TMD Lab's shape memory polymer significantly lowers biofilm formation compared to medical silicone, thereby reducing side effects caused by biofilms. TMD Lab’s shape memory polymer can be mass-synthesized, and various manufacturing techniques such as 3D printing, molding, and injection using it have been established. Based on this shape memory polymer technology, TMD Lab has secured a pipeline of various medical devices and convergence therapies, and is collaborating with companies, research institutes and schools that need our shape memory polymer source material technology. 
                     </p>
                 </div>
-            </section>
-            
+            </section>            
             <section class="history" id="history">
                 <h4 class="section-title">Company history</h4>
                 <div class="container-fluid">
@@ -64,7 +51,8 @@
                             <ul>
                                 <li>In preparation of licensing of the human insertion medical device based on shape
                                     memory polymer</li>
-                                <li>Engaged in developing base technology for ‘4th generation’ shape memory polymer</li>
+                                <li>Expansion of TMD Lab’s the unique shape memory polymer source material technology</li>
+                                <li>Development of convergence therapeutics using the shape memory polymer</li>
                             </ul>
                         </li>
                     </ol>
@@ -77,18 +65,14 @@
                         <div class="vision-box box">
                             <h4>VISION</h4>
                             <p>
-                                Contributing to<br>
-                                healthy lives<br>
-                                through high-tech<br>
-                                advancement in medicine
+                                Contributing to <br>healthy lives as the <br>core value of the <br>company
                             </p>
                         </div>
                         <div class="mission-box box">
                             <h4>MISSION</h4>
                             <p>
-                                Beyond a possibility,<br>
-                                R&amp;D new materials for<br>
-                                medical devices and therapeutics
+                                Beyond a possibility,<br>proposing new <br>medical solutions
+
                             </p>
                         </div>
                     </div>
@@ -257,6 +241,11 @@
 
             .container-fluid {
                 max-width: pxtovw(1920px);
+            }
+
+            .container-fluid p{ //210909 생성
+                max-width: pxtovw(1240px);
+                margin: 0 auto;
             }
 
             p {

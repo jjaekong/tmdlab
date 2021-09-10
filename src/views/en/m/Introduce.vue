@@ -5,11 +5,9 @@
             <h3>Introduction</h3>
             <h4>Company outline</h4>
             <p>
-                TMD LAB is a corporate established to research and develop new material medical devices and cutting edge biomedicine, with shape memory polymer and cell-derived nanovesicle base technology.<br>
-                In regard to shape memory polymer base technology, we have obtained the non-exclusive license from the industrial-educational cooperation group of Yonsei University along with the right to develop and make sales on a product with SMP. We also have secured the property right for the CNV base technology through patent application from TMD LAB itself.<br>
-                <br>
-                TMD LAB is on its way of preparing R&amp;D and licensing on arthritis medicine based on CNV technology, and the human insertion stent with a new concept based on SMP base technology.<br>
-                TMD LAB takes its core corporate value in contributing to healthy lives of humankind. We promise that we will reach to the global enterprise, based on our unique cutting edge technology.
+                TMD Lab presents new solutions for disease prevention and treatment based on shape memory polymer technology. The founder, professor Hak-Joon Sung, first developed a shape-memory polymer, source material technology based on polycaprolactone while working at Vanderbilt University in the US. After moving to Yonsei University in Korea in 2018, professor Hak-Joon Sung further developed the shape memory polymer source material technology and started research on the development of medical devices and convergence therapies that can be inserted into the body. Since its founding in 2018, TMD Lab has further developed the shape memory polymer source material technology by using various biocompatible polymers as well as polycaprolactone. 
+                <br><br>
+                Currently, TMD Lab’s shape memory polymer has excellent controllability and a wide spectrum of physical properties, so it can provide various medical solutions according to the characteristics of the treatment area and environment. In addition, TMD Lab's shape memory polymer significantly lowers biofilm formation compared to medical silicone, thereby reducing side effects caused by biofilms. TMD Lab’s shape memory polymer can be mass-synthesized, and various manufacturing techniques such as 3D printing, molding, and injection using it have been established. Based on this shape memory polymer technology, TMD Lab has secured a pipeline of various medical devices and convergence therapies, and is collaborating with companies, research institutes and schools that need our shape memory polymer source material technology.
             </p>
         </section>
         <section class="history">
@@ -43,7 +41,8 @@
                     <p><span>4</span> <b>Takeoff</b> <small>current</small></p>
                     <ul>
                         <li>In preparation of licensing of the human insertion medical device based on shape memory polymer</li>
-                        <li>Engaged in developing base technology for ‘4th generation’ shape memory polymer</li>
+                        <li>Expansion of TMD Lab’s the unique shape memory polymer source material technology</li>
+                        <li>Development of convergence therapeutics using the shape memory polymer</li>
                     </ul>
                 </li>
             </ol>
@@ -53,17 +52,14 @@
             <div class="vision-box box">
                 <h5>VISION</h5>
                 <p>
-                    Contributing to healthy lives<br>
-                    through high-tech advancement<br>
-                    in medicine
+                    Contributing to healthy <br>lives as the core value of <br>the company
+
                 </p>
             </div>
             <div class="mission-box box">
                 <h5>MISSION</h5>
                 <p>
-                    Beyond a possibility,<br>
-                    R&amp;D new materials for medical devices<br>
-                    and therapeutics
+                    Beyond a possibility,<br>proposing new medical <br>solutions
                 </p>
             </div>
         </section>
@@ -185,6 +181,7 @@ export default {
         }
         p {
             margin-left: pxtovw2(40px);
+            margin-right: pxtovw2(40px);
             margin-bottom: 0;
             font-size: pxtovw2(22px);
             line-height: pxtovw2(36px);
